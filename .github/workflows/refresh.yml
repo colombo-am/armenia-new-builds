@@ -31,6 +31,7 @@ jobs:
       MODE: ${{ inputs.mode || 'full' }}
       BUDGET: ${{ inputs.budget || '250' }}
       HISTORY_ORIGIN: refresh
+      GATE_ROOT: ${{ github.workspace }}
     steps:
       - name: Check configuration
         env:
@@ -97,8 +98,6 @@ jobs:
 
       # The gate always runs as committed at BASE, isolated from anything Claude added to the checkout.
       - name: Publish gate
-        env:
-          GATE_ROOT: ${{ github.workspace }}
         run: |
           git show "$BASE:scraper/publish_gate.py" > "$RUNNER_TEMP/gate.py"
           python3 -I "$RUNNER_TEMP/gate.py" apply --base-ref "$BASE"
