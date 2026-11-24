@@ -1,0 +1,918 @@
+[
+ {
+  "developer": "Green Avan",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԳՐԻՆ ԴԵՎԵԼՈՓՄԵՆԹ» ՍՊԸ",
+    "name_en": "Green Development LLC",
+    "tax_id": "01035172",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://e-register.moj.am/hy/companies/53110830"
+   }
+  ],
+  "founded_year": 2021,
+  "searched_names": [
+   "ԳՐԻՆ ԴԵՎԵԼՈՓՄԵՆԹ",
+   "Գրին Դևելոփմենթ",
+   "ԳՐԻՆ ԱՎԱՆ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Green Project portfolio: Green Avan (finished 2025), Green Townhouse Kasakh (finished), Green Avan Residence 2-4 under construction",
+    "url": "https://www.greenprojectarm.com/",
+    "summary": "Brand 'Green Project' (operating since 2021 per its site, email greendev.yvn@gmail.com, office Arinj Kh. Abovyan district 8th st. 2) delivered its first Arinj building and a Kasakh townhouse block."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Registry: «ԳՐԻՆ ԴԵՎԵԼՈՓՄԵՆԹ» ՍՊԸ, TIN 01035172, reg 15-03-2022, legal address Tsarav Aghbyur 55A/7, Yerevan; owners (2026 declaration in connections data) Levon Babayan and Pavel Kocharyan. Link to the brand: same phone +374 94 664522 on Spyur and greenprojectarm.com, and Unibank lists the LLC as developer of the Arinj 8th st. 2 building (prior research). Each Green Avan Residence building may be signed by a separate LLC, not found. Name-only namesake: «ԳՐԻՆ ԱՎԱՆ» ՓԲԸ (TIN 08266562, reg 23-10-2023, Baghramyan 24A, Yerevan) - no evidence of a link; it was searched separately and is NOT counted here. Datalex: no cases for the LLC under either spelling (ԵՎ and և). News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Norq",
+  "role": "unknown",
+  "legal_entities": [],
+  "founded_year": null,
+  "searched_names": [
+   "ՆՈՐՔ ԲՆԱԿԵԼԻ ՀԱՄԱԼԻՐ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Legal entity still not identified. myhome.am (builder id 141) shows only the brand 'Նորք բնակելի համալիր', office Nork st. 131/10, Nork-Marash, phones +374 93 510008 / +374 11 650088, email norqresidentialcomplex@gmail.com; novostroiki-yerevan lists developer 'Norq'. The 10-storey project was due 2016. Registry name search found no matching LLC: «ՆՈՐՔ ՌԵԶԻԴԵՆՍ» ՓԲԸ (00866162), «ՆՈՐՔ ՌԵԶԻԴԵՆՍԻ ՀՈԹԵԼ» ՍՊԸ (00910793) and «ՆՈՐՔ ՌԵԶԻԴԵՆՏ» ՍՊԸ (01102591, reg 2026) all sit at Moldovakan 55-56/1 (a hotel group), not linked to the project. Court search used the brand string only, so a clean court record is NOT evidence of a clean company. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Zeytoun Build",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷՅՉ ԲԻ ԳՐՈՒՊ» ՍՊԸ (candidate developer)",
+    "name_en": "HB Group LLC",
+    "tax_id": "01317855",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://e-register.moj.am/hy/companies/53016855"
+   },
+   {
+    "name_hy": "«ԶԵՅԹՈՒՆ ԲԻԼԴ» ՀՄՏ (homeowners' association of the finished building, not the developer)",
+    "name_en": "Zeytun Build condominium",
+    "tax_id": "08318646",
+    "form": "ՀՄՏ",
+    "registered_year": 2026,
+    "source_url": "https://e-register.moj.am/hy/companies/56568394"
+   }
+  ],
+  "founded_year": null,
+  "searched_names": [
+   "ԷՅՉ ԲԻ ԳՐՈՒՊ"
+  ],
+  "court": {
+   "total": 1,
+   "respondent": 1,
+   "claimant": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/6992/02/25",
+     "tab": "civil",
+     "filed": "2025-07-04",
+     "why": "respondent vs ՄԻՐԱ ՏՐԱՆՍ: &nbsp;&nbsp;&nbsp;&nbsp;Ելնելով վերոշարադրյալից և ղեկավարվելով Հայաստանի Հանրապետության քաղաքացիական դատավարու"
+    }
+   ]
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Entity problem: the only registry entity named «ԶԵՅԹՈՒՆ ԲԻԼԴ» is a ՀՄՏ (համատիրություն = condominium/homeowners' association), reg 19-03-2026 at P. Sevak 51/11 - the address of the finished building. It is the residents' association, not the developer. The brand site zeytunbuild.am is served from hbgroup.am and uses email hbgroup352@gmail.com (dataset alias 'HB Group LTD'), so the likely developer is «ԷՅՉ ԲԻ ԳՐՈՒՊ» ՍՊԸ (TIN 01317855, reg 22-01-2022, Kurghinyan 25 apt 7, Yerevan; 100% owner Grigor Aleksanyan per 2026 declaration). But that LLC was registered a year after construction started (Jan 2021), so an earlier permit holder may exist. Not to be confused with «ԴԻ ԷՅՉ ԲԻ ԳՐՈՒՊ» or «ՎԻ ԷՅՉ ԲԻ ԳՐՈՒՊ». News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Grandshin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԳՐԱՆԴՇԻՆ» ՍՊԸ",
+    "name_en": "Grandshin LLC",
+    "tax_id": "00197454",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://e-register.moj.am/hy/companies/51461943"
+   }
+  ],
+  "founded_year": 2019,
+  "searched_names": [
+   "ԳՐԱՆԴՇԻՆ"
+  ],
+  "court": {
+   "total": 1,
+   "respondent": 1,
+   "claimant": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/9918/02/26",
+     "tab": "civil",
+     "filed": "2026-08-31",
+     "why": "Two buyers (A. Kharatyan, H. Margaryants) sue: under contract G24000147 of 22.11.2023 Grandshin had to transfer a state-registered apartment by the contract deadline; the deadline has passed and the apartment was not handed over."
+    }
+   ]
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Registry: «ԳՐԱՆԴՇԻՆ» ՍՊԸ, TIN 00197454, reg 14-02-2019, legal address H. Acharyan 35/19 = the E1 Residence project address. Owners (declaration): Eran Hovhannisyan 50%, Davit Adamyan 25%, Lilit Andriasyan 25%. Court: one buyer lawsuit (filed 31-08-2026) over a missed apartment handover deadline on the ongoing E1 Residence project - an early warning sign of delay, not yet a pattern. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Kechark",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԿԵՉԱՌՔ» ԲԲԸ",
+    "name_en": "Kechark OJSC",
+    "tax_id": "03000309",
+    "form": "ԲԲԸ",
+    "registered_year": 1995,
+    "source_url": "https://e-register.moj.am/hy/companies/16075879"
+   }
+  ],
+  "founded_year": 1964,
+  "searched_names": [
+   "ԿԵՉԱՌՔ"
+  ],
+  "court": {
+   "total": 25,
+   "respondent": 18,
+   "claimant": 7,
+   "respondent_by_individuals": 8,
+   "bankruptcy_as_debtor": 2,
+   "criminal": 0,
+   "administrative": 4,
+   "payment_order": 2,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԿԴ1/0041/04/10",
+     "tab": "bankruptcy",
+     "filed": "",
+     "why": "Bankruptcy petition against Kechark OJSC by shareholder Hmayak Zohrabyan (2010), during a 2008-2011 shareholder conflict."
+    },
+    {
+     "case_number": "ԿԴ/0019/04/17",
+     "tab": "bankruptcy",
+     "filed": "",
+     "why": "Bankruptcy petition against Kechark OJSC by Hrazdan municipality (2017)."
+    },
+    {
+     "case_number": "ԿԴ/0113/02/09",
+     "tab": "civil",
+     "filed": "2009-04-09",
+     "why": "Shareholders Zohrabyan and Navasardyan claim damages from the company and its managers (B. Davtyan, A. Simonyan); the company counter-sued them for 55m and 13.4m AMD."
+    },
+    {
+     "case_number": "ԿԴ/11982/02/21",
+     "tab": "civil",
+     "filed": "2021-10-15",
+     "why": "Former employee K. Ghazaryan claims a penalty on unpaid wages (follows ԿԴ1/5682/02/19 for the wages themselves)."
+    },
+    {
+     "case_number": "ՎԴ/0485/05/10",
+     "tab": "administrative",
+     "filed": "",
+     "why": "Hrazdan tax inspectorate vs director Aram Simonyan over 3,882,100 AMD."
+    }
+   ]
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Registry: «ԿԵՉԱՌՔ» ԲԲԸ, TIN 03000309, reg 05-05-1995 (Spyur: founded 1964), Mikroshrjan 47, Hrazdan; still active in the register (no liquidation recorded). Latest declared owner Vahagn Simonyan 24%. Link to the project (Mikroshrjan district 203, Hrazdan; contact kechark707@gmail.com) is by name and district only - not confirmed. Court (25 cases): 2 bankruptcy petitions with Kechark as debtor (2010 by a shareholder, 2017 by Hrazdan municipality; outcome not shown in datalex search grid), a long 2008-2011 shareholder dispute, unpaid-wage claims (2009, 2016, 2019, 2021), tax enforcement 2009-2010, telecom payment orders. No buyer lawsuits. The 7 'individual' respondent cases are shareholders and employees, not buyers. Old Soviet-era company in long-term financial trouble; buyers should check that it can finish and register apartments. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Hay Develop (Ijevanatun Construction Company)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԻՋԵՎԱՆԱՏՈՒՆ» ՓԲԸ (likely; behind brand HAY DEVELOP)",
+    "name_en": "Ijevanatun CJSC",
+    "tax_id": "07610726",
+    "form": "ՓԲԸ",
+    "registered_year": 2001,
+    "source_url": "https://e-register.moj.am/hy/companies/39009460"
+   }
+  ],
+  "founded_year": null,
+  "searched_names": [
+   "ԻՋԵՎԱՆԱՏՈՒՆ",
+   "Իջևանատուն"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "myhome.am builder 88 'HAY DEVELOP' (HAY VIEW, H. Emin 1st lane plot 23, Arabkir; 173 apts) gives office Mamikonyants 36 (basement 41), Yerevan and email idjevanatun@mail.ru; dataset aliases 'Ijevanatun - Construction & Development' and ЗАО «ИДЖЕВАНАТУН». No registry entity named Hay Develop exists. Registry: «ԻՋԵՎԱՆԱՏՈՒՆ» ՓԲԸ, TIN 07610726, reg 15-10-2001, Gharagyozyan 10, Ijevan (Tavush); owners Hrach Antonyan 62.5% and Andranik Ghazaryan 37.5%. Namesake warning: news about the 'Իջևանատուն' restaurant/hotel complex in Ijevan (2014 shooting; owner Andranik Khojumyan acquitted on appeal in 2016, 168.am/2016/03/29/615405.html) concerns a different owner and is not attributed here. Also an unrelated «ԻՋԵՎԱՆԱՏՈՒՆ» Ա/Կ cooperative in Artik. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "EcoPanel Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷԿՈՊԱՆԵԼ ԳՐՈՒՊ» ՍՊԸ (activity terminated)",
+    "name_en": "EcoPanel Group LLC",
+    "tax_id": "01565389",
+    "form": "ՍՊԸ",
+    "registered_year": 2008,
+    "source_url": "https://e-register.moj.am/hy/companies/39308626"
+   },
+   {
+    "name_hy": "«ԷԿՈ ՊԱՆԵԼ ՇԻՆ» ՍՊԸ (sister company, same address)",
+    "name_en": "Eco Panel Shin LLC",
+    "tax_id": "00870701",
+    "form": "ՍՊԸ",
+    "registered_year": 2010,
+    "source_url": "https://e-register.moj.am/hy/companies/39362529"
+   }
+  ],
+  "founded_year": 2008,
+  "searched_names": [
+   "ԷԿՈՊԱՆԵԼ ԳՐՈՒՊ",
+   "ԷԿՈ ՊԱՆԵԼ ՇԻՆ"
+  ],
+  "court": {
+   "total": 4,
+   "respondent": 3,
+   "claimant": 1,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 1,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 1,
+   "since_2021": 0,
+   "notable": [
+    {
+     "case_number": "ԵԱՆԴ/0034/04/16",
+     "tab": "bankruptcy",
+     "filed": "2016",
+     "why": "VTB-Armenia Bank petitions to declare «Էկո Պանել Շին» ՍՊԸ bankrupt."
+    },
+    {
+     "case_number": "ԵԱՆԴ/2226/02/14",
+     "tab": "civil",
+     "filed": "2014-07-08",
+     "why": "VTB-Armenia Bank sues Eco Panel Shin and guarantors (M. Petrosyan, T. Arakelyan and others) to recover a loan."
+    },
+    {
+     "case_number": "ԵԱՆԴ/3479/02/14",
+     "tab": "civil",
+     "filed": "2014-09-09",
+     "why": "Eco Panel Shin sues «Բագրեշին» ՍՊԸ over a construction contract of 24.09.2012."
+    },
+    {
+     "case_number": "ԵԱՆԴ/0573/03/17",
+     "tab": "payment_order",
+     "filed": "2017-02-22",
+     "why": "Payment order: «Եվրոպա» ՍՊԸ recovers money from Eco Panel Shin."
+    }
+   ]
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Registry: «ԷԿՈՊԱՆԵԼ ԳՐՈՒՊ» ՍՊԸ, TIN 01565389, reg 20-11-2008 (matches construction.am 'since 2008'), Tevosyan 16 apt 17, Yerevan; status 'Գործունեությունը դադարեցված է' (activity terminated). The sister «ԷԿՈ ՊԱՆԵԼ ՇԻՆ» ՍՊԸ (TIN 00870701, reg 2010, same Tevosyan 16/17 address) faced a VTB loan recovery suit (2014) and a VTB bankruptcy petition (2016). No cases found under the EcoPanel Group name itself. Both map projects (Bagrevand complex, Nor Nork; Sirogh Srter district, Dzoraghbyur) are old (finished about 2017-2018), and sales were handled by RED Invest. No buyer lawsuits found. Unlinked namesakes: «ԷԿՈՊԱՆԵԼ ԳՐՈՒՊ ԱՊՀ» ՍՊԸ (02266568), «ԷԿՈՊԱՆԵԼ ԳՐՈՒՊ ԷՅԷՄ» ՍՊԸ (02643727), «ԷՄ. ԷԿՈՊԱՆԵԼ» ՓԲԸ (02642543). News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Platinum Homes",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՊԼԱՏԻՆՈՒՄ ՀՈՈՒՄԶ» ՍՊԸ",
+    "name_en": "Platinum Homes LLC",
+    "tax_id": "00096121",
+    "form": "ՍՊԸ",
+    "registered_year": 2007,
+    "source_url": "https://e-register.moj.am/hy/companies/39238887"
+   }
+  ],
+  "founded_year": 2007,
+  "searched_names": [
+   "ՊԼԱՏԻՆՈՒՄ ՀՈՈՒՄԶ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Registry: «ՊԼԱՏԻՆՈՒՄ ՀՈՈՒՄԶ» ՍՊԸ, TIN 00096121, reg 08-08-2007, legal address Aygedzor 18 = the project 'Aygedzor Eighteen'. Owners (2026 declaration): Riad Issa 49%, Arman Yakubyan 26%, Ara Yakubyan 25% (Ara Yacoubian is construction.am's contact). Registered spelling is ՀՈՈՒՄԶ, not the guesses tried in September (Պլատինում Հոմս/Հոմզ). No court cases. Single old luxury project, finished about 2015. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Aurea Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՈՒՐԵԱ ԳՐՈՒՊ» ՍՊԸ",
+    "name_en": "Aurea Group LLC",
+    "tax_id": "00202666",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://e-register.moj.am/hy/companies/51606210"
+   }
+  ],
+  "founded_year": 2019,
+  "searched_names": [
+   "ԱՈՒՐԵԱ ԳՐՈՒՊ"
+  ],
+  "court": {
+   "total": 1,
+   "respondent": 1,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ/57688/02/21",
+     "tab": "civil",
+     "filed": "2021-12-22",
+     "why": "respondent vs Վեոլիա Ջուր ՓԲԸ: գումարի բռնագանձման պ/մ"
+    }
+   ]
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Registry: «ԱՈՒՐԵԱ ԳՐՈՒՊ» ՍՊԸ, TIN 00202666, reg 10-05-2019 (construction.am: since 2019), Kievyan 15A apt 12, Yerevan; owners Levon Episkoposyan 50% and Alla Mardoyan 50%. It is the only registry entity with this name. Project 'The Park Lvovyan' (Lvovyan 22, 103 apartments, finished); City Nest handled sales. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "City Nest Property Management (sales agent)",
+  "role": "sales agent",
+  "legal_entities": [
+   {
+    "name_hy": "«ՍԻԹԻ ՆԵՍԹ» ՍՊԸ",
+    "name_en": "City Nest LLC",
+    "tax_id": "01315327",
+    "form": "ՍՊԸ",
+    "registered_year": 2021,
+    "source_url": "https://e-register.moj.am/hy/companies/52887009"
+   }
+  ],
+  "founded_year": 2021,
+  "searched_names": [
+   "ՍԻԹԻ ՆԵՍԹ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Registry: «ՍԻԹԻ ՆԵՍԹ» ՍՊԸ, TIN 01315327, reg 25-10-2021, Adonts 8 apt 96, Yerevan; owners Artur Petrosyan 50% and Davit Sokhakyan 50%. City Nest is a sales/property-management agent, not a developer. The map's projects belong to other developers: Milano Firenze Towers (Renco), Only One, Mountain Village Dilijan, Nor Etch, The Park Lvovyan («ԱՈՒՐԵԱ ԳՐՈՒՊ» ՍՊԸ). Ratings should rest on those developers, not on City Nest. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Elit Project Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷԼԻՏ ՓՐՈՋԵՔԹ ԳՐՈՒՊ» ՍՊԸ",
+    "name_en": "Elit Project Group LLC",
+    "tax_id": "03553474",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://e-register.moj.am/hy/companies/52098120"
+   }
+  ],
+  "founded_year": 2020,
+  "searched_names": [
+   "ԷԼԻՏ ՓՐՈՋԵՔԹ ԳՐՈՒՊ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Registry: «ԷԼԻՏ ՓՐՈՋԵՔԹ ԳՐՈՒՊ» ՍՊԸ, TIN 03553474, reg 24-03-2020, 4th microdistrict 45B apt 23, Abovyan (Kotayk); 100% owner Paruyr Palyan. Name matches the site copyright 'Elit Project Group LLC', and the Abovyan address matches its projects (Abovyan Park, August 23 st. 4/7, Abovyan townhouses). Registered spelling is Փրոջեքթ; September's searches used Պրոջեկտ/Պրոեկտ spellings and missed it. Different companies: «ԷԼԻՏ ՊՐՈՋԵԿՏ» ՍՊԸ (00909856), «ԷԼԻՏ ՊՐՈԵԿՏ» ՍՊԸ (00210783). News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "House Construction  (LA Yeghvard)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՀԱՈՒՍ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "House Construction LLC",
+    "tax_id": "01332633",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://e-register.moj.am/hy/companies/53758728"
+   }
+  ],
+  "founded_year": 2023,
+  "searched_names": [
+   "ՀԱՈՒՍ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "layeghvard.am footer names 'House Construction LLC' (Azatamartikneri 11, Yeghvard). The only registry entity of that name is «ՀԱՈՒՍ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ, TIN 01332633, reg 16-01-2023, Siphan st. 2, Vahagni district, Yerevan; 100% owner Armiine Grigoryan. RED Invest also names it as developer of North Yard in Yeghvard. Same entity as the 'House Construction (sales: RED Invest Group)' record; merge them. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Parklife Eco Residency",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "unidentified (brand 'Parklife Eco Residency')",
+    "name_en": "Parklife Eco Residency",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": 2021,
+    "source_url": "https://www.construction.am/arm/companies/parklife-eco-residency/"
+   }
+  ],
+  "founded_year": null,
+  "searched_names": [
+   "ՊԱՐԿԼԱՅՖ ԷԿՈ ՌԵԶԻԴԵՆՍԻ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "parklife.am and its terms page name no legal entity (© Parklife, office Komitas 56, +374 33 925555, site by WEDO). Registry name search found nothing for Պարկլայֆ/Փարքլայֆ/Պարկ Լայֆ variants, so the project is run by an LLC with an unrelated name (land owner/investor unknown). 20 ha, 107 houses plus apartment blocks at Bagrevand, Nor Nork. A clean court record here is NOT evidence: the real entity was not searched. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "VEDI GROUP (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՎԵԴԻ ԳՐՈՒՊ» ՍՊԸ",
+    "name_en": "Vedi Group LLC",
+    "tax_id": "02904472",
+    "form": "ՍՊԸ",
+    "registered_year": 2024,
+    "source_url": "https://e-register.moj.am/hy/companies/54553210"
+   }
+  ],
+  "founded_year": 2024,
+  "searched_names": [
+   "ՎԵԴԻ ԳՐՈՒՊ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "RED Invest page names developer 'VEDI GROUP' for Vedi Residence (A. Yeghyan st. 4/7-4/8, Vedi, Ararat; 9 floors, completion 2029-07). The only registry match is «ՎԵԴԻ ԳՐՈՒՊ» ՍՊԸ, TIN 02904472, reg 02-02-2024, Pushkin 21/3, Yerevan; 100% owner Davit Ghazaryan. The match rests on the exact name; no address link. Young company, project just started. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Gloria Invest",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ",
+    "name_en": "Gloria Invest LLC",
+    "tax_id": "06957574",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://e-register.moj.am/hy/companies/51767031"
+   }
+  ],
+  "founded_year": 2019,
+  "searched_names": [
+   "ԳԼՈՐԻԱ ԻՆՎԵՍՏ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "RED Invest names 'Gloria Invest LLC' as developer of Davtashen Town 2 (Sose st. 22, Melkumov district, built 11.2024-12.2025); it also appears under 'Villa Town House'. The only registry match is «ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ, TIN 06957574, reg 28-08-2019, Z. Andranik 56-1/3, Vanadzor (Lori); 100% owner Bagration Darbinyan. Possibly related to Gevorg Darbinyan, an individual developer also sold by RED Invest (Fordream); same surname only. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "HAKINVEST",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՀԱԿ ԻՆՎԵՍՏ» ՍՊԸ (candidate)",
+    "name_en": "Hak Invest LLC",
+    "tax_id": "03582951",
+    "form": "ՍՊԸ",
+    "registered_year": 2025,
+    "source_url": "https://e-register.moj.am/hy/companies/55494131"
+   }
+  ],
+  "founded_year": null,
+  "searched_names": [
+   "ՀԱԿ ԻՆՎԵՍՏ",
+   "ՀԱԿԻՆՎԵՍՏ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "myhome.am builder 'ՀԱԿԻՆՎԵՍՏ' (Darakert Residence, Kentronakan 164, Darakert, Ararat; email hakinvestwork@gmail.com, +374 44 072727). No registry entity spelled ՀԱԿԻՆՎԵՍՏ exists (only the terminated «ՆՈՐՀԱԿԻՆՎԵՍՏ» ՍՊԸ, 2008). Closest: «ՀԱԿ ԻՆՎԵՍՏ» ՍՊԸ, TIN 03582951, reg 11-06-2025, 26th st. 6, Jrvezh (Kotayk); 100% owner May Hakobyan. Its registration date fits a project started in 2025, but no address or contact link is confirmed. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Micro-district 318",
+  "role": "unknown",
+  "legal_entities": [],
+  "founded_year": null,
+  "searched_names": [
+   "ՄԻԿՐՈՇՐՋԱՆ 318"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "myhome.am builder 104 'Միկրոշրջան 318' (projects: T. Manukyan 318, Hrazdan; Kasakh Residence, Barekamutyun 12, Kasakh) gives only the address 'Mikroshrjan district 318, Hrazdan', +374 44 004010 and email shahen_hakobjanyan@mail.ru, which points to an individual, Shahen Hakobjanyan. Registry: no company named Միկրոշրջան 318 (only unrelated ՄԻԿՐՈՇՐՋԱՆ-N condominiums), and no company or sole proprietor registered under 'Շահեն Հակոբջանյան'. The builder may be an individual or an LLC with another name. Court search by the label only. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "New Arinj Residence",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷՆ ԷՅ ՔԸՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "NA Construction LLC",
+    "tax_id": "03577798",
+    "form": "ՍՊԸ",
+    "registered_year": 2024,
+    "source_url": "https://e-register.moj.am/hy/companies/54969829"
+   }
+  ],
+  "founded_year": 2024,
+  "searched_names": [
+   "ԷՆ ԷՅ ՔԸՆՍԹՐԱՔՇՆ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "myhome.am builder 147 'Նյու Առինջ Ռեզիդենս' uses email na.constructionllc2024@gmail.com. Registry: «ԷՆ ԷՅ ՔԸՆՍԹՐԱՔՇՆ» ՍՊԸ (= 'NA Construction'), TIN 03577798, reg 11-09-2024, legal address Abovyan district 7th st. 30 - the same address as one of its Arinj projects (Arinj, Abovyan district, 7th Street 30). Owners: Artyom Shaboyan 56.35%, Armen Dallakyan 33.89%, Seda Safaryan. September's guesses (Ն.Ա./ՆԱ ՔՈՆՍԹՐԱՔՇՆ) missed it because the name is spelled out (ԷՆ ԷՅ) and uses ՔԸՆՍԹՐԱՔՇՆ. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "VERELQ",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՎԵՐԵԼՔ 777» ՍՊԸ",
+    "name_en": "Verelk 777 LLC",
+    "tax_id": "00909478",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://e-register.moj.am/hy/companies/50914530"
+   }
+  ],
+  "founded_year": 2018,
+  "searched_names": [
+   "ՎԵՐԵԼՔ 777"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "myhome.am builder 'ՎԵՐԵԼՔ' (Mher Mkrtchyan district 13th st. 6-10, Arinj; 479 apartments in 6 buildings, start 05.2025) uses phone +374 44 598008, the same as Verelq 777 (verelq777.am); email vghouse77@gmail.com. So this is the same group as the 'Verelq 777' developer record and should be merged with it. Registry: «ՎԵՐԵԼՔ 777» ՍՊԸ, TIN 00909478, reg 05-02-2018, Avan 14th st. 18; owners Redik Karapetyan and Hasmik Epremyan (50/50). The Arinj project may sit in a separate project LLC (the 'vghouse' email hints at one), not found in the registry. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "NAIRI HOUSE",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՆԱԻՐԻ ՀԱՈՒԶ» ՍՊԸ (candidate, link unconfirmed)",
+    "name_en": "Nairi House LLC",
+    "tax_id": "02832249",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://e-register.moj.am/hy/companies/52357212"
+   }
+  ],
+  "founded_year": null,
+  "searched_names": [
+   "ՆԱԻՐԻ ՀԱՈՒԶ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "myhome.am builder 93 'Նաիրի Հաուս' (Ara Martirosyan 10, Kasakh; 60 apts, 3 buildings, finished 09/2026): office Halabyan 31 apt 46, +374 55 455704, email fambukyan.levon@gmail.com. The registry has «ՆԱԻՐԻ ՀԱՈՒԶ» ՍՊԸ (TIN 02832249, reg 28-09-2020, Paronyan 21/11, 100% owner Narine Mamikonyan), but neither the address nor the owner matches. The contact person appears in the registry as a sole proprietor, ԼԵՎՈՆ ՖԱՄԲՈՒԿՅԱՆ ԿԱՐԵՆԻ Ա/Ձ (TIN 25385145, reg 2017, Moldovakan 25/36). The developer may be either of them or another LLC. Do not search datalex for 'ՆԱԻՐԻ' alone (200+ companies). News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Tun Shin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՏՈՒՆ ՇԻՆ» ՍՊԸ",
+    "name_en": "Tun Shin LLC",
+    "tax_id": "01292928",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://e-register.moj.am/hy/companies/51659701"
+   }
+  ],
+  "founded_year": 2019,
+  "searched_names": [
+   "ՏՈՒՆ ՇԻՆ",
+   "ՏՈՒՆ-ՇԻՆ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "myhome.am builder 45 brand 'ՏՈՒՆ ՇԻՆ ՍՊԸ' / 'Tun Shin LLC' (email tunshinllc@mail.ru, +374 55 550850, business address A. Babajanyan 111/1 = the project, Malatia-Sebastia). The exact registry match is «ՏՈՒՆ ՇԻՆ» ՍՊԸ, TIN 01292928, reg 12-06-2019, Davtashen 2nd district 22/2 (no owner declaration filed). Namesake: «ՏՈՒՆ-ՇԻՆ» ՍՊԸ (TIN 02893376, reg 2023, Pushkin 41) - hyphenated, newer, probably unrelated. The datalex party filter also matches names that end in 'ՏՈՒՆ ՇԻՆ' (e.g. «ՈՍԿԵ ՏՈՒՆ ՇԻՆ»), and those hits were reviewed by hand. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Tsaghkadzor Sportayin Hamalir",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԾԱՂԿԱՁՈՐԻ ՍՊՈՐՏԱՅԻՆ ՀԱՄԱԼԻՐ» ՍՊԸ",
+    "name_en": "Tsaghkadzor Sport Complex LLC",
+    "tax_id": "03022891",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://e-register.moj.am/hy/companies/51086698"
+   }
+  ],
+  "founded_year": 2018,
+  "searched_names": [
+   "ԾԱՂԿԱՁՈՐԻ ՍՊՈՐՏԱՅԻՆ ՀԱՄԱԼԻՐ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [
+   {
+    "date": "2026-09-23",
+    "title": "Ինչպես Իշխան Զաքարյանի ընտանիքը դարձավ Ծաղկաձորի սպորտային համալիրի սեփականատեր (Hetq investigation)",
+    "url": "https://hetq.am/hy/article/183981",
+    "summary": "The Olympic complex was leased in 2006 to New Horizon Group Inc. (Albert Boyajyan, a friend of then sports-committee head Ishkhan Zakaryan) and partly sold to it in 2010. The prosecutor's office later said that sale was about 1.3bn AMD below market value and that no rent was ever paid. The founder set up «Ծաղկաձորի սպորտային համալիր» ՍՊԸ in 2018; it bought the rest of the complex in 2022 for 732m AMD and leases 37 ha until 2056. Vardan Zakaryan (son of ex-MP Ishkhan Zakaryan) became its owner in 2024. A 2019 criminal proceeding over abuses in the alienation was reopened in 2026 and is at the pre-trial stage. In June 2026 the Zakaryan family's illicit-assets case ended in a settlement (304m AMD to the state)."
+   },
+   {
+    "date": "2022-09-22",
+    "title": "Կառավարությունը 7 մլն դոլարով վաճառեց Ծաղկաձորի սպորտային համալիրը",
+    "url": "https://168.am/2022/09/22/1769533.html",
+    "summary": "Government decision: the property of «Ծաղկաձորի գլխավոր մարզահամալիր» ՓԲԸ (valued at 3.06bn AMD) to be sold to «Ծաղկաձորի սպորտային համալիր» ՍՊԸ. The buyer must invest 400m AMD within 2 years (20% penalty on any shortfall) and must keep the complex's public sports purpose. Building housing on the grounds may conflict with that condition."
+   }
+  ],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "The queue name is the company, not a brand. The project is 'Baza Residence' (8 floors, start 11.2024, completion II 2027) on the Tsaghkadzor Olympic sports complex grounds (district 81, building 3); ACBA's developer list shows the heading 'ԾԱՂԿԱՁՈՐ ՍՊՈՐՏԱՅԻՆ ՀԱՄԱԼԻՐ'; karucapatoxic links the project to sportcenterhotel.com, whose footer reads '© Tsaghkadzor Sport Complex Ltd'. Registry: «ԾԱՂԿԱՁՈՐԻ ՍՊՈՐՏԱՅԻՆ ՀԱՄԱԼԻՐ» ՍՊԸ, TIN 03022891, reg 06-06-2018, GMH district 10, Tsaghkadzor; 100% owner Vardan Zakaryan (2026 declaration). Housing is a new line of business for an operator of a sports centre and hotel; this is its first residential project. Reputational/legal risk: the 2010 and 2022 privatization of the complex is contested (Hetq 2026), and a criminal proceeding over the alienation was reopened in 2026; the 2022 sale required that the public sports purpose be kept. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Konstro",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԿՈՆՍՏՐՈ» ՍՊԸ",
+    "name_en": "Konstro LLC",
+    "tax_id": "08259035",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://e-register.moj.am/hy/companies/54144126"
+   }
+  ],
+  "founded_year": 2023,
+  "searched_names": [
+   "ԿՈՆՍՏՐՈ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Evocabank's partner list shows 'Konstro LLC' (+374 93 309111, Mrgashen village, Nor Hachn community, Kotayk). The only registry entity with that exact name is «ԿՈՆՍՏՐՈ» ՍՊԸ, TIN 08259035, reg 29-06-2023, Davtashen 1st district 13 apt 23, Yerevan; owners Suren Shukhyan and Ruben Simonyan (50/50). The name is exact and unique, but there is no address link to Mrgashen. Project details are thin (stage unknown). News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ },
+ {
+  "developer": "Ey Vi Pi Konstrakshn",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷՅ ՎԻ ՓԻ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "AVP Construction LLC",
+    "tax_id": "01053276",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://e-register.moj.am/hy/companies/53965841"
+   }
+  ],
+  "founded_year": 2023,
+  "searched_names": [
+   "ԷՅ ՎԻ ՓԻ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "ar-go.am project page 'Grand Horizon' (Tevosyan 1/13, Nor Nork 4th massif; two 23-storey towers, 272 apartments; works planned 03.2027-06.2031) names the developer «ԷՅ ՎԻ ՓԻ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ. Registry: TIN 01053276, reg 05-04-2023, Gyulikekhvyan 9/2, Yerevan; 100% owner Zhirayr Avetisyan. Young company with no completed project; the project has not started (pre-sales only), so buyers carry the full construction risk. News coverage partial: WebSearch returns little for Armenian-language small-developer names; checked azatutyun/factor/aravot/armlur/168.am site search and Bing News RSS for the registered name."
+ }
+]

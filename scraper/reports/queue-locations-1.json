@@ -1,0 +1,73 @@
+[
+ {
+  "id": "kp-218",
+  "title": "Nor Dalma Premium Residential Complex",
+  "address": "Tsitsernakaberd Highway 3/1",
+  "lat": 40.17968798571428,
+  "lng": 44.48766191428572,
+  "district": "Kentron",
+  "region": "Yerevan",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 335 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/218",
+   "https://dignisi.am/en/projects/new-dalma-premium-residential-complex-378",
+   "https://charagayt.am/?app=AppProject&page=building&project_id=16",
+   "https://novostroiki-yerevan.com/en/p/nor-dalma-premium-complex/"
+  ]
+ },
+ {
+  "id": "elitegroupam-684",
+  "title": "Northern Ray 1",
+  "address": "Northern Ray pedestrian boulevard (Nairi Zaryan / Babayan)",
+  "lat": 40.2078293,
+  "lng": 44.5095199,
+  "district": "Arabkir",
+  "region": "Yerevan",
+  "geo_precision": "district",
+  "why": [
+   "approximate (district)",
+   "location uncertain (shared placeholder coordinates)"
+  ],
+  "sources": [
+   "http://elitegroup.am/en/projects/26/"
+  ]
+ },
+ {
+  "id": "redinvestam-587",
+  "title": "Davtashen Town Family District",
+  "address": "«Davtashen Town» Residential District Samvel Gevorgyan 106/21, Melkumov district",
+  "lat": 40.2163258,
+  "lng": 44.4783908,
+  "district": "Davtashen",
+  "region": "Yerevan",
+  "geo_precision": "district",
+  "why": [
+   "approximate (district)",
+   "location uncertain (shared placeholder coordinates)"
+  ],
+  "sources": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-davtashentown",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown"
+  ]
+ },
+ {
+  "id": "myhomeam-887",
+  "title": "Magnolia Comfort · Zard By Zover Estates 16 bldg",
+  "address": "Zard By Zover Estates 16-րդ մասնաշենք, Kanakeravan, Kotayk",
+  "lat": 40.2489293,
+  "lng": 44.5182524,
+  "district": "Kotayk (other)",
+  "region": "Kotayk",
+  "geo_precision": "district",
+  "why": [
+   "approximate (district)",
+   "location uncertain (pin not in Kanaker-Zeytun)"
+  ],
+  "sources": [
+   "https://myhome.am/en/building/361"
+  ]
+ }
+]

@@ -1,0 +1,2606 @@
+{
+ "_readme": "Hand-checked link corrections - see scraper/link_fixes.py for the format. Applied by build_dataset.py and connections.py; 'verified' entries count as verified in scraper/audit_links.py.",
+ "fixes": {
+  "http://elitegroup.am/": {
+   "projects": {
+    "elitegroupam-663": "http://elitegroup.am/en/projects/28/",
+    "elitegroupam-665": "http://elitegroup.am/en/projects/27/",
+    "elitegroupam-674": "http://elitegroup.am/en/projects/7/",
+    "elitegroupam-675": "http://elitegroup.am/en/projects/8/",
+    "elitegroupam-677": "http://elitegroup.am/en/projects/10/",
+    "elitegroupam-678": "http://elitegroup.am/en/projects/11/",
+    "elitegroupam-679": "http://elitegroup.am/en/projects/13/",
+    "elitegroupam-680": "http://elitegroup.am/en/projects/14/",
+    "elitegroupam-681": "http://elitegroup.am/en/projects/18/",
+    "elitegroupam-682": "http://elitegroup.am/en/projects/19/",
+    "elitegroupam-683": "http://elitegroup.am/en/projects/20/",
+    "geoln-158": "http://elitegroup.am/en/projects/23/"
+   },
+   "why": "the home page only shows 'coming soon'; each project links its own page on elitegroup.am",
+   "checked": "2026-09-28"
+  },
+  "http://elitegroup.am/ru/projects/25/": {
+   "verified": true,
+   "why": "Elite Group's own page for Almast Residence, and it loads fine.",
+   "checked": "2026-09-28",
+   "evidence": "АЛМАСТ Резиденс ... «Элит Групп» представляет свой новый проект «Алмаст Резиденс» ... в Зейтуне, на пересечении улиц Эминеску и Рубинянц"
+  },
+  "http://env.am/announcement/public-reviews/Khakhamyan-heritage-07-08-2023": {
+   "url": "https://environment.gov.am/articles/%D5%B7%D5%B4%D5%A1%D5%A3/archive-2023-08-07-ngh-ghovsepyan-46-10-03082023-67909654fe",
+   "why": "env.am now redirects to environment.gov.am, where the old path returns 'page not found'; the same 7 Aug 2023 public-hearing notice now sits in the new site's archive.",
+   "checked": "2026-09-28",
+   "evidence": "'Հանրային լսում «Խախամյան Հերիթիջ» ՍՊԸ-ի կողմից ներկայացված՝ Գ. Հովսեփյան 46/10 հասցեում բազմաբնակարան բնակելի շենքի կառուցման՝ շրջակա միջավայրի վրա ազդեցության նախնական գնահատման հայտ օգոստոս 07, 2023'"
+  },
+  "http://mlmining.am/avantowers/?fbclid=IwAR1AIcH8AsbmvfroPMuIyDsnOABeztSbuTTIZcqCxWmjlv7ps1VCw34q1AI": {
+   "url": "https://avan.am/en",
+   "why": "mlmining.am/avantowers now answers 404; avan.am names Avan Towers by ML Mining (found by the sources agent)",
+   "checked": "2026-09-28"
+  },
+  "http://mlmining.am/noryerevan/?fbclid=IwAR1NEw-r5vX9j0P0SFQWboBOB_3iWwzDMklFczvF0E9gCoD7Xx4BrtziqYI": {
+   "url": "https://noryerevan.com/",
+   "why": "The old mlmining.am/noryerevan page is 404; ML Mining links to noryerevan.com as the project's own site.",
+   "checked": "2026-09-28",
+   "evidence": "Նոր Երևան 4-րդ բլոկ - ՄԼ Մայնինգ ընկերության կողմից կառուցվող պրեմիում բնակելի թաղամաս ... Նոր Երևան թաղամաս Երևան,Մալաթիա-Սեբաստիա, Առնո Բաբաջանյան 42/5 (linked as www.noryerevan.com from mlmining.am)"
+  },
+  "http://norakaruyc.info/?fbclid=IwAR3o6UlPzP3pEzG5ZCCTY2NbF57UK4UJd0sDKmDjPaIdp21bTJLJpXqgh0k": {
+   "drop": true,
+   "why": "norakaruyc.info belongs to a sales agency (Cost Consult) and no longer lists Green View; no website for the project or its developer was found.",
+   "checked": "2026-09-28",
+   "evidence": "norakaruyc.info (rendered in browser) lists projects kamsar, gyurjyan, nova, ayas, res50, marash, davtashen, firdus, nazarbekyan, sunday, newkomitas, ergir, park - no Green View; contacts info@cost.am. Tried WebSearch in EN/HY/RU ('Green View Khudyakov 1/8', 'Գրին Վյու', 'Грин Вью Худякова'); Facebook page green.view.avan is unavailable."
+  },
+  "http://www.bedeck.am/am/works": {
+   "url": "https://bedeck.am/project/about555",
+   "why": "bedeck.am/am/works is 404. The old link no longer shows the project; Bedeck's own project page describes the Davit Bek complex in Nor Nork.",
+   "checked": "2026-09-28",
+   "evidence": "Nav link text 'Դավիթ Բեկ համալիր'; page: 'Նոր Նորք վարչական շրջանում ... Համալիրը շահագործման կհանձնվի 2026-2028 թվականին: ք. Երևան, Դավիթ Բեկի 105' (site lists the address as Davit Bek 105; the map lists 103/4-103/8)"
+  },
+  "http://www.renco.it/": {
+   "url": "https://milanofirenze.am/",
+   "why": "renco.it is the parent group's generic home page; the Milano & Firenze Towers project has its own official site run by Nuovo Velodromo/Renco.",
+   "checked": "2026-09-28",
+   "evidence": "Milano & Firenze Towers - Home ... The Velodrome project Milano Tower Firenze Tower ... Nuovo Velodromo LLC Branch ... © Renco Spa 2026 (renco.it also has https://www.renco.it/projects/milano-and-firenze-towers)"
+  },
+  "http://www.sreal.am/hy": {
+   "url": "https://www.silver-realestate.am/am/developer/cmsk2iz0o0001js04o9dxae6j",
+   "why": "sreal.am/hy is 404 after the move to silver-realestate.am; this is the same agency's Vista Residence page.",
+   "checked": "2026-09-28",
+   "evidence": "VISTA RESIDENCE PRJ-05 VISTA RESIDENCE Դրոյի 13/1 Նախագծի մասին VISTA RESIDENCE - Ձեր նոր բնակության հասցեն"
+  },
+  "http://www.vennigroup.am": {
+   "drop": true,
+   "why": "vennigroup.am no longer exists and no other Venni Group website was found.",
+   "checked": "2026-09-28",
+   "evidence": "vennigroup.am/www.vennigroup.am: NXDOMAIN; venni.am, vennigroup.com, venni-group.am: no DNS. Spyur ('VENI GROUP', Pushkin 42) and yell.am list no website. WebSearch 'Venni Group Yerevan construction developer' found only aggregators."
+  },
+  "http://www.vennigroup.am/": {
+   "drop": true,
+   "why": "vennigroup.am no longer exists and no other Venni Group website was found.",
+   "checked": "2026-09-28",
+   "evidence": "vennigroup.am/www.vennigroup.am: NXDOMAIN; venni.am, vennigroup.com, venni-group.am: no DNS. Spyur ('VENI GROUP', Pushkin 42) and yell.am list no website. WebSearch 'Venni Group Yerevan construction developer' found only aggregators."
+  },
+  "https://1-sq.am/services/arghishti-48-8/": {
+   "verified": true,
+   "why": "1SQ's page is the completed building at Argishti 48/8 (4 floors above ground and 1 below), managed by 1SQ.",
+   "checked": "2026-09-28",
+   "evidence": "'Արգիշտի 48/8 1SQ ԸՆԿԵՐՈՒԹՅՈՒՆՆ ԻՐԱԿԱՆԱՑՆՈՒՄ Է ՆԱԽԱԳԾԻ ԿԱՌԱՎԱՐՈՒՄԸ։ Արգիշտի 48/8 հասցեում կառուցվել է բնակելի համալիր՝ 4 վերգետնյա և 1 ստորգետնյա հարկայնությամբ'"
+  },
+  "https://1-sq.am/services/kievyan/": {
+   "verified": true,
+   "why": "The page is 1SQ's own page for this project and names it with the exact address.",
+   "checked": "2026-09-28",
+   "evidence": "'Կիևյան Ռեզիդենս 1SQ ԸՆԿԵՐՈՒԹՅՈՒՆՆ ԻՐԱԿԱՆԱՑՆՈՒՄ Է ՆԱԽԱԳԾԻ ԿԱՌԱՎԱՐՈՒՄԸ։ 7 վերգետնյա և 3 ստորգետնյա հարկերով ... Բարբյուսի 66 հասցեում'"
+  },
+  "https://168.am/2024/10/23/2114843.html": {
+   "verified": true,
+   "why": "The live article is the Komitas Conservatory students' statement. It names the builder as «Բիդեք», the Armenian spelling of Bedeck, the 28 Aug 2024 deadline and the rain damage.",
+   "checked": "2026-09-28",
+   "evidence": "«Երևանի Կոմիտասի անվան ՊԵՏԱԿԱՆ կոնսերվատորիայի տանիքը 2024 թվականի օգոստոսի 28-ին պետք է վերանորոգված լիներ։ Պայմանավորվածությունը, որը կայացել էր ԿԳՄՍ-ի, Քաղաքաշինության կոմիտեի և «Բիդեք» շինարարական ընկերության միջև, խախտվել է։» ... «անձրևը 4-րդ հարկից հասել է 3-րդ և մասնակի 2-րդ հարկեր»"
+  },
+  "https://1sq.info/apartment-item/kievyan/": {
+   "url": "https://1-sq.am/services/kievyan/",
+   "why": "1sq.info no longer exists; the same company (Instagram @1sq.info) now runs 1-sq.am, which has a Kievyan Residence page.",
+   "checked": "2026-09-28",
+   "evidence": "Կիևյան Ռեզիդենս 1SQ ԸՆԿԵՐՈՒԹՅՈՒՆՆ ԻՐԱԿԱՆԱՑՆՈՒՄ Է ՆԱԽԱԳԾԻ ԿԱՌԱՎԱՐՈՒՄԸ ... Բարբյուսի 66 հասցեում"
+  },
+  "https://1sq.info/apartment-item/verin_antarayin_136/?lang=en": {
+   "url": "https://1-sq.am/services/verin-antarayin/",
+   "why": "1sq.info no longer exists; 1-sq.am, the same company's current site, has a page for Verin Antarayin 136/11.",
+   "checked": "2026-09-28",
+   "evidence": "Title 'Վերին Անտառային 136/11 – 1SQ'; '1SQ ԸՆԿԵՐՈՒԹՅՈՒՆՆ ԻՐԱԿԱՆԱՑՆՈՒՄ Է ՆԱԽԱԳԾԻ ԿԱՌԱՎԱՐՈՒՄԸ' (page has no further detail)"
+  },
+  "https://abovyanhills.am/img/building.png": {
+   "drop": true,
+   "why": "image no longer loads (error)",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/14/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/15/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/16/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/17/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/18/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/19/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/20/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/21/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/30/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/31/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/34/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/35/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/36/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/37/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/38/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://ac-box.com/media/new-building-videos/7/video": {
+   "drop": true,
+   "why": "checked in Chrome: '403 INVALID SIGNATURE' - a signed, expired media link",
+   "checked": "2026-09-28"
+  },
+  "https://adatech.am/?page_id=1341": {
+   "verified": true,
+   "why": "The ADA Tech services page still carries the announcement of 6 houses at Z. Sarkavag 42/15, with the cited prices.",
+   "checked": "2026-09-28",
+   "evidence": "'Adatech LLC «Էյ Դի Էյ Թեք» ՍՊԸ'; '...8թ.-ի ապրիլի 1-ից վաճառքում, ընդամենը թվով 6 բնակելի առանձնատներ Քանաքեռ-Զեյթուն վարչական շրջանի, Զ.Սարկավագի փողոց 42/15 հասցեում'"
+  },
+  "https://allur.am/": {
+   "verified": true,
+   "why": "The Allur Residence project site gives the exact address Shamakhyan 1/2, Dilijan.",
+   "checked": "2026-09-28",
+   "evidence": "Բնակելի համալիրի հասցե ... Շամախյան փող. 1/2, ք. Դիլիջան, Հայաստան"
+  },
+  "https://allur.am/hy": {
+   "verified": true,
+   "why": "The page is the complex's official site and names it with the exact address.",
+   "checked": "2026-09-28",
+   "evidence": "'Allur Residence | Պրեմիում դասի բնակելի համալիր | ALLUR RESIDENCE Դիլիջան' and 'Բնակելի համալիրի հասցե Շամախյան փող. 1/2, ք. Դիլիջան, Հայաստան'"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722482811928.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722484781929.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722507811930.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722515991932.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722520691934.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722524281936.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722527401937.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722527921938.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722528021939.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722528421940.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/410/15772722528581941.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617192680268482.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617192680348483.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617192680480484.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269770139762.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269770198763.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269770801764.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269771158765.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269771163766.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269771174767.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269771183768.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/412/1617269771202769.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555446154659.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555446175660.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555446326661.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555446749662.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555446923663.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447000664.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447232665.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447369666.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447457667.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447468668.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/413/1587555447506669.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426965442204.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426966122205.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426967662206.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426974322207.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426976222208.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426976342209.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426976612210.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426977262211.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426977592212.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426978502213.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/414/15964426979612214.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820407961034.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820408121035.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820408871036.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820409971037.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820417111038.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820420491039.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820420741040.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820422071041.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820423181042.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820425031043.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/417/16121820425671044.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591960132457.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591960602458.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591962012459.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591968012460.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591968122461.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591970422462.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591984182463.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591987882464.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616591997212465.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616592001992466.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/418/14616592013822467.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222133412557.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222140712558.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222142702559.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222143972560.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222144532561.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222145422562.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222145532563.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222146802564.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222146912565.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222147462566.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/423/15489222147512567.png": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/426/15865010944001.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/426/15865010944732.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/426/15865010947883.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/426/15865010950964.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254059662874.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254059792875.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254059972876.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254060282877.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254060512878.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254060612879.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254064202880.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254065602881.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/427/15935254065652882.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340614919002.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340621759003.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340622229004.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340623839005.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340624019006.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340624139007.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340624309008.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340625439009.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340626889010.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340626969011.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/428/15952340627199012.JPG": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434601091021.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434602071022.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434604791023.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434607261024.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434607731025.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434610861026.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434611691027.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434611971028.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434612901029.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434613271030.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/430/15919434615151031.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633453071312.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633454181313.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633456201314.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633456281315.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633456431316.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633457311317.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633457551318.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633457901319.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633458061320.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16134633460061321.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/432/16137193033231918.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710306462238.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710311312239.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710312482240.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710315332241.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710315442242.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710315742243.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710316412244.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710320072245.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710325632246.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710327252247.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/434/16184710327292248.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892783981118.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892785281119.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892786011120.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892786561121.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892786761122.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892786781123.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892787201124.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892787331125.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892787341126.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892787791127.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/435/16024892787931128.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447485426.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447502427.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447613432.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447626434.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447669435.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447699438.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176447972444.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617176448379446.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617786185252563.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617786185704564.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/436/1617786186400565.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133452515.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133459516.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133467517.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133481518.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133500519.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/437/1617197133587520.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702084440.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702116441.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702120442.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702129443.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702130444.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702131445.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702145446.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702203447.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702213448.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711702232449.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/438/1617711751000450.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708135155129.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708136242130.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708136309131.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708136493132.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708136889133.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137022134.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137036135.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137508136.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137695137.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137867138.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/announcements/439/1601708137924139.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://api.redgroup.am/storage/users/399/pngtree-cute-girl-avatar-material-png-image_4023832.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://app.parkroyal.am/front/api/v1/areas?offset=0&limit=200": {
+   "verified": true,
+   "why": "The 404 was not reproducible: the endpoint returns 200 JSON with the apartment list and prices, with or without a browser user-agent. It is the raw developer-API JSON used by parkroyal.am (a JS-only app, so no human-readable page URL exists).",
+   "checked": "2026-09-28",
+   "evidence": "{\"count\":48,\"availableCount\":25,\"reservedCount\":23,\"areas\":[{... \"area\":48.28, \"roomsCount\":2, \"price\":28485200, ... \"building\":\"A1\" ...}]}"
+  },
+  "https://app.parkroyal.am/front/api/v1/contact": {
+   "verified": true,
+   "why": "The 404 was not reproducible: the endpoint returns 200 JSON with Park Royal's contacts and the Tsaghkadzor address.",
+   "checked": "2026-09-28",
+   "evidence": "\"email\":\"sales@parkroyal.am\", \"facebookUrl\":\"https://www.facebook.com/parkroyal.tsaghkadzor\", \"officeAddress\":\"Ծաղկաձոր , Խաչատուր Կեչառեցու փող․ 4\""
+  },
+  "https://ar-go.am/media/full_size/tevosyan-park.png": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://ar-go.am/project/ashtarakyan-ashtarakner": {
+   "verified": true,
+   "why": "The ARGO page is the Ashtarakyan Ashtarakner complex at Yerevanyan 2/10, Ashtarak, built by 1SQ-Argo, with the cited price.",
+   "checked": "2026-09-28",
+   "evidence": "'ԱՇՏԱՐԱԿՅԱՆ ԱՇՏԱՐԱԿՆԵՐ Արագածոտն, ք․ Աշտարակ, Երևանյան 2/10 ... Սկսած 450,000 դրամ 1ք/մ համար ... Կառուցապատող «1ԷՍՔՅՈՒ-ԱՐԳՈ» ՍՊԸ'"
+  },
+  "https://arcada.am/?app=AppPage&page=about": {
+   "url": "https://arcada.am/#section2",
+   "why": "The about page now redirects to the home page, where the 'Մեր մասին' section (#section2) holds the same content: founded 1997, a financial statements and audit report document, and a partner list.",
+   "checked": "2026-09-28",
+   "evidence": "'«Արկադա Քոնսթրաքշն» ՍՊ ընկերությունը հիմնադրվել է 1997 թվականին'; 'Ֆինանսական հաշվետվություններ և անկախ աուդիտորական եզրակացություն ... 2023-08-17'; partners 'AEB HSBC IDBank ... Ամերիա Բանկ'"
+  },
+  "https://arcada.am/?app=AppProject&page=building&project_id=6": {
+   "verified": true,
+   "why": "The Arcada page is Ember Business Center at Monte Melkonyan 24/1.",
+   "checked": "2026-09-28",
+   "evidence": "'Էմբեր Բիզնես Կենտրոն ք․ Երեւան, Մոնթե Մելքոնյան փողոց 24/1 ... Գույք 32 տարածք 61 ավտոկայանատեղի'"
+  },
+  "https://arcsisrealty.com/": {
+   "drop": true,
+   "why": "arcsisrealty.com is only a 'Coming Soon' placeholder that does not name BEST MASIS; the domain was only inferred from an email, and no other official site was found.",
+   "checked": "2026-09-28",
+   "evidence": "Page text: 'Coming Soon arcsisrealty.com We're under construction. Please check back for an update soon.' Tried WebSearch 'Best Masis Azatamartikner 41 Masis residential' - only aggregators (myhome.am)."
+  },
+  "https://armconstruct.am/properties/14?page=1": {
+   "url": "https://armconstruct.am/projects/zoravar-andranik-1216",
+   "why": "The old /properties/14 URL is 404; Arm Construct now has a dedicated Zoravar Andranik 121/6 page.",
+   "checked": "2026-09-28",
+   "evidence": "Title 'Զորավար Անդրանիկ 121/6 | Բարձր դասի բնակելի համալիր Մալաթիա-Սեբաստիա | Arm Construct'"
+  },
+  "https://armconstruct.am/properties/15?page=1": {
+   "url": "https://armconstruct.am/projects/atlantis-yerevan",
+   "why": "The old /properties/15 URL is 404; Arm Construct now has a dedicated Atlantis Yerevan project page.",
+   "checked": "2026-09-28",
+   "evidence": "Title 'ATLANTIS YEREVAN | Պրեմիում դասի բնակելի համալիր Արաբկիրում'; project list: 'Atlantis Yerevan Մալխասյանց նրբանցք 6'"
+  },
+  "https://art-group.am/": {
+   "verified": true,
+   "why": "Evocabank lists art-group.am as SV & GA LLC's website. Art Group's registered address matches SV & GA's (Ghapantsyan 3), and the site describes construction work that includes apartment complexes. The site does not name SV & GA itself.",
+   "checked": "2026-09-28",
+   "evidence": "Evocabank: 'SV & GA LLC Adress: RA, Yerevan, Arabkir, G. Ghapantsyan st. 3 ... Website: https://art-group.am/hy/home'; art-group.am footer 'Ղափանցյան 3, 0014, Երևան'; about-us: 'designing Armenia's critical infrastructure - from hardened data centers to apartment complexes'. e-register: «ՍՎ ԵՎ ԳԱ» ՍՊԸ address ՂԱՓԱՆՑՅԱՆ Փ., 3."
+  },
+  "https://art-group.am/hy/home": {
+   "verified": true,
+   "why": "Evocabank lists art-group.am as SV & GA LLC's website. Art Group's registered address matches SV & GA's (Ghapantsyan 3), and the site describes construction work that includes apartment complexes. The site does not name SV & GA itself.",
+   "checked": "2026-09-28",
+   "evidence": "Evocabank: 'SV & GA LLC Adress: RA, Yerevan, Arabkir, G. Ghapantsyan st. 3 ... Website: https://art-group.am/hy/home'; art-group.am footer 'Ղափանցյան 3, 0014, Երևան'; about-us: 'designing Armenia's critical infrastructure - from hardened data centers to apartment complexes'. e-register: «ՍՎ ԵՎ ԳԱ» ՍՊԸ address ՂԱՓԱՆՑՅԱՆ Փ., 3."
+  },
+  "https://artco.am/": {
+   "verified": true,
+   "why": "The live home page names Art Company in Armenian, links an AKN Construction document, and lists the Mamikonyants and Sose complexes.",
+   "checked": "2026-09-28",
+   "evidence": "'\"Արտքոմփանի\" ՍՊԸ-ն հիմնադրվել է 2012 թվականին'; 'ԱՎԱՐՏԱԿԱՆ ԱԿՏ «ԱԿՆ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ'; complex list 'Մամիկոնյանց բնակելի համալիր ... Հյուրանոց-Հյուրատուն Սոսե'"
+  },
+  "https://artco.am/?app=AppProject&page=building&project_id=11&project_status_id=1": {
+   "verified": true,
+   "why": "Live developer page for the project (the site-wide title is generic, but the body names it).",
+   "checked": "2026-09-28",
+   "evidence": "«Հյուրանոց-Հյուրատուն Սոսե ք.Երևան, Արաբկիր վարչական շրջան, Սոսեի փողոց 62-64 ... բնակարաններ 40»"
+  },
+  "https://artco.am/?app=AppProject&page=building&project_id=2&project_status_id=2": {
+   "verified": true,
+   "why": "Live developer page for the project (the site-wide title is generic, but the body names it).",
+   "checked": "2026-09-28",
+   "evidence": "«Կողբացի բնակելի համալիր Կենտրոն վարչական շրջան Կողբացի 16 (Բուզանդ 13/2)»"
+  },
+  "https://artco.am/?app=AppProject&page=building&project_id=8&project_status_id=2": {
+   "verified": true,
+   "why": "Live developer page for the project (the site-wide title is generic, but the body names it).",
+   "checked": "2026-09-28",
+   "evidence": "«Մամիկոնյանց բնակելի համալիր ք․Երևան, Արաբկիր վարչական շրջան, Մամիկոնյանց 30/1»"
+  },
+  "https://artco.am/?app=AppProject&page=building&project_id=9&project_status_id=2": {
+   "verified": true,
+   "why": "Live developer page for the project (the site-wide title is generic, but the body names it).",
+   "checked": "2026-09-28",
+   "evidence": "«Ուլնեցի բնակելի շենք ք.Երևան, Քանաքեռ-Զեյթուն վարչական շրջան, Կ․Ուլնեցու փողոց, հ․54»"
+  },
+  "https://artco.am/?app=AppProject&page=district&project_id=10&project_status_id=1": {
+   "verified": true,
+   "why": "The Art Company project page is the Dilijan Hotel-Guesthouse at Maxim Gorky 29/44.",
+   "checked": "2026-09-28",
+   "evidence": "'Դիլիջան Հյուրանոց-Հյուրատուն Դիլիջան, Մաքսիմ Գորկու փողոց թիվ 29/44'"
+  },
+  "https://aygedzor.am/պատրաստի-նախագծեր/": {
+   "url": "https://aygedzor.am/բազմաբնակարան-շենք-պարոնյան-8/",
+   "why": "The builder Aygedzor's completed-projects index links to a dedicated page for this building, which names it by address and gives its construction dates.",
+   "checked": "2026-09-28",
+   "evidence": "aygedzor.am/բազմաբնակարան-շենք-պարոնյան-8/: title 'Բազմաբնակարան շենք Պարոնյան 8'; 'Շենքը կառուցվել է 2003-2006 թվականներին։ Շահագործման է հանձնվել 2007 թվականից։'"
+  },
+  "https://azatutyuncomplex.am/": {
+   "verified": true,
+   "why": "The project's own site for the Azatutyun complex at 26/1, and it loads fine.",
+   "checked": "2026-09-28",
+   "evidence": "ԱԶԱՏՈՒԹՅՈՒՆ 26/1. ՔԱՂԱՔԸ ՍԿՍՎՈՒՄ ԵՎ ՇԱՐՈՒՆԱԿՎՈՒՄ Է ԱՅՍՏԵՂԻՑ «Ազատություն» բազմաֆունկցիոնալ համալիրի ..."
+  },
+  "https://azatutyuncomplex.am/about": {
+   "verified": true,
+   "why": "The page names Metroshin as the construction company (without the 'ՍՊԸ' suffix, which is why the check flagged it) and Green Property Development as the developer.",
+   "checked": "2026-09-28",
+   "evidence": "'«Ազատություն» համալիրի կառուցապատողը «Գրին Փրոփերթի Դեվելոփմենթ» ընկերությունն է'; 'Նախագծի շինարարական ընկերությունը «Մետրոշին»-ն է։'"
+  },
+  "https://azatutyuncomplex.am/en": {
+   "verified": true,
+   "why": "The page is the complex's official site and names it with the exact address.",
+   "checked": "2026-09-28",
+   "evidence": "azatutyuncomplex.am/en: 'AZATUTYUN 26/1. THE CITY BEGINS AND CONTINUES HERE The location of Azatutyun Multifunctional Complex was chosen with purpose.'"
+  },
+  "https://b24.am/finance/460965.html": {
+   "verified": true,
+   "why": "It is cited as the news item on Renshin's bonds being listed on AMX, and the article is exactly that. It does not mention Artlife and is not cited for it.",
+   "checked": "2026-09-28",
+   "evidence": "'«Ռենշին»-ի պարտատոմսերը ցուցակվել են AMX-ում ... հուլիսի 8-ին ... «ՌԵՆՇԻՆ»-ի պարտատոմսերի պաշտոնակա[ն ցուցակում]'"
+  },
+  "https://brawerk.am/hy/braverki-masin": {
+   "verified": true,
+   "why": "The about page supports the cited claims: founded in 1995 in Gyumri as Shirak-95, more than 60 projects including 52 residential buildings, and renamed Brawerk in 2026.",
+   "checked": "2026-09-28",
+   "evidence": "'Ընկերությունը հիմնադրվել է 1995 թվականին Գյումրիում՝ «Շիրակ-95» անվանմամբ'; 'Բրավերկն իրականացրել է 60-ից ավելի խոշոր նախագիծ ... այդ թվում՝ 52 բնակելի շենք'"
+  },
+  "https://brawerk.am/hy/norutyunner/rebrending-Metsn-Erik-y-veranvanvel-e-Braverk": {
+   "verified": true,
+   "why": "The news item from 25 May 2026 announces that Metsn Erik has been renamed Brawerk.",
+   "checked": "2026-09-28",
+   "evidence": "'25 մայիսի 2026 թ. Ռեբրենդինգ․ «Մեծն Էրիկ»-ը վերանվանվել է Բրավերկ 31 տարվա գործունեությունից հետո'"
+  },
+  "https://buildings.bedeck.am/?building_id=3": {
+   "url": "https://bedeck.am/project/about555",
+   "why": "buildings.bedeck.am/?building_id=3 is Bedeck's apartment picker and only shows 'Coming Soon'. The old link no longer shows the project; Bedeck's own project page describes the Davit Bek complex in Nor Nork.",
+   "checked": "2026-09-28",
+   "evidence": "Nav link text 'Դավիթ Բեկ համալիր'; page: 'Նոր Նորք վարչական շրջանում ... Համալիրը շահագործման կհանձնվի 2026-2028 թվականին: ք. Երևան, Դավիթ Բեկի 105' (site lists the address as Davit Bek 105; the map lists 103/4-103/8); the page's 'ԸՆՏՐԵԼ ԲՆԱԿԱՐԱՆ' button links to buildings.bedeck.am/?building_id=3"
+  },
+  "https://centralresidence.am": {
+   "url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10185",
+   "why": "centralresidence.am names Central Residence in Vagharshapat but not New Town, ACBA or the 417 apartments. The cited facts come from ACBA's partner-developers list, whose entry 'ՆՅՈՒ ԹԱՈւՆ' gives all of them. The ACBA page blocks script clients but opens in a browser: click the 'ՆՅՈՒ ԹԱՈւՆ' entry.",
+   "checked": "2026-09-28",
+   "evidence": "ACBA entry 10185 «ՆՅՈՒ ԹԱՈւՆ»: «Կառուցապատող- «ՆՅՈՒ ԹԱՈւՆ»» Հասցե ԱՐՄԱՎԻՐ, ՎԱՂԱՐՇԱՊԱՏ, Շահումյան փ., 75/4-6 ... Էլ հասցե info@centralresidence.am ... Բնակարանների քանակ 417 ... Բնակարանի 1 ք.մ.-ի արժեք 480,000 ՀՀ դրամ"
+  },
+  "https://charagayt.am/?app=AppProject&page=building&project_id=16": {
+   "verified": true,
+   "why": "The ML Mining (Charagayt) page is New Dalma Premium complex at Tsitsernakaberd highway 3/1.",
+   "checked": "2026-09-28",
+   "evidence": "'Նոր Դալմա պրեմիում համալիր ՀՀ, ք․Երևան, Մալաթիա-Սեբաստիա վարչական շրջան, Ծիծեռնակաբերդի խճուղի 3/1'; ''ՄԼ Մայնինգ' ընկերություն'"
+  },
+  "https://charagayt.am/?app=AppProject&page=district&project_id=17": {
+   "verified": true,
+   "why": "The ML Mining page is the Armavir residential complex at Baghramyan 39, Armavir. The dataset title 'Nork Residential Complex (Armavir)' differs, but the address and developer match.",
+   "checked": "2026-09-28",
+   "evidence": "'Արմավիր բնակելի համալիր Արմավիրի մարզ, ք․Արմավիր, Բաղրամյան 39'; ''ՄԼ Մայնինգ' ընկերություն'"
+  },
+  "https://charagayt.am/?app=AppProject&page=district&project_id=18": {
+   "verified": true,
+   "why": "The ML Mining page is the Ararat complex at Araratyan massiv 20, Ararat.",
+   "checked": "2026-09-28",
+   "evidence": "'Արարատ համալիր ՀՀ. Արարատի մարզ, Ք. Արարատ, Արարատյան զանգված 20'; ''ՄԼ Մայնինգ' ընկերություն'"
+  },
+  "https://citynest.am/tigranmets/en": {
+   "drop": true,
+   "why": "City Nest removed the page; the project's own site tigranmetsresidence.am is already a source",
+   "checked": "2026-09-28"
+  },
+  "https://citynest.am/tmtower/am": {
+   "drop": true,
+   "why": "City Nest removed the TM Tower page (403); the project is confirmed by myhome.am and novostroiki",
+   "checked": "2026-09-28"
+  },
+  "https://citynest.am/tmtower/en": {
+   "drop": true,
+   "why": "City Nest removed the TM Tower page (403); the project is confirmed by myhome.am and novostroiki",
+   "checked": "2026-09-28"
+  },
+  "https://comfortbuild.am/en/": {
+   "url": "https://comfortbuild.am/en/projects",
+   "why": "The comfortbuild.am home page is Comfort Build's live site but names no project; its Projects page names Prime Park and Nazarbekyan Towers.",
+   "checked": "2026-09-28",
+   "evidence": "Projects NAZARBEKYAN TOWERS »» NOR SILIKYAN »» PRIME PARK »»; about-us: 'LLC \"Comfort build\" is the exclusive representative for the sale of LLC \"SHINART Group\" ... 41/1 and 41/8 Nazarbekyan str.'"
+  },
+  "https://dignisi.am/en/projects/anahit-district-331": {
+   "url": "https://anahittaghamas.am/hy/category",
+   "why": "Dignisi returns 404 in all three languages (the entry is still in its sitemap but not in its 118-project listing); the developer's own Anahit district site lists units at exactly 480,000 AMD/m² (38,448,000 ֏ / 80.1 m²). The home page (https://anahittaghamas.am/hy) gives Yeghvard and completion in Q1 2029, and /hy/contacts gives Yerevanyan hwy 13/2.",
+   "checked": "2026-09-28",
+   "evidence": "Unit table: '3 80.1 ... 38 448 000 ֏'; home: '«Անահիտ» թաղամասը գտնվում է Կոտայքի մարզի Եղվարդ քաղաքում' and '2029 I եռամսյակ շին․ ավարտ'; contacts: 'Հասցե: Ք․ Եղվարդ, Երևանյան խճ․13/2'"
+  },
+  "https://dignisi.am/en/projects/capital-park-280": {
+   "url": "https://capitalpark.am/",
+   "why": "Dignisi has removed Capital Park (every language version returns 404 and it is gone from the Ajapnyak listing, though its sitemap still lists it). The replacement is the project's own site; capitalpark.am is already listed as another source for kp-171, so this may duplicate it.",
+   "checked": "2026-09-28",
+   "evidence": "capitalpark.am: '#Capitalpark բնակելի համալիրը գտնվում է Շիրազի 2 հասցեում՝ Աջափնյակ վարչական շրջանում: Համալիրը բաղկացած է 5 մասնաշենքից'."
+  },
+  "https://doublevconstruct.am/շենք-0-հ2/": {
+   "url": "https://doublevconstruct.am/",
+   "why": "'Շենք 0 Հ2' is only a floor-plan grid for one building: it names neither the complex nor the developer, just the address in the footer. The developer's home page names Armenia Garden and lists all buildings with prices and completion dates.",
+   "checked": "2026-09-28",
+   "evidence": "doublevconstruct.am: 'Բնակելի համալիրը Armenia Garden -ը պրեմիում դասի բնակելի համալիր է' plus building list 'ՇԵՆՔ 1 430000-450000 AMD Ավարտը - 2026 ... ՇԵՆՔ 3Ա 365.000-500.000 AMD Ավարտը - 2029'; footer 'Ք։ Աբովյան,Մարզադաշտի Հարևանությամբ'."
+  },
+  "https://doublevconstruct.am/շենք-1-հ2/": {
+   "url": "https://doublevconstruct.am/",
+   "why": "'Շենք 1 Հ2' is only a floor-plan grid for one building: it names neither the complex nor the developer, just the address in the footer. The developer's home page names Armenia Garden and lists all buildings with prices and completion dates.",
+   "checked": "2026-09-28",
+   "evidence": "doublevconstruct.am: 'Բնակելի համալիրը Armenia Garden -ը պրեմիում դասի բնակելի համալիր է'; 'ՇԵՆՔ 1 430000-450000 AMD Ավարտը - 2026 թվական Բնակարանների քանակը - 145'; footer 'Ք։ Աբովյան,Մարզադաշտի Հարևանությամբ'."
+  },
+  "https://doublevconstruct.am/շենք-3ա/": {
+   "url": "https://doublevconstruct.am/",
+   "why": "'ՇԵՆՔ 3Ա' is only an apartment-availability grid: it names neither the complex nor the developer, just the address in the footer. The developer's home page names Armenia Garden and lists building 3Ա with its price and completion date.",
+   "checked": "2026-09-28",
+   "evidence": "doublevconstruct.am: 'Բնակելի համալիրը Armenia Garden -ը պրեմիում դասի բնակելի համալիր է'; 'ՇԵՆՔ 3Ա 365.000-500.000 AMD Ավարտը - 2029 թվական Բնակարանների քանակը - 190'."
+  },
+  "https://env.am/announcement/public-reviews/shmag-ngh-jrveg-t2-leamsh-19": {
+   "url": "https://environment.gov.am/articles/%D5%B7%D5%B4%D5%A1%D5%A3/archive-2022-05-02-shmag-vaxarshevvordiner-lramsh-50ba0778bc",
+   "why": "The ministry moved to environment.gov.am and the old slug now shows 'Էջը չի գտնվել'. The same notice exists in the new site's EIA archive (found via the site search). The new page is JS-rendered.",
+   "checked": "2026-09-28",
+   "evidence": "Rendered page: «Հանրային լսում Նորքի փողոց 19 հասցեում բազմաֆունկցիոնալ բնակելի համալիրի կառուցման շրջակա միջավայրի վրա ազդեցության նախնական գնահատման հայտ / «Վաղարշ և որդիներ Կոնցեռն» ՍՊԸ մայիս 02, 2022» (+ 6.51 MB attachment)"
+  },
+  "https://faithbuilt.am": {
+   "drop": true,
+   "why": "faithbuilt.am no longer exists and Faith Built Construction has no other working website.",
+   "checked": "2026-09-28",
+   "evidence": "faithbuilt.am, www.faithbuilt.am: NXDOMAIN; faithbuiltconstruction.com is a parked domain (redirects to /lander); faith-built.am, faithbuilt.com: no DNS. Spyur (spyur.am/faithbuilt), construction.am and yell.am list no website, only Facebook/Instagram."
+  },
+  "https://faithbuilt.am/hy": {
+   "drop": true,
+   "why": "faithbuilt.am no longer exists and Faith Built Construction has no other working website.",
+   "checked": "2026-09-28",
+   "evidence": "faithbuilt.am, www.faithbuilt.am: NXDOMAIN; faithbuiltconstruction.com is a parked domain (redirects to /lander); faith-built.am, faithbuilt.com: no DNS. Spyur (spyur.am/faithbuilt), construction.am and yell.am list no website, only Facebook/Instagram."
+  },
+  "https://fastpro.am/": {
+   "verified": true,
+   "why": "The site is script-rendered, but its content (in the JS bundle) names Fast Pro LLC and the Malkhasyants complex at Malkhasyants lane 9/4, Arabkir.",
+   "checked": "2026-09-28",
+   "evidence": "'© 2024 \" Ֆասթ Պրո \" ՍՊԸ'; '2024 թվականին Ֆասթ Պռո ընկերությունը մեկնարկել է ... Մալխասյանց Բնակելի համալիրի շինարարական աշխատանքները։ Համալիրը գտնվում է Մալխասյանց փ․անցուղի 9/4 հասցեում'"
+  },
+  "https://fastpro.am/#projects": {
+   "verified": true,
+   "why": "The page is the developer's own site. Its projects section, which only appears after the page's JavaScript runs, describes this exact complex.",
+   "checked": "2026-09-28",
+   "evidence": "fastpro.am (main.4e9c1535.js, #projects section): '2024 թվականին Ֆասթ Պռո ընկերությունը մեկնարկել է ... Մալխասյանց Բնակելի համալիրի շինարարական աշխատանքները։ Համալիրը գտնվում է Մալխասյանց փ․անցուղի 9/4 հասցեում։'"
+  },
+  "https://firdus.am/": {
+   "verified": true,
+   "why": "The Firdus (33rd district) site names Trapizon Construction and GM Developer as developers in its building-permit note.",
+   "checked": "2026-09-28",
+   "evidence": "'Տրված է կառուցապատող՝ «ՏՐԱՊԻԶՈՆ ՔՈՆՍԹՐԱՔՇՆ» և «ՋԻ ԷՄ ԴԵՎԵԼՈՓԵՐ» ՍՊ ընկերություններին ՇԻՆԱՐԱՐՈՒԹՅԱՆ ԹՈՒՅԼՏՎՈՒԹՅՈՒՆ'"
+  },
+  "https://geoln.com/ru/armenia/yerevan/antarain": {
+   "verified": true,
+   "why": "geoln Antarain page (Metsn Erik)",
+   "checked": "2026-09-28"
+  },
+  "https://geoln.com/ru/armenia/yerevan/malhosyantsa-six": {
+   "verified": true,
+   "why": "geoln Malkhasyants 6/1 page (CBS)",
+   "checked": "2026-09-28"
+  },
+  "https://geoln.com/ru/armenia/yerevan/new-york-clubhouse": {
+   "verified": true,
+   "why": "geoln New York Clubhouse page (Faith Built Construction); the login wall only appeared in headless Chrome",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-01.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-01.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-010.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-010.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-011.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-011.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-012.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-012.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-013.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-013.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-014.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-014.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-015.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-015.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-016.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-016.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-02.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-02.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-03.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-03.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-04.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-04.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a1/render/a1-rs-05.jpg": {
+   "url": "https://haus.am/img/a1/render/a1-rs-05.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-01.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-01.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-010.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-010.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-011.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-011.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-012.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-012.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-013.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-013.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-014.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-014.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-015.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-015.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-016.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-016.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-02.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-02.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-03.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-03.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-04.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-04.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/a2/render/a1-rs-05.jpg": {
+   "url": "https://haus.am/img/a2/render/a1-rs-05.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/img/b1-001.jpg": {
+   "url": "https://haus.am/img/b1/img/b1-001.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/img/b1-002.jpg": {
+   "url": "https://haus.am/img/b1/img/b1-002.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/img/b1-003.jpg": {
+   "url": "https://haus.am/img/b1/img/b1-003.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-0.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-0.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-1.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-1.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-2.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-2.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-3.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-3.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-4.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-4.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-5.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-5.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-6.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-6.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-7.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-7.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/b1/render/b1-s-8.jpg": {
+   "url": "https://haus.am/img/b1/render/b1-s-8.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-0.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-0.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-1.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-1.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-2.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-2.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-3.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-3.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-4.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-4.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-5.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-5.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-i-6.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-i-6.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-s-0.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-s-0.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-s-1.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-s-1.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-s-2.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-s-2.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-s-3.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-s-3.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/t12/render/t12-s-4.jpg": {
+   "url": "https://haus.am/img/t12/render/t12-s-4.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-0-2025-05-16.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-0-2025-05-16.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-00001-0-2025-05-16.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-00001-0-2025-05-16.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-00001-1-2025-05-16.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-00001-1-2025-05-16.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-00001-2-2025-05-16.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-00001-2-2025-05-16.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-0001-2024-12-03_12-09-12-424.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-0001-2024-12-03_12-09-12-424.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-2024-12-03_12-09-12-412.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-2024-12-03_12-09-12-412.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-2024-12-03_12-09-12-454.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-2024-12-03_12-09-12-454.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v-2024-12-03_12-09-12-487.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v-2024-12-03_12-09-12-487.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/0-v1-cover.jpg": {
+   "url": "https://haus.am/img/v1/img/0-v1-cover.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/DJI_1290.jpg": {
+   "url": "https://haus.am/img/v1/img/DJI_1290.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/DJI_1292.jpg": {
+   "url": "https://haus.am/img/v1/img/DJI_1292.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://haus.am/list/img/v1/img/DJI_1296.jpg": {
+   "url": "https://haus.am/img/v1/img/DJI_1296.jpg",
+   "why": "the images live under haus.am/img/ (the scraper resolved the page's relative paths against /list/)",
+   "checked": "2026-09-28"
+  },
+  "https://hospitalitynet.org/announcement/41011459.html": {
+   "verified": true,
+   "why": "Accor to open a Mövenpick hotel in Yerevan",
+   "checked": "2026-09-28"
+  },
+  "https://idbank.am/documents/IDBank%20constructors%20pptt.pdf": {
+   "verified": true,
+   "why": "The PDF opens, and IDBank's partner-developer list names Advanced Development (Nor Nork) with its Garunavan 4 project.",
+   "checked": "2026-09-28",
+   "evidence": "'• «ԸԴՎԱՆՍԴ ԴԻՎԵԼԸՓՄԵՆԹ» ՍՊԸ' under Նոր Նորք; project page 'ԸԴՎԱՆՍԴ ԴԻՎԵԼԸՓՄԵՆԹ ՍՊԸ ... Գարունավան 4 Հասցե` Բագրևանդ թաղամաս'"
+  },
+  "https://karucapatoxic.s3.eu-west-3.amazonaws.com/10/02f2e9b5-8775-4376-babf-896d84e10c4a.jpeg": {
+   "drop": true,
+   "why": "image no longer loads (unreachable)",
+   "checked": "2026-09-28"
+  },
+  "https://karucapatoxic.s3.eu-west-3.amazonaws.com/24/1671285970116.jpeg": {
+   "drop": true,
+   "why": "image no longer loads (unreachable)",
+   "checked": "2026-09-28"
+  },
+  "https://m.facebook.com/RetroShinAM": {
+   "verified": true,
+   "why": "RetroShin page",
+   "checked": "2026-09-28"
+  },
+  "https://minfin.am/website/images/website/2023_list%20(1).pdf": {
+   "verified": true,
+   "why": "The PDF opens, and the MinFin 2023 list includes Horizon-95 (tax ID 00801721) and also Vagharsh & Sons Concern (tax ID 01547921).",
+   "checked": "2026-09-28",
+   "evidence": "'109 00801721 «ՀՈՐԻԶՈՆ-95» Խոշոր կամ միջին կազմակերպություն'; '223 01547921 «ՎԱՂԱՐՇ ԵՎ ՈՐԴԻՆԵՐ ԿՈՆՑԵՌՆ» Խոշոր կամ միջին կազմակերպություն'"
+  },
+  "https://mlmining.am/adonccomplex": {
+   "url": "https://charagayt.am/?app=AppProject&page=district&project_id=3",
+   "why": "mlmining.am/adonccomplex is 404; ML Mining's construction site (linked from mlmining.am) has this Adonts complex page at 19/19.",
+   "checked": "2026-09-28",
+   "evidence": "Page title 'ՄԼ շինարարություն'; 'Ադոնց բնակելի թաղամաս ՀՀ, ք․Երևան, Արաբկիր վարչական շրջան, Ադոնց 19/19 ... Բնակարաններ՝ 210'"
+  },
+  "https://movsesyanandpartners.am/img/portfolio-2.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://muargroup.am/projects/4": {
+   "drop": true,
+   "why": "The page (via its API) is a Muar Group private house in Garni (520 m², $280,000). It is a different building by a different company, not the Movsesyan & Partners 'GARNI' project it is cited for: the photos differ (a white pitched-roof house with an oval pool versus a flat-roofed stone villa render), and so do the phones and brand. The price and stage taken from it should be removed from movsesyanandpartnersam-513, and no page gives a price or stage for the Movsesyan project.",
+   "checked": "2026-09-28",
+   "evidence": "muargroup API /api/projects/4: '\"name\":\"Առանձնատուն\",\"address\":\"Գառնի\" ... \"area\":\"520.00\",\"price\":280000'; movsesyanandpartners.am/project.html shows only 'GARNI Գառնի' with image portfolio-3..jpeg (different building); no Movsesyan mention anywhere in the muargroup content API"
+  },
+  "https://myhome.am/en/building/111": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 111 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 49th St 60 building 1 separately.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120»"
+  },
+  "https://myhome.am/en/building/112": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 112 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 49th St 60 building 2 separately and does not mention the Ameriabank partnership.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120»"
+  },
+  "https://myhome.am/en/building/113": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 113 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 49th St 60 building 3 separately.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120»"
+  },
+  "https://myhome.am/en/building/114": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 114 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 49th St 60 building 4 separately.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120»"
+  },
+  "https://myhome.am/en/building/115": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 115 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 38th St 21 building 5 separately.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120»"
+  },
+  "https://myhome.am/en/building/116": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "myhome.am removed building 116 (page and API 404; the current myhome Smart City entries 252-255 are the different Smart City 3 phase). The developer's Smart City 2 page describes the same 6-building/120-apartment complex, but does not list 38th St 21 building 6 separately.",
+   "checked": "2026-09-28",
+   "evidence": "«ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն ... կառուցվում է 15,044 մ2 հողատարածքի վրա` Բագրևանդ 49 հասցեում ... Առկա են 10 առանձնատներ և 6 քառահարկ բազմաբնակարան շենքերը ... Բնակարաններ - 120» (matches the myhome text '6 four-story residential buildings with 120 apartments and 10 three-story townhouses')"
+  },
+  "https://myhome.am/en/building/167": {
+   "drop": true,
+   "why": "myhome.am building 167 is gone (page and API 404), it was the only source for this project, and no other page naming Tachat-62 or the E. Mirzoyan 5 twin buildings was found.",
+   "checked": "2026-09-28",
+   "evidence": "Searches tried: Tachat 62 Edvard Mirzoyan 5 Yerevan; «ՏԱՃԱՏ-62» ՍՊԸ; \"Տաճատ-62\" Էդվարդ Միրզոյան 5; Tachat twins Antarayin Mirzoyan; current myhome list; karucapatoxic.am/en/kentron; novostroiki-yerevan.com sitemap (366 projects)."
+  },
+  "https://myhome.am/en/building/176": {
+   "url": "https://redgroup.am/projects/bnakaran-karucapatoxic-thehill",
+   "why": "myhome.am building 176 is gone (page and API both 404); the RED Group page for the same project names the address, the developer Tida 2023 and Ameriabank.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Դը Հիլլ Ռեզիդենս․ Կենտրոնից ընդամենը 5 րոպե...»; «The Hill» բնակելի համալիրը կառուցվում է Երևանի Նորք Մարաշ թաղամասի ... Գ. Հովսեփյան 64/7 հասցեում; «Կառուցապատող՝ «Տիդա 2023» ՍՊԸ Գործընկեր բանկ` «ԱՄԵՐԻԱԲԱՆԿ» ՓԲԸ ... Շինարարության ավարտ՝ նախատեսվում է 2026 թվականի նոյեմբերին»"
+  },
+  "https://myhome.am/en/building/210": {
+   "url": "https://leningradyan.am/en/",
+   "why": "myhome.am no longer lists this building (building 210 returns 404 from both the page and the API, and the listing omits it). The developer's site names it; it is already a source as leningradyan.am/en/#projects-abeghyan-14, but that anchor does not exist on the page.",
+   "checked": "2026-09-28",
+   "evidence": "leningradyan.am/en/: 'Completed Nash Group LLC 14 Manuk Abeghyan Premium class building Modern earthquake-resistant construction technologies were used, and the building has both an underground parking lot and a green yard.'"
+  },
+  "https://myhome.am/en/building/212": {
+   "url": "https://novostroiki-yerevan.com/en/p/noy-residence/",
+   "why": "myhome.am building 212 is gone (404). novostroiki-yerevan.com lists the same NOY Residence at 23/23 under the street's old name (Leningradyan, now Kirk Kerkorian). It gives the developer as 'Monte Pros' and completion 2027-05, which differ from the myhome data.",
+   "checked": "2026-09-28",
+   "evidence": "Title: \"Apartments in NOY RESIDENCE - Malatia-Sebastia, Yerevan, Leningradyan 23/23\"; \"NOY RESIDENCE Leningradyan 23/23 Malatia-Sebastia ... Price per m² $1 687/m² ... Status Under construction\""
+  },
+  "https://myhome.am/en/building/229": {
+   "url": "https://arcada.am/?app=AppProject&page=district&project_id=5",
+   "why": "myhome.am no longer lists Urmia: building 229 returns 404 from both the page and the API, and neither the buildings nor the projects listing contains it. The replacement is the developer Arcada's own project page, which is already another source for dignisi-139.",
+   "checked": "2026-09-28",
+   "evidence": "arcada.am project_id=5: '«Ուրմիա» բնակելի համալիրը գտնվում է ք․ Երևան, Տիգրան Պետրոսյան 81/2 հասցեում ... Համալիրը բաղկացած է 2 մասնաշենքից, յուրաքանչյուրը 17 հարկ'."
+  },
+  "https://myhome.am/en/building/231": {
+   "url": "https://dignisi.am/en/projects/urmia-319",
+   "why": "myhome building 231 returns 404, and Urmia is gone from myhome's building API (no match in 134 buildings or in projects); the Dignisi page is the same Urmia at T. Petrosyan 81/2. It now shows 'from 640,000 ֏/m²' rather than the 510,000 the dataset cites, so that price needs re-checking.",
+   "checked": "2026-09-28",
+   "evidence": "'Urmia Davtashen, T. Petrosyan str. 81/2 · Davtashen Under construction ... from 640,000 ֏ /m² ... Handover 2026 Areas 49.5–262.9 m² Floors 17'"
+  },
+  "https://myhome.am/en/building/259": {
+   "drop": true,
+   "why": "myhome.am building 259 is gone (page and API 404), it was the only source for this project, and no other page naming Mashtots Residence at Mashtots St 26, Etchmiadzin was found.",
+   "checked": "2026-09-28",
+   "evidence": "Searches tried: \"Mashtots Residence\" Ejmiatsin Mashtots 26; «Մաշտոց Ռեզիդենս» Էջմիածին Մաշտոցի 26; \"Mashtots Residence\" Etchmiadzin; current myhome filter_v2 list (133 buildings); karucapatoxic.am/en/echmiadzin; ACBA constructors list; novostroiki-yerevan.com sitemap."
+  },
+  "https://myhome.am/en/building/311": {
+   "url": "https://armconstruct.am/en/projects/five-towers",
+   "why": "myhome.am building 311 (block Z) is gone (404; myhome now lists only blocks D and E, ids 309/310). The developer's Five Towers page covers the whole complex at Gevorg Chaush 95, 23 floors, ending August 2031, but has no separate page for block Z.",
+   "checked": "2026-09-28",
+   "evidence": "Title \"Five Towers Residential Complex | Gevorg Chaush 95 | New Apartments in Yerevan | ARM Construct\"; \"The residential complex will consist of five buildings. Each building will have 23 ground floors ... End Date August 2031\""
+  },
+  "https://myhome.am/en/building/329": {
+   "url": "https://armeniagarden.am/",
+   "why": "myhome.am building 329 is gone (404). The project's own site names Armenia Garden in Abovyan and lists buildings 2Ա and 2Բ, which are presumably the myhome 2/1 and 2/2 buildings. That mapping is my inference: the page gives no block-275 numbering.",
+   "checked": "2026-09-28",
+   "evidence": "Rendered page: «Armenia Garden Բնակելի համալիր ... Նորակառույց համալիր Աբովյան քաղաքում»; «ՇԵՆՔ 2Ա ... ՇԵՆՔ 2Բ ... Բնակարաններ՝ 34-ից 78 քմ մակերեսով»"
+  },
+  "https://myhome.am/en/building/330": {
+   "url": "https://armeniagarden.am/",
+   "why": "myhome.am building 330 is gone (404). The project's own site names Armenia Garden in Abovyan and lists buildings 2Ա and 2Բ, which are presumably the myhome 2/1 and 2/2 buildings. That mapping is my inference: the page gives no block-275 numbering.",
+   "checked": "2026-09-28",
+   "evidence": "Rendered page: «Armenia Garden Բնակելի համալիր ... Նորակառույց համալիր Աբովյան քաղաքում»; «ՇԵՆՔ 2Ա ✔️ 1 քմ սկսած՝ 390,000 դրամից ✔️ Բնակարաններ՝ 34-ից 78 քմ մակերեսով»; «ՇԵՆՔ 2Բ ✔️ 1 քմ սկսած՝ 400,000 դրամից»; «Հասցեն ՝ Ք․ Աբովյան, մարզադաշտի հարևանությամբ»"
+  },
+  "https://narmarkshin.am/": {
+   "verified": true,
+   "why": "This is NARMARK's own site. It names the company and its only project claim, 'immediately adjacent to Davtashen', which is what the narmarkshinam-366 record rests on. For novostroikiyerevancom-895 it is only the developer's website field, and it does not mention 30th St 2nd Lane 13/2.",
+   "checked": "2026-09-28",
+   "evidence": "'Նարմարկ ընկերությունը հիմնադրվել է 2020թ-ին'; 'Անմիջապես Դավթաշեն թաղամասի հարևանությամբ'"
+  },
+  "https://nationalgroup.am/index.php/nor-avan-hamalir/": {
+   "url": "https://avan.am/en",
+   "why": "nationalgroup.am is suspended; the replacement is Avan Towers' own site, which is run by the developer ML Mining (mlmining.am/construction lists the project too).",
+   "checked": "2026-09-28",
+   "evidence": "avan.am: 'Ավան Թաուերս - ՄԼ Մայնինգ ընկերության կողմից կառուցվող պրեմիում բնակելի համալիր Ավանում' and 'Աճառյան 53/3, Ավան վարչական շրջան'; /en title 'Apartments in Avan, Yerevan | Avan Towers'."
+  },
+  "https://news.am/arm/news/855924.html": {
+   "verified": true,
+   "why": "news.am article naming Amirkhanyan (Khanjyan 29/1)",
+   "checked": "2026-09-28"
+  },
+  "https://news.am/hy/video/939647": {
+   "verified": true,
+   "why": "news.am report on Solar City's Davtashen complex",
+   "checked": "2026-09-28"
+  },
+  "https://novavan.am/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-06-at-22.19.59-3.jpeg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://novostroiki-yerevan.com/en/p/aygedzor-3/": {
+   "drop": true,
+   "why": "The novostroiki page is a different project (AYGEDZOR 3 at Aygedzor 3 by Tesaranshin, due 2026), not Platinum Homes at Aygedzor 18 (completed 2015). novostroiki has no Aygedzor 18 page, and the developer's platinumhomes.am no longer resolves.",
+   "checked": "2026-09-28",
+   "evidence": "Page: 'AYGEDZOR 3 Aygedzor 3 Arabkir ... Completion 2026-01 ... Developer Tesaranshin'; novostroiki sitemap-0.xml (366 en URLs) has only aygedzor-3; WebSearch '\"Platinum Homes\" Aygedzor Yerevan' found construction.am (already a source) and facebook.com/Aygedzor18; platinumhomes.am: no DNS."
+  },
+  "https://novostroiki-yerevan.com/en/p/azatutyun-multifunctional-complex/": {
+   "verified": true,
+   "why": "The page is novostroiki-yerevan's listing for this complex, and its name and address match.",
+   "checked": "2026-09-28",
+   "evidence": "'AZATUTYUN MULTIFUNCTIONAL COMPLEX Azatutyun Avenue 26/1 Qanaqer-Zeytun ... Completion 2027-08 Status Under construction'"
+  },
+  "https://player.vimeo.com/video/1172248485?h=07830c59d4&autoplay=0&title=0&byline=0&portrait=0&muted=0&api=1": {
+   "verified": true,
+   "why": "checked in Chrome: 'Premium residential complex Mountain Village on Vimeo', plays",
+   "checked": "2026-09-28"
+  },
+  "https://promgroup.am/en/project/double-towers/": {
+   "verified": true,
+   "why": "'Double Towers' is simply the English name for ԴԱԲԼ ԹԱՈՒԵՐՍ. Prom Group's page is for the same complex: its renders show the same towers, round pavilion and red walking track as ar-go.am's Davtashen 4th-district listing, and the record's email is info@promgroup.am.",
+   "checked": "2026-09-28",
+   "evidence": "promgroup.am/en/project/double-towers/: 'Double Towers ... In process In the Double Towers residential complex, a spacious and comfortable parking lot and a green zone are designed ... The total construction area is 33,217 square meters' (no address on the page; identity rests on matching renders)."
+  },
+  "https://redgroup.am/projects/bnakaran-karucapatoxic-avanresidence": {
+   "verified": true,
+   "why": "Live page is Avan Residence and names Malkhasyan Shin as the builder (tax ID 01263123 is not shown on the page).",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Ավան Ռեզիդենս բնակելի շենք․ Ավանում, հիփոթեք առանց կանխավճարի...»; «Կառուցապատող՝ «Ավան Ռեզիդենս» ՍՊԸ Շինարար՝ «Մալխասյան Շին» ՍՊԸ»"
+  },
+  "https://redgroup.am/projects/bnakaran-karucapatoxic-babajanyan72": {
+   "verified": true,
+   "why": "Live page names the project and the developer Narekatsi House in Armenian.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Բաբաջանյան 72 Բնակելի Շենք»; «Կառուցապատող՝ «Նարեկացի Հաուս» ՍՊԸ Նախագծող՝ «Կարպետ Դիզայն» ՍՊԸ Շինարարության սկիզբ՝ 08.2025 թ․ Շինավարտ՝ 08.2027թ․»"
+  },
+  "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown": {
+   "verified": true,
+   "why": "Live page is the Davtashen Town family district and names Villa Town House as developer.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Դավթաշեն Թաուն Ընտանեկան Թաղամաս»; «Շինարարության մեկնարկ 15.03.23թ Շինարարության ավարտ 15.02.25թ Գործընկեր բանկ՝ «Ֆասթ Բանկ» Կառուցապատող «Վիլլա Թաուն Հաուս» ՍՊԸ»; list entry «Դավթաշեն Թաուն Ընտանեկան Թաղամաս, Մելքումով թաղամաս, Սամվել Գևորգյան 106/21»"
+  },
+  "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown2": {
+   "verified": true,
+   "why": "Live page is Davtashen Town 2 and names Fast Bank as partner and Gloria Invest as developer; note it does NOT name Villa Town House (that name appears on the Davtashen Town 1 page).",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Դավթաշեն Թաուն 2 ՝ պատրաստ թաունհաուսներ եկամտային հարկով Դավթաշենում»; «Գործընկեր բանկ՝ «Ֆասթ Բանկ» ՓԲԸ Կառուցապատող «ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ Նախագծող «Պրոֆէներջի Գրուպ» ՍՊԸ Շինարար «Լոքս Բիլդինգ» ՍՊԸ»"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-21street": {
+   "verified": true,
+   "why": "The 'mismatch' was a transliteration miss: the live page names the project, S.S. Brothers (in Armenian) and Ardshinbank.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «21 Սթրիթ բնակելի շենք»; «Կառուցապատող՝ «Ս․Ս․ Եղբայրներ» ՍՊԸ Գործընկեր բանկեր՝ Արդշինբանկ։ Շին ավարտ՝ նախատեսվում է 2026թ․ մարտին»"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-dalantechnologypark": {
+   "verified": true,
+   "why": "The RED Group Dalan Technopark page (Tsitsernakaberd hwy 1/9) says construction is managed by 1SQ Estate Development. It does not name 1SQ-Argo or Dalan Technologies LLC.",
+   "checked": "2026-09-28",
+   "evidence": "'Դալան Տեխնոպարկ ... 9, Ծիծեռնակաբերդի 1 խճ.'; 'Կառուցապատման կառավարումն իրականացնում է 1SQ Estate Development ընկերությունը Նախագծող ՝ «Qproject» Շինարար՝ D...'"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-dalantechnologypark-apartments": {
+   "verified": true,
+   "why": "Live page is the Dalan Technopark Apartments project and names the developer 1SQ; for redinvestam-555 (the business-centre part) redgroup also has a separate page .../bnakarankarucapatoxic-dalantechnologypark.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Դալան Տեխնոպարկ Ապարտամենտներ»; «Կառուցապատումը և հետագա կառավարումն իրականացնելու է «1SQ» ՍՊԸ-ն: Վաճառքի բացառիկ իրավունքը պատկանում է «ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ-ին»; list entry «Դալան Տեխնոպարկ Ապարտամենտներ, կենտրոն, 9, Ծիծեռնակաբերդի 1 խճ.»"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-davitashenum": {
+   "verified": true,
+   "why": "Live page is the new building in Davtashen 2nd district 22/2 and names New Home and the 07/2020-12/2021 dates.",
+   "checked": "2026-09-28",
+   "evidence": "«ներկայացնում ենք «ՌԷԴ ԻՆՎԵՍԹ ԳՐՈՒՊ» ՍՊԸ-ի և «Նյու Հոմ» ՍՊԸ-ի նոր նախագիծը՝ Դավիթաշեն թաղամասում»; «Նախագծի շինարարության սկիզբը 07/2020։ Ավարտը՝ 12/2021։ Կառուցապատող՝ «Նյու Հոմ» ՍՊԸ»; list entry «Նորակառույց Բնակելի Շենք Դավթաշեն 2-րդ թաղամաս 22/2»"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-erebuni": {
+   "verified": true,
+   "why": "Live page is the Erebuni, 1/25 Davit Bek building and names Ecology Construction.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Էրեբունի, Դավիթ Բեկի փ․ 1/25 Բնակելի Շենք»; «ՌԷԴ Ինվեսթ Գրուպը և Էկոլոջի Քոնստրաքշնը ներկայացնում են...»; «Կառուցապատող՝ «Էկոլոջի քոնսթրաքշն» ՍՊԸ»"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-kievyanresidence": {
+   "verified": true,
+   "why": "The RED Group page is Kievyan Residence at Barbyus 66, with Kievyan Residence LLC as developer and 1SQ as manager.",
+   "checked": "2026-09-28",
+   "evidence": "'Կիևյան Ռեզիդենս Պրեմիում Դասի Բնակելի Համալիր'; 'Բարբյուսի 66 հասցեում'; 'Կառուցապատող՝ «ԿԻԵՎՅԱՆ ՌԵԶԻԴԵՆՍ» ՍՊԸ ... Նախագիծը կառավարող ընկերություն՝ «1SQ» ՍՊԸ'"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-sapfir": {
+   "verified": true,
+   "why": "The RED Group Sapfir page names Amikson Sapfir as developer and Azurit as builder, which is the cited claim.",
+   "checked": "2026-09-28",
+   "evidence": "'Սապֆիր - Գնի’ր այստեղ, մարզվի'ր Յուվենտուսում'; 'Կառուցապատող ընկերություն՝ «Ամիկսոն Սապֆիր» ՍՊԸ Շինարար՝ «Ազուրիտ» ՍՊԸ'"
+  },
+  "https://redgroup.am/projects/bnakarankarucapatoxic-westtown": {
+   "verified": true,
+   "why": "Live page is West Town and names the developer My Home Realty and the builder Malkhasyan Shin.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Վեսթ Թաուն Ընտանեկան Թաղամաս»; «Կառուցապատող՝ «Մայ Հոմ Ռիելթի» ՓԲԸ Շինարարական կազմակերպություն՝ «Մալխասյան Շին» ՍՊԸ»; list entry «Վեսթ Թաուն Ընտանեկան Թաղամաս, Աջափյակ, Ս.Լուկաշինի 3փ., 3/67»"
+  },
+  "https://renshin.am/": {
+   "verified": true,
+   "why": "Renshin's official site, and its project menu names all three projects.",
+   "checked": "2026-09-28",
+   "evidence": "Բարի գալուստ Renshin ընկերության վեբ կայք ... Նախագծեր Կասկադ համալիր Թումանյան 8 Սքայլայն Artlife Kempinski Residences Yerevan Բուզանդ 91"
+  },
+  "https://shinstroyhouse.am/": {
+   "url": "https://karucapatoxic.am/en/shin-stroy-house",
+   "why": "shinstroyhouse.am no longer resolves (DNS); the karucapatoxic developer page names Shin-Stroy House and lists both its projects (Duryan 2 and Wellstone). shinstroy.am is a live Wellstone-only site (Safaryan 11/11) but never names the company, so it was not used.",
+   "checked": "2026-09-28",
+   "evidence": "'Shin-Stroy House - 2 Projects in Avan'; 'Wellstone Residential complex 450,000 - 480,000 Dram /m²'; item list: 'Duryan 2 Residential Complex' (address_am 'Ավան, Դուրյան թաղամաս 5 փ. 56-58հ.')"
+  },
+  "https://shinstroyhouse.am/#duryan-2nd-street": {
+   "drop": true,
+   "why": "shinstroyhouse.am no longer exists (NXDOMAIN) and no working Shin-Stroy House website that names Duryan 2 could be confirmed.",
+   "checked": "2026-09-28",
+   "evidence": "Tried: DNS for shinstroyhouse.am/shin-stroy-house.am/shinstroyhouse.com (all NXDOMAIN); WebSearch 'Shin-Stroy House Duryan residential complex Avan' found only Facebook (61557849440024) and Instagram shin_stroyhouse. shinstroy.am is live but is a WELLSTONE (Safaryan 11/11, Avan) project site that names neither Shin-Stroy House nor Duryan, so it was not used."
+  },
+  "https://shinstroyhouse.am/#duryan-5th-street": {
+   "drop": true,
+   "why": "The developer's domain shinstroyhouse.am no longer resolves, and Shin-Stroy House's current site (shinstroy.am) only markets its Wellstone complex, so no page for Duryan 2 exists.",
+   "checked": "2026-09-28",
+   "evidence": "dig shinstroyhouse.am / www.shinstroyhouse.am: no DNS record; shinstroy.am has no mention of Duryan/Դուրյան; WebSearch '\"Shin-Stroy House\" Duryan', 'Դուրյան 2 բնակելի համալիր Ավան', '\"Դուրյան 2\" Շին-Ստրոյ' only returned karucapatoxic.am/en/172 (already a source) and unrelated Duryan House (RED/EDNO) pages."
+  },
+  "https://shinstroyhouse.am/wp-content/uploads/2024/09/459275020_122152701638261648_7923325830563946537_n.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://shinstroyhouse.am/wp-content/uploads/2024/09/photo_5424772848989365332_x.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://shinstroyhouse.am/wp-content/uploads/2024/09/photo_5424772848989365333_x.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://shinstroyhouse.am/wp-content/uploads/2024/09/photo_5424772848989365334_x.jpg": {
+   "drop": true,
+   "why": "image no longer loads (dns)",
+   "checked": "2026-09-28"
+  },
+  "https://sportcenterhotel.com": {
+   "drop": true,
+   "why": "sportcenterhotel.com is the Tsaghkadzor Sport Center hotel site and never mentions Baza Residence; no official Baza Residence website was found.",
+   "checked": "2026-09-28",
+   "evidence": "sportcenterhotel.com home/news pages contain no 'Baza', 'residence' or 'apartment' text ('Tsaghkadzor Sport Center & Hotel ... A stunning 4-star hotel'). Tried: WebSearch 'Baza Residence Tsaghkadzor', 'Բազա Ռեզիդենս Ծաղկաձոր'; DNS bazaresidence.am/baza-residence.am/bazaresidence.com (NXDOMAIN); only a Facebook page (Baza-Residence-61565550833832) exists."
+  },
+  "https://sportcenterhotel.com/": {
+   "drop": true,
+   "why": "sportcenterhotel.com is the Tsaghkadzor Sport Center hotel site and never mentions Baza Residence; no official Baza Residence website was found.",
+   "checked": "2026-09-28",
+   "evidence": "sportcenterhotel.com home/news pages contain no 'Baza', 'residence' or 'apartment' text ('Tsaghkadzor Sport Center & Hotel ... A stunning 4-star hotel'). Tried: WebSearch 'Baza Residence Tsaghkadzor', 'Բազա Ռեզիդենս Ծաղկաձոր'; DNS bazaresidence.am/baza-residence.am/bazaresidence.com (NXDOMAIN); only a Facebook page (Baza-Residence-61565550833832) exists."
+  },
+  "https://stservice.am/": {
+   "verified": true,
+   "why": "The ST-Service site (rendered in browser) features the Yeraz district and gives the same Adonts 8 address, so the reported mismatch came from unrendered JS.",
+   "checked": "2026-09-28",
+   "evidence": "«Երազ» բնակելի թաղամաս… Մեր քաղաքի ապագան ... «Էս Թի Սերվիս» ՍՊԸ-ն հիմնադրվել է 2009 ... Ադոնցի փող. 8, 0014, Երևան"
+  },
+  "https://stservice.am/about": {
+   "verified": true,
+   "why": "The page is a JS app: the raw HTML is an empty shell, which caused the 'mismatch'. Rendered in a browser, it names the Yeraz district and ST Service. It does not name Mikshin; mikshin.am/projects does.",
+   "checked": "2026-09-28",
+   "evidence": "Rendered text: «Երազ» բնակելի թաղամասի շինարարությունն ամբողջությամբ իրականացնում է «Էս Թի Սերվիս» ՍՊԸ-ն ... Ադոնցի փող. 8, 0014, Երևան"
+  },
+  "https://td.am/portfolio.html#paronyan-offices": {
+   "url": "https://td.am/paronyan.html",
+   "why": "The portfolio overview only has a short 'Paronyan Street Offices' card with no house number; td.am's own detail page for that property gives the exact address and year built.",
+   "checked": "2026-09-28",
+   "evidence": "td.am/paronyan.html: 'Paronyan Street Offices ... It's a mixed development with a commercial area at the first three floors ... Location Downtown, Yerevan 0015, 8 Paronyan Street ... Year Built 2005'."
+  },
+  "https://td.am/portfolio_res.html": {
+   "url": "https://td.am/paronyan_apt.html",
+   "why": "The residential portfolio overview only has a short 'Paronyan Street Apartments' card with no house number; the detail page is the same building's apartment listing, and its map points to 8 Paronyan Street.",
+   "checked": "2026-09-28",
+   "evidence": "td.am/paronyan_apt.html: 'Paronyan Street Apartments ... Location Downtown, Yerevan ... Year Built 2005'; embedded map q='Paronyan Street 8, Yerevan, Armenia'."
+  },
+  "https://technodom.am/plans/building-back": {
+   "url": "https://www.technotun.com/",
+   "why": "technodom.am no longer exists; the developer's own domain technotun.com (listed on its staff.am profile) redirects to its current site, which mentions its finished building near Cascade.",
+   "checked": "2026-09-28",
+   "evidence": "technotun.com -> pullmanyerevan.com: 'Since 2019, Technotun LLC has been shaping a brand-new culture in real estate. Our portfolio includes completing a multifunctional residential building near Cascade' ... '© 2025 by Technotun LLC'"
+  },
+  "https://tunmun.am/en/new/2536/": {
+   "url": "https://www.construction.am/apartments-in-new-developments/monte-melkonyan-m-l-house/",
+   "why": "tunmun.am refuses connections (ECONNREFUSED on 443 and 80); the construction.am listing for the same M.L. House at Monte Melkonyan 10 names Faith Built Construction as developer and shows 18 floors.",
+   "checked": "2026-09-28",
+   "evidence": "'Malatia-Sebastia, Monte Melkonyan 10, M.L. House ... Developer Faith Built Construction Completion 2024 / Completed ... Floors Above Ground 18'"
+  },
+  "https://tuscan.am/en/projects/architecture/garunavan-housing-project-yerevan/general": {
+   "url": "https://redgroup.am/projects/bnakarankarucapatoxic-garunavan4",
+   "why": "tuscan.am now redirects to Instagram and all its project URLs return 404 (garunavan.am no longer resolves); the RED Group Garunavan 4 page names Advanced Development as developer and Tuscan as designer.",
+   "checked": "2026-09-28",
+   "evidence": "og:title «Գարունավան 4 Առանձնատներ՝ ստացիր 7 ամսում՝ վճարիր 5 տարում»; «Կառուցապատումն իրականացվում է Advanced Development ընկերության կողմից»; «Կառուցապատող՝ «Ըդվանսդ Դիվելըփմենթ» ՍՊԸ Նախագծող՝ «Թոսքան» ՍՊԸ» (the Garunavan 2 and 3 pages say the same)"
+  },
+  "https://uploads.strikinglycdn.com/files/834a1a00-f3f4-4ddf-aefe-136b47186de1/FS_Prodeco_2016_Arm.pdf?id=240720": {
+   "verified": true,
+   "why": "The PDF downloads fine (200, application/pdf) and its cover names the company. The 'js' flag came from the text check not reading the PDF.",
+   "checked": "2026-09-28",
+   "evidence": "PDF text: «Փրոփերթի Դիվելոփմենթ Քամփնի» ՓԲԸ Ֆինանսական հաշվետվություններ 2016թ. դեկտեմբերի 31-ին ավարտվող տարվա համար"
+  },
+  "https://vbconstruction.am": {
+   "drop": true,
+   "why": "V&B Construction's domains no longer exist and the only website listed for it elsewhere (weconstruction.am) is also dead.",
+   "checked": "2026-09-28",
+   "evidence": "vbc.am, vbconstruction.am: NXDOMAIN. construction.am company page (now 'V Construction', Koryun 23) lists Website https://weconstruction.am/ - NXDOMAIN. Spyur lists only facebook.com/vbconstruction.realestate; LinkedIn has no site. WebSearch 'Gogol Plaza Yerevan V&B Construction' found only aggregators."
+  },
+  "https://ww.instagram.com/capital._park": {
+   "url": "https://www.instagram.com/capital._park/",
+   "projects": {
+    "acbaam-1124": null
+   },
+   "why": "host typo fixed; the account is Capital Park's (bio links capitalpark.am), so it is removed from Eritsuk, where a catalogue attached it by mistake",
+   "checked": "2026-09-28"
+  },
+  "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10203": {
+   "url": "https://acba.am/hy/individual/loans/mortgage-loans/8979",
+   "why": "The old URL only redirects to ACBA's new 'Բնակարաններ կառուցապատողներից' page, so the new canonical URL is used; that page still lists ROYAL RESIDENCE (card id 10203) at Halabyan 20/16.",
+   "checked": "2026-09-28",
+   "evidence": "card 'ՌՈՅԱԼ ՌԵԶԻԴԵՆՍ' - 'Կառուցապատող - «ՌՈՅԱԼ ՌԵԶԻԴԵՆՍ» ՍՊԸ'; 'Հասցե Երևան, Աջափնյակ, Հալաբյան 20/16'"
+  },
+  "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10491": {
+   "url": "https://acba.am/hy/individual/loans/mortgage-loans/8979",
+   "why": "The old URL only redirects to ACBA's new developer-projects page, so the canonical URL is used; that page lists VV8 RESIDENCE (card id 10491) by V.V.B LLC at Vagharshyan 8.",
+   "checked": "2026-09-28",
+   "evidence": "card 'ՎՎ8 ՌԵԶԻԴԵՆՍ' - 'Կառուցապատող - «Վ.Վ.Բ» ՍՊԸ'; 'Հասցե Երևան, Արաբկիր,ՎԱՂԱՐՇՅԱՆ Փ., 8'"
+  },
+  "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10751": {
+   "url": "https://acba.am/hy/individual/loans/mortgage-loans/8979",
+   "why": "The old URL only redirects to ACBA's new developer-projects page, so the canonical URL is used; that page lists GARUN HILLS (card id 10751) by VH Construction at Davit Anhaght 14/10.",
+   "checked": "2026-09-28",
+   "evidence": "card 'ԳԱՐՈՒՆ ՀԻԼԶ' - 'Կառուցապատող` «ՎՀ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ'; 'Հասցե ք. Երևան, Քանաքեռ Զեյթուն Դավիթ Անհաղթի փողոց թիվ 14/10'"
+  },
+  "https://www.americanaarmenia.com/": {
+   "projects": {
+    "geoln-150": null
+   },
+   "why": "the Americana Armenia homeowners' association site is right for the Americana community but never names Amelia Residence, so it is removed from Amelia only; checked in Chrome: 'HOME | Americana Armenia'",
+   "checked": "2026-09-28",
+   "verified": true
+  },
+  "https://www.amgroup.am/en/works/residential_yerevan_griboedov": {
+   "drop": true,
+   "why": "The AM Group page (a window/facade contractor's reference work) shows a small, older building on Griboyedov Street with no house number. Its photos date from 2018, so it cannot be Komitas Park phase 3 at Griboyedov 48 (14-16 floors, due 2028). The record's phone numbers +37410588424/+37493588424 are also AM Group's, not the developer's.",
+   "checked": "2026-09-28",
+   "evidence": "amgroup.am page text: only 'Residential building, Yerevan, Griboyedov str.' (no number, no developer); gallery griboedov_01.jpg (Last-Modified 2018-03-14) shows a ~6-storey stone building; no Komitas Park / Ord Development page exists on amgroup.am."
+  },
+  "https://www.arcada.am/": {
+   "verified": true,
+   "why": "The live home page names Arcada Construction and the Ember complex. A project-specific Ember page also exists (https://www.arcada.am/?app=AppProject&page=district&project_id=4, 'Էմբեր համալիր ք․ Երևան, Մոնթե Մելքոնյան 24'). The home page says the company was founded in 1997, not 1999.",
+   "checked": "2026-09-28",
+   "evidence": "«Բարի գալուստ «Արկադա Քոնսթրաքշն» ՍՊ ընկերության պաշտոնական կայքէջ» ... «ընկերությունը հիմնադրվել է 1997 թվականին»; «Էմբեր համալիր 01 Բազմաբնակարան շենքերի համալիր Համալիրը բաղկացած է 2 մասնաշենքից՝ 8 և 13 հարկ»"
+  },
+  "https://www.arlis.am/hy/acts/165209": {
+   "verified": true,
+   "why": "This is Government decision N 885-Ն of 4 June 2020 on selling apartments to public servants at Adonts 19/8, and it names ML Mining as the developer.",
+   "checked": "2026-09-28",
+   "evidence": "'Երևան քաղաքի Ադոնցի փողոցի N 19/8 հասցեում (Արաբկիր վարչական շրջան) «ՄԼ ՄԱՅՆԻՆԳ» սահմանափակ պատասխանատվությամբ ընկերության կողմից (այսուհետ՝ կառուցապատող)'"
+  },
+  "https://www.asba.am/images/gallery/3/100/8.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.asba.am/images/gallery/3/120/Jul-2014-2.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.asba.am/images/gallery/3/121/4.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.asba.am/images/gallery/3/124/Jul-2014-1.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.asba.am/images/gallery/3/132/1600-2.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.azdarar.am/announcments/org/366/00716640/": {
+   "drop": true,
+   "why": "the old bulletin archive page returns 404; notices before 2025-03 are not searchable on the new platform",
+   "checked": "2026-09-28"
+  },
+  "https://www.cba.am/hy/Publications/8713/": {
+   "verified": true,
+   "why": "UNVERIFIED: cba.am resets every connection from this machine (curl, headless Chrome) and from WebFetch, so the page could not be opened. The URL pattern /hy/Publications/NNNN/ is still the one cba.am uses for prospectus decisions (e.g. /hy/Publications/9233/ is indexed). News reports confirm the underlying fact: CBA decision 1/238 Ա of 16.07.2025 registered New Age Construction's bond prospectus. Re-check from a normal browser or an Armenian network.",
+   "checked": "2026-09-28",
+   "evidence": "Search result summaries of arka.am (blocked here by Cloudflare) state: 'The program prospectus for this 2025 issue was registered by the Central Bank of Armenia by Decision No. 1/238 A dated July 16, 2025'. factor.am/956205.html (opened) confirms «Նյու Էյջ Քոնսթրաքշն»-ը պարտատոմսեր է ցուցակել, 1 մլրդ 500 մլն դրամ."
+  },
+  "https://www.civilnet.am/news/658107/": {
+   "drop": true,
+   "why": "checked in Chrome: the video report on the Raffi 28 building never names Basis Grup, so it cannot be cited against that developer",
+   "checked": "2026-09-28"
+  },
+  "https://www.construction.am/companies/art-residence-developer-company/": {
+   "verified": true,
+   "why": "Art-Residence Developer Company page",
+   "checked": "2026-09-28"
+  },
+  "https://www.construction.am/companies/metsn-erik-construction-organization/": {
+   "verified": true,
+   "why": "checked in Chrome: the developer's company page, 'Brawerk (Metsn Erik Construction Organization)'",
+   "checked": "2026-09-28"
+  },
+  "https://www.datocms-assets.com/62348/1751125028-renshin_fs-2024_english.pdf": {
+   "verified": true,
+   "why": "Renshin's audited 2024 statements open, and they name Renshin LLC (registered 2 Oct 2002), ArtLife Residences LLC and World Trade Center Yerevan CJSC.",
+   "checked": "2026-09-28",
+   "evidence": "'We have audited the consolidated financial statements of Renshin LLC'; 'In July 2023 the Company founded ArtLife Residences LLC'; 'World Trade Center Yerevan CJSC (the Subsidiary)'"
+  },
+  "https://www.e-register.am/ru/companies/1401347": {
+   "url": "https://e-register.moj.am/ru/companies/52853349",
+   "why": "The old e-register.am company ID now 404s; the official register at e-register.moj.am has the card for Mountain Village LLC, tax ID 00243739.",
+   "checked": "2026-09-28",
+   "evidence": "'\"МАУНТИН ВИЛИДЖ\" ООО ... ИНН 00243739 Уникальный идентификатор 52853349 Адрес ԲԱՂՐԱՄՅԱՆ ՊՈՂՈՏԱ, 6, ԵՐԵՎԱՆ'"
+  },
+  "https://www.ecoshingroup.am": {
+   "verified": true,
+   "why": "the developer group's own site; myhome.am/en/building/80 lists ԳՐԻՆՎՈՒԴ ՌԵԶԻԴԵՆՍ ՍՊԸ with Ecoshin",
+   "checked": "2026-09-28"
+  },
+  "https://www.elizabeth.am/hy": {
+   "drop": true,
+   "why": "elizabeth.am no longer exists, and no other website for Elizabeth Residence or its developer Hrag LLC was found.",
+   "checked": "2026-09-28",
+   "evidence": "elizabeth.am/www.elizabeth.am: NXDOMAIN (search engines still index it). Developer per findin.am: 'HRAG LLC is proud to introduce its first project ... ELIZABETH RESIDENCE', 22 Gevorg Emin street; hragllc.am/hragllc.com: no DNS, hrag.am 404; elizabethresidence.com is an unrelated US senior-care site. Only facebook.com/hragllc.am remains."
+  },
+  "https://www.evoca.am/file_manager/constractors/SV&amp;GA2.jpg": {
+   "url": "https://www.evoca.am/file_manager/constractors/SV&GA2.jpg",
+   "why": "the stored image URL kept HTML entities (&amp;, &laquo;); decoded, it loads",
+   "checked": "2026-09-28"
+  },
+  "https://www.evoca.am/file_manager/constractors/SV&amp;GA4.jpg": {
+   "url": "https://www.evoca.am/file_manager/constractors/SV&GA4.jpg",
+   "why": "the stored image URL kept HTML entities (&amp;, &laquo;); decoded, it loads",
+   "checked": "2026-09-28"
+  },
+  "https://www.evoca.am/file_manager/constractors/karucapatox-&laquo;Նորթերն-Գեյթս&raquo;-ՍՊԸ-2-web[1].jpg": {
+   "url": "https://www.evoca.am/file_manager/constractors/karucapatox-«Նորթերն-Գեյթս»-ՍՊԸ-2-web[1].jpg",
+   "why": "the stored image URL kept HTML entities (&amp;, &laquo;); decoded, it loads",
+   "checked": "2026-09-28"
+  },
+  "https://www.evoca.am/file_manager/constractors/karucapatox-&laquo;Նորթերն-Գեյթս&raquo;-ՍՊԸ-web.png": {
+   "url": "https://www.evoca.am/file_manager/constractors/karucapatox-«Նորթերն-Գեյթս»-ՍՊԸ-web.png",
+   "why": "the stored image URL kept HTML entities (&amp;, &laquo;); decoded, it loads",
+   "checked": "2026-09-28"
+  },
+  "https://www.evoca.am/file_manager/constractors/v&amp;v.jpg": {
+   "url": "https://www.evoca.am/file_manager/constractors/v&v.jpg",
+   "why": "the stored image URL kept HTML entities (&amp;, &laquo;); decoded, it loads",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com": {
+   "drop": true,
+   "why": "the Facebook home page, not ADA Tech's page - a scraping leftover",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/ArmaniErebuniResidence": {
+   "url": "https://www.facebook.com/profile.php?id=100093470167410",
+   "why": "old page deleted; Erebuni-Armani, Erebuni 5, armanierebuni@list.ru",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/ArmeniaGardenHamalir/": {
+   "url": "https://www.facebook.com/ArmeniaGardenResidence",
+   "why": "old page deleted; 'Armenia Garden Բնակելի Թաղամաս', new apartments in Abovyan",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/GTSBuilding/": {
+   "verified": true,
+   "why": "GTS Construction page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/Luxuryapartment.am": {
+   "verified": true,
+   "why": "Luxury apartment page (Zeytun)",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/RetroRealty": {
+   "verified": true,
+   "why": "Retro Realty sales page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/Sahakyanshin2018": {
+   "verified": true,
+   "why": "Sahakyanshin page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/ShushiPalaceResidentialComplex/": {
+   "url": "https://www.facebook.com/ShushiPalaceRC",
+   "why": "old page deleted; Shushi Palace RC, Nazarbekyan 44, Ajapnyak",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/WixStudio": {
+   "drop": true,
+   "why": "the Wix website-builder's page, a template leftover, not IVY Garden",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/abovyancityhousellc/": {
+   "url": "https://www.facebook.com/abovyancityhouse",
+   "why": "old page deleted; Abovyan City House, residential complex in Abovyan",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/artcompanyarmenia/": {
+   "verified": true,
+   "why": "ArtCompany developer page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/dalmahillspremium/": {
+   "url": "https://www.facebook.com/dalmahillspremiumcomplex",
+   "why": "old page deleted; 'Դալմա Հիլզ Պրեմիում Համալիր', Adonts 21",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/hausamllc": {
+   "url": "https://www.facebook.com/profile.php?id=100089006133878",
+   "why": "old page deleted; Haus.am's current developer page (Real Estate Developer, 'Haus.am')",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/lusabacyerevan?rdid=M9Bpm2r5MlRZe1Jm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AmxhYihr3#": {
+   "verified": true,
+   "why": "Lusabac Yerevan page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/p/E1-Residence-100089550075649/": {
+   "verified": true,
+   "why": "E1 Residence page, address Acharyan 35/19",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/people/Navasard/61553810724403/": {
+   "verified": true,
+   "why": "Navasard page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=100010266496382": {
+   "drop": true,
+   "why": "a private person's profile (Armen Harutyunyan), not the Davit-Bek complex",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=100051247831963": {
+   "drop": true,
+   "why": "a generic 'apartment sales' personal profile with nothing tying it to Retro Realty",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=100063776204874": {
+   "drop": true,
+   "why": "unavailable even when logged in; no page for the Frunze residential complex found",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=100072066070263": {
+   "drop": true,
+   "why": "unavailable even when logged in; no current page for the 19/9 Kirk Kerkorian building found",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=100093405620312": {
+   "url": "https://www.facebook.com/profile.php?id=61556909770858",
+   "why": "old page deleted; current Monument Hills page gives the address Davit Anhaght 6",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=61557178150647": {
+   "verified": true,
+   "why": "Rkey.am, the sales agency for the project",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=61557178150647&ref=NONE_xav_ig_profile_page_web#": {
+   "verified": true,
+   "why": "Rkey.am, the sales agency for the project",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=61563063566025": {
+   "verified": true,
+   "why": "Parklife Eco Residency's page (visible when logged in)",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=61577299761414": {
+   "verified": true,
+   "why": "Verelq777 page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/profile.php?id=61586555004344#": {
+   "verified": true,
+   "why": "AUREX Real Estate page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/rencospa": {
+   "verified": true,
+   "why": "Renco spa, the builder's official page",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/safcapital": {
+   "verified": true,
+   "why": "Saf Capital page, address Leningradyan 29/9",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/share/193pkubMhe/": {
+   "drop": true,
+   "why": "unavailable even when logged in; no Azbuka Development page on Facebook (the only 'Azbuka' is an Australian shop)",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/silverrealestateagency": {
+   "verified": true,
+   "why": "Silver REA, the official sales agent",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/silverrealestateagency?locale=ru_RU": {
+   "verified": true,
+   "why": "Silver REA, the official sales agent",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/silverrealestateagency?mibextid=ZbWKwL": {
+   "verified": true,
+   "why": "Silver REA, the official sales agent",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/soldrealty.estate/": {
+   "verified": true,
+   "why": "Sold Realty, the sales agency",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/vbconstruction.realestate": {
+   "drop": true,
+   "why": "unavailable even when logged in; no page for V&B / V Construction or Gogol Plaza found",
+   "checked": "2026-09-28"
+  },
+  "https://www.facebook.com/yerazbnakeli": {
+   "verified": true,
+   "why": "Yeraz residential district page",
+   "checked": "2026-09-28"
+  },
+  "https://www.garunavan.am/en/about-us": {
+   "url": "https://redgroup.am/projects/bnakarankarucapatoxic-nornorqum-garunavan3",
+   "why": "garunavan.am no longer resolves (DNS), and the Tuscan and AEB pages found by search are 404 or now redirect to Instagram. The RED Group Garunavan 3 page names Advanced Development as developer and Tuscan as project author (2020–2022); Garunavan 2 and 4 have matching pages on redgroup.am. None of them names director Armen Khodabakhshyan, so that part of the summary is no longer sourced.",
+   "checked": "2026-09-28",
+   "evidence": "'Գարունավան 3 Բնակելի Թաղամաս ... Նախագծի շինարարության սկիզբը 09/2020 ավարտը՝ 09/2022 Կառուցապատող՝ «Ըդվանսդ Դիվելըփմենթ» ՍՊԸ Նախագծի հեղինակ՝ «Թոսքան» ՍՊԸ'"
+  },
+  "https://www.hamedil.am/en/projects/talin-multihouse": {
+   "drop": true,
+   "why": "Hamedil's rebuilt site no longer lists Talin Multihouse. Its only other Talin project, Talina Business Center, is a commercial building of offices and shops at Komitas 6, not the 30-apartment residential building.",
+   "checked": "2026-09-28",
+   "evidence": "hamedil.am/en/projects/work-5: 'Talina Business Center ... Կոմիտաս 6 հասցեում վեր խոյացող 5 հարկանի «Թալինա» բիզնես կենտրոնը ... ժամանակակից գրասենյակներ և խանութներ'; sitemap has only work-5/work-6; WebSearch as for Talin Queen: no results."
+  },
+  "https://www.hamedil.am/en/projects/talin-queen": {
+   "drop": true,
+   "why": "Hamedil's rebuilt site lists only Hamedil Residence (3 floors, R. Levonyan 87-93, Talin) and Talina Business Center (5-floor commercial, Komitas 6). Talin Queen (9 floors, 48 apartments) is no longer anywhere on the site or the web.",
+   "checked": "2026-09-28",
+   "evidence": "hamedil.am/sitemap.xml: only /projects/work-5 and /projects/work-6; hamedil.am/en/projects and home page mention neither 'Queen' nor 'Multihouse'; /en/works 404; WebSearch 'Hamedil \"Talin Queen\" OR \"Թալին Քուին\" OR \"Talin Multihouse\"': no relevant results."
+  },
+  "https://www.hsbc.am/special-offers/nork/": {
+   "drop": true,
+   "why": "hsbc.am no longer exists (HSBC Armenia's site is gone) and no official Norq Residential Complex website was found.",
+   "checked": "2026-09-28",
+   "evidence": "www.hsbc.am: NXDOMAIN. Tried WebSearch 'Norq residential complex Sero Khanzadyan 119 Yerevan' and 'Նորք բնակելի համալիր Սերո Խանզադյան 119'; found only a Facebook page (norqresidentialcomplex) and aggregators; norq.am/nork-residence.am NXDOMAIN."
+  },
+  "https://www.instagram.com/komitaspark/": {
+   "verified": true,
+   "why": "checked in Chrome: 'komitaspark - Կոմիտաս Պարկ բնակելի թաղամաս'",
+   "checked": "2026-09-28"
+  },
+  "https://www.libertyone.am/media/interior-balcony-courtyard.jpg": {
+   "drop": true,
+   "why": "image no longer loads (missing)",
+   "checked": "2026-09-28"
+  },
+  "https://www.linkedin.com/company/deka-am/": {
+   "drop": true,
+   "why": "LinkedIn returns 404 for /company/deka-am even though deka.am still links it. No current LinkedIn page for Deka (Armenia) could be found; the company's YouTube channel (UCZGIrHna_-SRTv7W1GaqXsg, 'DEKA Development Company') is live and already in the record.",
+   "checked": "2026-09-28",
+   "evidence": "curl www/am.linkedin.com/company/deka-am: 404 on repeated tries; WebSearch 'linkedin Deka Armenia deka.am company' and '\"Deka\" Yerevan construction houses linkedin.com/company' returned only unrelated Deka companies (Georgia, Germany, US)."
+  },
+  "https://www.linkedin.com/company/sportcenterhotel/": {
+   "drop": true,
+   "why": "LinkedIn returns 404 for /company/sportcenterhotel even though the hotel's own site still links to it. No other LinkedIn page for this hotel or Baza Residence could be confirmed.",
+   "checked": "2026-09-28",
+   "evidence": "curl www/am.linkedin.com/company/sportcenterhotel: 404 on repeated tries (other companies return 200); sportcenterhotel.com still links the same dead URL; WebSearch 'linkedin \"Sport Center Hotel\" Tsaghkadzor' found only the same URL plus 'Tsaghkadzor General Sport Complex' (website sportcomplexhotel.com, which could not be confirmed as the same business)."
+  },
+  "https://www.lragir.am/2019/03/20/427234/": {
+   "url": "https://168.am/2019/03/22/1098308.html",
+   "why": "lragir.am no longer resolves (DNS); a 168.am article from 22 March 2019 reports the same 8-building 'Veratsnund' youth village at Monte Melkonyan 44.",
+   "checked": "2026-09-28",
+   "evidence": "'Կկառուցվի 8 բնակելի շենք ունեցող «Վերածնունդ» երիտասարդական ավան Երևանի Մոնթե Մելքոնյան, 44 հասցեում կկառուցվի «Վերածնունդ» երիտասարդական ավան' (168.am, Մարտ 22 2019)"
+  },
+  "https://www.mikshin.am/projects": {
+   "verified": true,
+   "why": "Mikshin's live projects page (rendered in browser) lists the Yeraz residential district, and the company sits at Adonts 8.",
+   "checked": "2026-09-28",
+   "evidence": "Նախագծեր Երազ բնակելի թաղամաս Երազ բիզնես պարկ ... Ադոնցի փող. 8, 0014, Երևան"
+  },
+  "https://www.minfin.am/website/images/website/List.pdf": {
+   "verified": true,
+   "why": "The PDF opens, and the MinFin list includes Art Company (00117212), the RENCO S.p.A. branch (02546651) and Renco ArmEstate.",
+   "checked": "2026-09-28",
+   "evidence": "'48 00117212 «ԱՐՏՔՈՄՓԱՆԻ» Խոշոր կամ միջին կազմակերպություն'; '273 02546651 «ՌԵՆԿՈ Ս.Պ.Ա» ԲԱԺՆԵՏԻՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅԱՆ ՄԱՍՆԱՃՅՈՒՂ'; '281 02560091 «ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ»'"
+  },
+  "https://www.prodeco.am/projects": {
+   "verified": true,
+   "why": "checked in Chrome: the developer's own projects page («Փրոփերթի Դիվելոփմենթ Քամփնի» ՓԲԸ)",
+   "checked": "2026-09-28"
+  },
+  "https://www.redinvest.am/en/developers/279": {
+   "verified": true,
+   "why": "title 'Kievyan Residential Complex of Premium Class', Barbius 66, developer KIEVIAN RESIDENCE LLC",
+   "checked": "2026-09-28"
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-kievyanresidence": {
+   "url": "https://www.redinvest.am/en/developers/279",
+   "why": "The redinvest.am slug URL is now a loading shell with no project content; the numeric page id 279 is Kievyan Residence (RED API id 279).",
+   "checked": "2026-09-28",
+   "evidence": "redinvest.am/en/developers/279: title 'Kievyan Residential Complex of Premium Class'; 'Kievyan Residential Complex of Premium Class, Barbius 66 Developer: \"KIEVIAN RESIDENCE\" LLC'."
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-leningradyan": {
+   "url": "https://www.redinvest.am/en/developers/214",
+   "why": "The redinvest.am slug URL is now a loading shell with no project content; the numeric page id 214 is Level 16 (RED API id 214).",
+   "checked": "2026-09-28",
+   "evidence": "redinvest.am/en/developers/214: title 'Level 16 New Residential Complex․ Completed building...'; 'Level 16 New Residential Complex, Leningradyan 29/17 Start of the construction -10/2021. End date: 06/2026'."
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-shushipalace": {
+   "url": "https://www.redinvest.am/en/developers/297",
+   "why": "The redinvest.am slug URL is now a loading shell with no project content; the site serves projects at numeric ids, and id 297 is Shushi Palace (RED API id 297).",
+   "checked": "2026-09-28",
+   "evidence": "redinvest.am/en/developers/297: title 'Shushi Palace -Start renovations today. Private 1-hectare park, near Akademgorodok'; 'Shushi Palace Multifunctional Residential Complex in Ajapnyak, Nazarbekyan 44/13'."
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-smartcity": {
+   "url": "https://smart-city.am/Community?communityId=1",
+   "why": "The redinvest.am page is a third-party agency listing whose content is not readable; the developer's own site has a page for Smart City 1.",
+   "checked": "2026-09-28",
+   "evidence": "ՍՄԱՐԹ ՍԻԹԻ 1 թաղամասն առանձնացված պարսպապատ փակ թաղամաս է ... Բագրևանդ 49 հասցեում ... կառուցվում է Գլոբալ Ռիըլ Իսթեյթ ընկերության (կապալառու-կառուցապատող) կողմից"
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-smartcity2": {
+   "url": "https://smart-city.am/Community?communityId=2",
+   "why": "The redinvest.am page is a third-party agency listing whose content is not readable; the developer's own site has a page for Smart City 2.",
+   "checked": "2026-09-28",
+   "evidence": "ՍՄԱՐԹ ՍԻԹԻ 2 թաղամասն առանձնացված պարսպապատ փակ թաղամաս է ... Բագրևանդ 49 հասցեում"
+  },
+  "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-smartcity3": {
+   "url": "https://smart-city.am/Community?communityId=3",
+   "why": "The redinvest.am page is a third-party agency listing whose content is not readable; the developer's own site has a page for Smart City 3.",
+   "checked": "2026-09-28",
+   "evidence": "ՍՄԱՐԹ ՍԻԹԻ 3 թաղամասն առանձնացված պարսպապատ փակ թաղամաս է ... Բագրևանդ 49 հասցեում"
+  },
+  "https://www.retroshin.am/": {
+   "verified": true,
+   "why": "Retro Shin's own site (rendered in browser) presents the Atlantic Plaza complex.",
+   "checked": "2026-09-28",
+   "evidence": "Բնակելի համալիր Ատլանտիկ պլազա ... © 2023 Ռետրո Շին ՍՊԸ"
+  },
+  "https://www.retroshin.am/hy/buildings": {
+   "verified": true,
+   "why": "The page is script-rendered, and its data API (api.retroshin.am) serves building A1 at Samvel Gevorkyan 4 and the complex title 'Atlantic Plaza', so the page shows the cited project in a browser.",
+   "checked": "2026-09-28",
+   "evidence": "API /front/api/v1/buildings: '\"address\":\"Самвел Геворкян 4\",\"slug\":\"A1\",\"floorsCount\":18'; /about: '\"title\":\"Բնակելի համալիր Ատլանտիկ պլազա\"'; bundle footer '© Copyright 2022 Retroshin LLC'"
+  },
+  "https://www.spyur.am/am/companies/tesaran-residential-complex/57113/": {
+   "verified": true,
+   "why": "spyur.am «Տեսարան» residential complex",
+   "checked": "2026-09-28"
+  },
+  "https://www.sreal.am/from-developer/21": {
+   "url": "https://www.silver-realestate.am/am/developer/cmscvr4vs000clg04tfogds22",
+   "why": "sreal.am now redirects to silver-realestate.am where the old id is 404; this is the Midis Park page of Silver REA, which Evocabank names as the project's sales manager.",
+   "checked": "2026-09-28",
+   "evidence": "MIDIS PARK PRJ-02 MIDIS PARK Կոտայքի մարզ , գ․Ձորաղբյուր 2 թաղամաս 10 հասցե; Evocabank: 'Midis Park Developer: \"Midis Construction\" LLC Phone: + 374 55 386 500 ... Sales Manager: Silver Rea' (same phone +374 55 386 500 on the Silver REA page)"
+  },
+  "https://www.sundayeveryday.am/": {
+   "url": "https://sundaytowers.am/",
+   "why": "sundayeveryday.am renders a blank page; sundaytowers.am is the Sunday Towers site",
+   "checked": "2026-09-28"
+  },
+  "https://www.vahakni.com/en/about": {
+   "url": "https://www.vahakni.com/en",
+   "why": "/en/about no longer exists and redirects to the home page; the English home page itself states that Hovnanian International L.T.D. builds Vahakni.",
+   "checked": "2026-09-28",
+   "evidence": "\"The Vahakni Residential Community ... is constructed and built by Hovnanian International L.T.D., which operates in the Armenian construction and real estate market for 17 years.\""
+  },
+  "https://www.vbc.am/single-page/7": {
+   "drop": true,
+   "why": "V&B Construction's domains no longer exist and the only website listed for it elsewhere (weconstruction.am) is also dead.",
+   "checked": "2026-09-28",
+   "evidence": "vbc.am, vbconstruction.am: NXDOMAIN. construction.am company page (now 'V Construction', Koryun 23) lists Website https://weconstruction.am/ - NXDOMAIN. Spyur lists only facebook.com/vbconstruction.realestate; LinkedIn has no site. WebSearch 'Gogol Plaza Yerevan V&B Construction' found only aggregators."
+  },
+  "https://www.yerevan.am/uploads/media/default/0002/66/fff1c4d192e18bf95a49cf616950c07b5c8ef758.pdf": {
+   "verified": true,
+   "why": "Yerevan Mayor's decision 4248-Ա: «ՏԱՃԱՏ-62» ՍՊԸ building at E. Mirzoyan 5, 27 apartments",
+   "checked": "2026-09-28"
+  },
+  "https://www.youtube.com/@renshinurbaninvestments": {
+   "url": "https://www.youtube.com/@renshininvest",
+   "why": "The @renshinurbaninvestments handle is gone; Renshin's current YouTube channel is @renshininvest. It hosts the Renshin-Kempinski signing video and links renshin.am.",
+   "checked": "2026-09-28",
+   "evidence": "youtube.com/@renshininvest: og:title 'Renshin'; description 'An innovative urban development company based in Yerevan, Armenia envisioning, financing, and executing cutting-edge urban development projects.'; links renshin.am."
+  },
+  "https://www.youtube.com/@sahakyanshin8852": {
+   "url": "https://www.youtube.com/@sahakyanshin7777",
+   "why": "The @sahakyanshin8852 handle is gone; the company's current YouTube channel is @sahakyanshin7777. Its description names SAHAKYANSHIN and links sahakyanshin.com, although sahakyanshin.com still links the dead handle.",
+   "checked": "2026-09-28",
+   "evidence": "youtube.com/@sahakyanshin7777: og:title 'SAHAKYANSHIN'; description 'SAHAKYANSHIN is an Armenia-based, construction services company and is a leading builder...'; links to sahakyanshin.com."
+  },
+  "https://yerevan.etagi.com/en-us/zastr/jk/davtashen-residence-54402/": {
+   "verified": true,
+   "why": "checked in Chrome: etagi listing 'DAVTASHEN RESIDENCE', Davtashen",
+   "checked": "2026-09-28"
+  },
+  "https://yerevan.etagi.com/en-us/zastr/jk/e1-residence-54389/": {
+   "verified": true,
+   "why": "checked in Chrome: etagi listing 'E1 Residence' by ԳՐԱՆԴՇԻՆ, Avan",
+   "checked": "2026-09-28"
+  },
+  "https://yerevan.etagi.com/en-us/zastr/jk/jk-55122/": {
+   "verified": true,
+   "why": "checked in Chrome: etagi listing 'Բնակելի Համալիր <<Մալխասյանց>>', Arabkir",
+   "checked": "2026-09-28"
+  },
+  "https://zover.am/hy": {
+   "url": "https://www.zover.am/",
+   "why": "zover.am/hy now returns 404; the Zover Estates home page is live and presents Zard as its current project.",
+   "checked": "2026-09-28",
+   "evidence": "Zover Estates - Residential developer in Armenia ... Zard, our largest, is in pre-sale - reservations are open now. ... Zard location Kanakeravan, adjacent to Yerevan"
+  }
+ }
+}

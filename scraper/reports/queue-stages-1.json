@@ -1,0 +1,70 @@
+[
+ {
+  "id": "kp-220",
+  "title": "Armavir Residential Complex",
+  "developer": "ML Mining",
+  "address": "Marshal Baghramyan Street 39",
+  "district": "Armavir (other)",
+  "region": "Armavir",
+  "lat": 40.16133333333333,
+  "lng": 44.02761111111111,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": "8,15",
+  "reason": "unknown stage",
+  "sources": [
+   "https://karucapatoxic.am/en/220"
+  ]
+ },
+ {
+  "id": "movsesyanandpartnersam-516",
+  "title": "Avan project",
+  "developer": "Movsesyan & Partners",
+  "address": "Avan, Yerevan",
+  "district": "Avan",
+  "region": "Yerevan",
+  "lat": 40.2202471,
+  "lng": 44.5725091,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://movsesyanandpartners.am/project.html#avan-project"
+  ]
+ },
+ {
+  "id": "evocaam-1141",
+  "title": "Avenue Group LLC",
+  "developer": "Avenue Group",
+  "address": "Zovuni 30th St 33/1, Zovuni village, Nairi community, Kotayk",
+  "district": "Zovuni",
+  "region": "Kotayk",
+  "lat": 40.23858,
+  "lng": 44.496734,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#6-avenue-group-llc"
+  ]
+ },
+ {
+  "id": "evocaam-1167",
+  "title": "SHIN SERVICE GROUP LLC",
+  "developer": "SHIN SERVICE GROUP",
+  "address": "B district, 4th street, 2nd alley 6/1, Arinj, Kotayk",
+  "district": "Arinj",
+  "region": "Kotayk",
+  "lat": 40.237834,
+  "lng": 44.583143,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#32-shin-service-group-llc"
+  ]
+ }
+]

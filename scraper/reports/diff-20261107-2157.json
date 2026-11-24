@@ -1,0 +1,48 @@
+{
+ "old_count": 684,
+ "new_count": 680,
+ "added": [],
+ "removed": [
+  "Aygedzor 42 mansion",
+  "Mansion in Davtashen",
+  "Garni project",
+  "Davtashen project"
+ ],
+ "price": [
+  {
+   "title": "Vv8 Rezidens",
+   "from": 2201,
+   "to": 2912,
+   "pct": 32.3
+  }
+ ],
+ "stage": [
+  {
+   "title": "Vv8 Rezidens",
+   "from": "finished",
+   "to": "in progress"
+  }
+ ],
+ "moved": [
+  {
+   "title": "Vv8 Rezidens",
+   "metres": 1936
+  },
+  {
+   "title": "Griboyedov Park",
+   "metres": 219
+  }
+ ],
+ "grade": [
+  {
+   "developer": "V.v.b",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": "C",
+   "to": "B"
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "id": "movsesyanandpartnersam-513",
+  "title": "Garni project",
+  "verdict": "unverifiable",
+  "wrong_merge_urls": [
+   "https://muargroup.am/projects/4"
+  ],
+  "evidence_url": "https://movsesyanandpartners.am/project.html",
+  "evidence_text": "GARNI / Գառնի - portfolio card with one render, no price",
+  "notes": "price, area and completion came from muargroup.am/projects/4, a different company's private house"
+ },
+ {
+  "id": "dignisi-139",
+  "title": "Urmia",
+  "verdict": "corrected",
+  "amd_m2": 640000,
+  "usd_m2": 1756,
+  "currency_shown": "AMD",
+  "apartment_from_total": null,
+  "apartment_from_area_m2": 49.5,
+  "wrong_merge_urls": [
+   "https://myhome.am/en/building/231",
+   "https://myhome.am/en/building/229"
+  ],
+  "evidence_url": "https://dignisi.am/en/projects/urmia-319",
+  "evidence_text": "from 640,000 ֏ /m² ... Areas 49.5–262.9 m² ... Updated 28 September 2026",
+  "notes": "the 510,000 AMD/m² came from myhome.am buildings 229/231, which are gone; no page shows a cheapest-apartment price"
+ },
+ {
+  "id": "myhomeam-745",
+  "title": "Noy Residence",
+  "verdict": "corrected",
+  "usd_m2": 1687,
+  "currency_shown": "USD",
+  "apartment_from_total": 55502,
+  "apartment_from_area_m2": 32.9,
+  "wrong_merge_urls": [
+   "https://myhome.am/en/building/212"
+  ],
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/noy-residence/",
+  "evidence_text": "Price from $55 502 Price per m² $1 687/m² Area from 32.9 m² Completion 2027-05",
+  "notes": "myhome.am building 212 is gone; novostroiki (updated 2026-08-30) is the only live listing"
+ },
+ {
+  "id": "myhomeam-748",
+  "title": "Mashtots 26",
+  "verdict": "unverifiable",
+  "wrong_merge_urls": [],
+  "evidence_url": "https://idbank.am/documents/IDBank%20constructors%20pptt.pdf",
+  "evidence_text": "ՍԱՄԱՐՄ ՍՊԸ / Մաշտոց ռեզիդենս / ք․ Էջմիածին, Սուրբ Մեսրոպ Մաշտոցի փողոց, հ․ 26",
+  "notes": "myhome.am building 259 is gone; no live page shows a price"
+ },
+ {
+  "id": "myhomeam-852",
+  "title": "Tachat 62",
+  "verdict": "unverifiable",
+  "wrong_merge_urls": [],
+  "evidence_url": "https://www.yerevan.am/uploads/media/default/0002/66/fff1c4d192e18bf95a49cf616950c07b5c8ef758.pdf",
+  "evidence_text": "«ՏԱՃԱՏ-62» ՍՊԸ-ին ... Է. Միրզոյան փողոցի հ.5 ... բազմաբնակարան բնակելի շենք",
+  "notes": "myhome.am building 167 is gone; no live page shows a price"
+ },
+ {
+  "id": "hamedilam-689",
+  "title": "Talina Business Center",
+  "verdict": "unverifiable",
+  "wrong_merge_urls": [],
+  "evidence_url": "https://www.hamedil.am/en/projects/work-5",
+  "evidence_text": "Availability Նախավաճառքը շուտով",
+  "notes": "presale has not opened; the old apartment price was for a project that no longer exists in that form"
+ },
+ {
+  "id": "acbaam-1116",
+  "title": "Hamedil Residence",
+  "verdict": "corrected",
+  "amd_m2": 360000,
+  "usd_m2": 988,
+  "usd_m2_max": 1056,
+  "currency_shown": "AMD",
+  "apartment_from_area_m2": 49,
+  "evidence_url": "https://www.hamedil.am/en/projects/work-6",
+  "evidence_text": "360,000 դրամ/քմ (մեկնարկային գին) ... մինչև 385,000 դրամ/քմ ... Area 49–100 m²",
+  "notes": "developer's own page"
+ },
+ {
+  "id": "constructionam-6",
+  "verdict": "confirmed",
+  "amd_m2": 630000,
+  "currency_shown": "AMD",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/komitas-park/",
+  "evidence_text": "Price: 630 000 - 700 000 AMD, depending on the floor and orientation",
+  "wrong_merge_urls": [],
+  "notes": "Range 630,000-700,000 AMD/m² (amd_m2_max should be 700000, not 698500). Same floor price on dignisi 'from 630,000 /m²' (updated 27 Sep 2026)."
+ },
+ {
+  "id": "movsesyanandpartnersam-515",
+  "verdict": "unverifiable",
+  "currency_shown": null,
+  "evidence_url": "https://movsesyanandpartners.am/project.html",
+  "evidence_text": "DAVTASHEN Դավթաշեն, Ք. Երևան",
+  "wrong_merge_urls": [
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown"
+  ],
+  "notes": "No price anywhere; last_known_prices_by_rooms came from Davtashen Town (Villa Town House) and must be cleared."
+ },
+ {
+  "id": "geoln-158",
+  "verdict": "unverifiable",
+  "currency_shown": null,
+  "evidence_url": "http://elitegroup.am/en/projects/23/",
+  "evidence_text": "⇒ Sold Out ⇐",
+  "wrong_merge_urls": [
+   "http://elitegroup.am/en/projects/6/"
+  ],
+  "notes": "Unchanged: sold out, no current price."
+ },
+ {
+  "id": "dignisi-122",
+  "title": "Komitas Park (Phases 1-2)",
+  "verdict": "unverifiable",
+  "wrong_merge_urls": [
+   "https://dignisi.am/en/projects/komitas-park-residential-district-363"
+  ],
+  "evidence_url": "https://komitaspark.am/en/p/about-district",
+  "evidence_text": "no price published for phases 1-2",
+  "notes": "the 630,000 AMD/m² belonged to phase 3 (dignisi), now on constructionam-6"
+ }
+]

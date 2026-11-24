@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="hy" class="i18n-pending">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title data-i18n="map.title">Armenia New Builds Map</title>
+  <script>
+    // The Google Maps key only allows the "localhost" referrer; 127.0.0.1 gets "Oops! Something went wrong".
+    if (location.hostname === "127.0.0.1") location.replace(location.href.replace("//127.0.0.1", "//localhost"));
+    // Hidden until the dictionary is applied, so the English source text does not flash; never longer than 2.5 s.
+    setTimeout(() => document.documentElement.classList.remove("i18n-pending"), 2500);
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@85..100,400..700&family=Noto+Sans+Armenian:wght@400..700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar left" id="left">
+      <header class="brand">
+        <div class="brand-row"><h1 data-i18n="brand">New builds in Armenia</h1>
+          <button type="button" class="lang-switch" data-lang-switch><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9M12 3c-2.5 2.6-3.8 5.6-3.8 9s1.3 6.4 3.8 9"/></svg><span class="lang-code">EN</span></button></div>
+        <a class="brand-link" href="https://colombo-am.github.io/" data-i18n="nav.home">← All projects</a>
+        <a class="brand-link" href="analytics.html" data-i18n="nav.analytics">Analytics</a>
+        <p id="meta-line" class="muted" data-i18n="common.loading">Loading…</p>
+      </header>
+
+      <div class="search">
+        <input id="q" type="search" placeholder="Search projects or any place in Armenia…" data-i18n-attr="placeholder:map.search_placeholder" autocomplete="off">
+      </div>
+
+      <div class="quick" aria-label="Quick filters" data-i18n-attr="aria-label:filters.quick">
+        <label class="qf"><span data-i18n="filters.stage">Stage</span><select id="f-status">
+          <option value="" data-i18n="filters.any_stage">Any stage</option>
+          <option value="finished" data-i18n="stage.finished">Finished</option>
+          <option value="in progress" data-i18n="stage.in progress">In progress</option>
+          <option value="just started" data-i18n="stage.just started">Just started</option>
+          <option value="not started" data-i18n="stage.not started">Not yet started</option>
+          <option value="stalled" data-i18n="stage.stalled">Stalled / frozen</option>
+          <option value="unknown" data-i18n="stage.unknown">Unknown</option>
+        </select></label>
+        <label class="qf"><span data-i18n="filters.rating">Developer rating</span><select id="f-grade">
+          <option value="" data-i18n="filters.any_rating">Any rating</option><option value="A" data-i18n="filters.a_only">A only</option><option value="B" data-i18n="filters.b_better">B or better</option><option value="C" data-i18n="filters.c_better">C or better</option>
+        </select></label>
+        <label class="qf"><span data-i18n="filters.region">Region</span><select id="f-region"><option value="">All regions</option></select></label>
+        <label class="qf"><span data-i18n="filters.max_ppm">Max $/m²</span><input id="f-pmax" type="number" min="0" step="50" placeholder="Any" data-i18n-attr="placeholder:common.any" inputmode="numeric"></label>
+      </div>
+      <div class="chips-bar" id="active-chips" hidden></div>
+
+      <details class="filters" id="more-filters">
+        <summary><span data-i18n="filters.more">More filters</span> <span id="active-filters" class="pill" hidden></span></summary>
+        <div class="fgroup">
+          <h4 data-i18n="filters.location">Location</h4>
+          <div class="grid2">
+            <label><span data-i18n="filters.district">District</span><select id="f-district"><option value="">All districts</option></select></label>
+            <label><span data-i18n="filters.source">Source</span><select id="f-source"><option value="">All sources</option></select></label>
+            <label class="span2"><span data-i18n="filters.developer">Developer</span><select id="f-dev"><option value="">All developers</option></select></label>
+          </div>
+          <div class="checks">
+            <label><input id="f-view" type="checkbox"> <span data-i18n="filters.in_view">Only in map view</span></label>
+            <label><input id="f-precise" type="checkbox"> <span data-i18n="filters.precise">Precise location only</span></label>
+          </div>
+        </div>
+        <div class="fgroup">
+          <h4 data-i18n="filters.price">Price</h4>
+          <div class="grid2">
+            <label><span data-i18n="filters.min_ppm">Min $/m²</span><input id="f-pmin" type="number" min="0" step="50" placeholder="Any" data-i18n-attr="placeholder:common.any" inputmode="numeric"></label>
+            <label><span data-i18n="filters.budget">Apartments from, up to $</span><input id="f-budget" type="number" min="0" step="5000" placeholder="e.g. 90000" data-i18n-attr="placeholder:filters.budget_ph" inputmode="numeric"></label>
+          </div>
+          <div class="checks">
+            <label><input id="f-deal" type="checkbox"> <span data-i18n="filters.deal">Below local median</span></label>
+            <label><input id="f-priced" type="checkbox"> <span data-i18n="filters.priced">Has price</span></label>
+            <label><input id="f-tax" type="checkbox"> <span data-i18n="filters.tax">Income-tax refund</span></label>
+          </div>
+        </div>
+        <div class="fgroup">
+          <h4 data-i18n="filters.project">Project</h4>
+          <div class="grid2">
+            <label><span data-i18n="filters.kind">Type</span><select id="f-kind"><option value="">Any</option></select></label>
+            <label><span data-i18n="filters.ready_by">Ready by</span><select id="f-year"><option value="">Any</option></select></label>
+            <label><span data-i18n="filters.info">Info completeness</span><select id="f-info">
+              <option value="" data-i18n="common.any">Any</option><option value="70" data-i18n="filters.info_70">70% or more</option><option value="80" data-i18n="filters.info_80">80% or more</option><option value="90" data-i18n="filters.info_90">90% or more</option>
+            </select></label>
+          </div>
+          <div class="checks">
+            <label><input id="f-hidesold" type="checkbox"> <span data-i18n="filters.hide_sold">Hide sold out</span></label>
+            <label><input id="f-clean" type="checkbox"> <span data-i18n="filters.clean">No legal red flags</span></label>
+          </div>
+        </div>
+      </details>
+
+      <div class="listbar">
+        <span id="count" class="count"></span>
+        <button id="reset" class="link" type="button" data-i18n="filters.clear_all">Clear all</button>
+        <label class="sort"><span class="sr-only" data-i18n="filters.sort_by">Sort by</span>
+          <select id="sort">
+            <option value="deal" data-i18n="sort.deal">Best deal</option>
+            <option value="ppm" data-i18n="sort.ppm">Lowest $/m²</option>
+            <option value="from" data-i18n="sort.from">Cheapest apartment</option>
+            <option value="soon" data-i18n="sort.soon">Ready soonest</option>
+            <option value="rep" data-i18n="sort.rep">Best developer</option>
+            <option value="info" data-i18n="sort.info">Most complete info</option>
+            <option value="pop" data-i18n="sort.pop">Most viewed</option>
+            <option value="name" data-i18n="sort.name">Name A–Z</option>
+          </select>
+        </label>
+        <div class="seg" id="currency" aria-label="Currency" data-i18n-attr="aria-label:common.currency">
+          <button data-cur="USD" class="on" type="button">$</button><button data-cur="AMD" type="button">֏</button>
+        </div>
+      </div>
+      <ul id="list" class="list" role="listbox" aria-label="Projects" data-i18n-attr="aria-label:list.aria"></ul>
+    </aside>
+
+    <main class="mapwrap">
+      <div id="map"></div>
+      <button id="toggle-left" class="fab left-fab" aria-label="Toggle project list" data-i18n-attr="aria-label:map.toggle_list">☰</button>
+      <div class="maptools">
+        <div class="zoomlvl" id="zoomlvl" title="Map zoom level" data-i18n-attr="title:map.zoom_title" aria-live="polite">Zoom -</div>
+        <div class="seg basemap" id="viewmode">
+          <button data-mode="2d" class="on" title="Street map" data-i18n-attr="title:map.view_2d_title" data-i18n="map.view_2d">2D</button><button data-mode="3d" title="Street map with 3D buildings" data-i18n-attr="title:map.view_3d_title" data-i18n="map.view_3d">3D</button><button data-mode="photo" title="Photorealistic 3D (hybrid)" data-i18n-attr="title:map.view_photo_title" data-i18n="map.view_photo">Photo 3D</button>
+        </div>
+      </div>
+      <div class="ctrl3d" id="ctrl3d" hidden>
+        <button data-cam="zoom-in" title="Zoom in" data-i18n-attr="title:map.cam_zoom_in; aria-label:map.cam_zoom_in">＋</button>
+        <button data-cam="zoom-out" title="Zoom out" data-i18n-attr="title:map.cam_zoom_out; aria-label:map.cam_zoom_out">−</button>
+        <button data-cam="rotate-left" title="Rotate left" data-i18n-attr="title:map.cam_rotate_left; aria-label:map.cam_rotate_left">⟲</button>
+        <button data-cam="rotate-right" title="Rotate right" data-i18n-attr="title:map.cam_rotate_right; aria-label:map.cam_rotate_right">⟳</button>
+        <button data-cam="tilt-up" title="Tilt up" data-i18n-attr="title:map.cam_tilt_up; aria-label:map.cam_tilt_up">⤒</button>
+        <button data-cam="tilt-down" title="Tilt down" data-i18n-attr="title:map.cam_tilt_down; aria-label:map.cam_tilt_down">⤓</button>
+        <button data-cam="north" title="Reset north" data-i18n-attr="title:map.cam_north; aria-label:map.cam_north" data-i18n="map.cam_north_short">N</button>
+        <button data-cam="orbit" title="Orbit around (click again to stop)" data-i18n-attr="title:map.cam_orbit; aria-label:map.cam_orbit" aria-pressed="false">◎</button>
+      </div>
+      <div class="legend collapsed" id="legend">
+        <button class="legend-head" id="legend-toggle" type="button" aria-expanded="false"><strong data-i18n="map.legend">Developers</strong><span class="chev" aria-hidden="true"></span></button>
+        <ul id="legend-list"></ul>
+      </div>
+    </main>
+
+    <aside class="sidebar right" id="right" hidden>
+      <button id="close-right" class="close" aria-label="Close details" data-i18n-attr="aria-label:map.close_details">×</button>
+      <div id="details"></div>
+    </aside>
+  </div>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="close" aria-label="Close image" data-i18n-attr="aria-label:map.close_image">×</button>
+    <button class="nav prev" aria-label="Previous image" data-i18n-attr="aria-label:map.prev_image">‹</button>
+    <img alt="" referrerpolicy="no-referrer">
+    <button class="nav next" aria-label="Next image" data-i18n-attr="aria-label:map.next_image">›</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

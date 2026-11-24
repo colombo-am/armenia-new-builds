@@ -1,0 +1,20 @@
+{
+ "https://ar-go.am/project/davtashen2": {
+  "lat": 40.2235,
+  "lng": 44.4745,
+  "precision": "district",
+  "note": "Davtashen area of Nairi community (Kotayk), next to Yerevan's Davtashen"
+ },
+ "https://ar-go.am/project/davithashen-nairi": {
+  "lat": 40.2235,
+  "lng": 44.4745,
+  "precision": "district",
+  "note": "Davtashen area of Nairi community (Kotayk)"
+ },
+ "https://goghtvalley.com/en/buildings": {
+  "lat": 40.138734,
+  "lng": 44.77834,
+  "precision": "exact",
+  "note": "Goght village (Garni community); the site's map pin points east of Yerevan"
+ }
+}

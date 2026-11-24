@@ -1,0 +1,253 @@
+import { loadData } from "./data.js";
+import { createMap } from "./map.js";
+import { renderList, scrollToItem } from "./list.js";
+import { renderDetails, createLightbox } from "./details.js";
+import {
+  initFilterOptions, refreshFacets, markChangedFilters, readFilters, applyFilters, sortProjects,
+  activeFilterCount, resetFilters, setDeveloperFilter, FILTER_IDS,
+} from "./filters.js";
+import { esc, debounce, state } from "./util.js";
+import { initI18n, t, tv, langTag } from "./i18n.js";
+import { createSearch } from "./search.js";
+import { enhanceLongSelects } from "./combobox.js";
+import { validateLocation } from "./placecheck.js";
+
+const $ = (id) => document.getElementById(id);
+const app = { projects: [], developers: [], visible: [], selectedId: null, mapApi: null };
+
+function legend() {
+  const f = readFilters();
+  const shown = new Set(app.visible.map((p) => p.developer_group));
+  const named = app.developers.filter((d) => !d.inferred || d.count > 1);
+  const others = app.developers.length - named.length;
+  $("legend-list").innerHTML = named.map((d) => `
+    <li class="${shown.has(d.name) ? "" : "dim"} ${f.dev === d.name ? "on" : ""}" data-dev="${esc(d.name)}" title="${esc(t("map.legend_filter", { name: d.name }))}">
+      <span class="dot" style="background:${d.color}"></span><span class="name">${esc(d.name)}</span><span class="n">${d.count}</span>
+    </li>`).join("") + (others ? `<li class="muted small">${esc(t("map.legend_others", { n: others }))}</li>` : "");
+}
+
+function hashSelect(id) {
+  const url = new URL(location.href);
+  if (id) url.hash = `p=${encodeURIComponent(id)}`; else url.hash = "";
+  history.replaceState(null, "", url);
+}
+
+function select(id, { fly = true } = {}) {
+  const p = app.projects.find((x) => x.id === id);
+  if (!p) return;
+  app.selectedId = id;
+  $("right").hidden = false;
+  document.body.classList.add("has-right");
+  renderDetails($("details"), p, openLightbox, (dev) => { setDeveloperFilter(dev); update({ fit: true }); });
+  checkPlace(p);
+  app.mapApi.select(id, { fly });
+  $("list").querySelectorAll(".item.selected").forEach((el) => { el.classList.remove("selected"); el.setAttribute("aria-selected", "false"); });
+  const li = $("list").querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+  if (li) { li.classList.add("selected"); li.setAttribute("aria-selected", "true"); scrollToItem($("list"), id); }
+  hashSelect(id);
+  if (matchMedia("(max-width: 900px)").matches) document.body.classList.remove("left-open");
+}
+
+/** Validate the selected project's address with Google and show the precise place (pin + Places UI Kit card). */
+async function checkPlace(p) {
+  const box = $("details").querySelector("#gplace");
+  if (!box) return;
+  box.innerHTML = `<p class="muted small">${esc(t("place.checking"))}</p>`;
+  try {
+    await app.mapApi.ready;
+    const best = await validateLocation(p);
+    if (app.selectedId !== p.id) return;
+    if (!best) {
+      box.innerHTML = `<p class="muted small">${esc(t("place.none"))}</p>`;
+      app.mapApi.clearPlace();
+      return;
+    }
+    const verdict = best.distance_m <= 150 ? "good" : best.distance_m <= 600 ? "ok" : "high";
+    box.innerHTML = `
+      <div class="kv"><span>${esc(t("place.match"))}</span><b>${esc(best.name ? `${best.name} - ` : "")}${esc(best.address || "")}</b></div>
+      <div class="kv"><span>${esc(t("place.precision"))}</span><b>${esc(tv("place_precision", best.precision))} <span class="muted small">(${esc(t(best.source === "place" ? "place.places_api" : "place.geocoder"))})</span></b></div>
+      <div class="kv"><span>${esc(t("place.distance"))}</span><b><span class="badge ${verdict}">${esc(t("place.distance_value", { m: best.distance_m, verdict: t(`place.${verdict}`) }))}</span></b></div>
+      <div class="row"><button class="chip" id="gplace-go">${esc(t("place.show"))}</button>
+      <a class="chip" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${best.location.lat},${best.location.lng}${best.placeId ? `&query_place_id=${encodeURIComponent(best.placeId)}` : ""}&hl=${langTag()}">${esc(t("place.open_gmaps"))}</a></div>
+      ${best.source === "place" && best.placeId ? `<gmp-place-details-compact orientation="horizontal"><gmp-place-details-place-request place="${esc(best.placeId)}"></gmp-place-details-place-request><gmp-place-standard-content></gmp-place-standard-content></gmp-place-details-compact>` : ""}`;
+    app.mapApi.showPlace(best, p);
+    box.querySelector("#gplace-go").onclick = () => app.mapApi.focusPlace(best);
+    if (box.querySelector("gmp-place-details-compact")) await google.maps.importLibrary("places");
+  } catch (err) {
+    console.warn(err);
+    box.innerHTML = `<p class="muted small">${esc(t("place.unavailable", { error: err.message }))}</p>`;
+  }
+}
+
+function closeDetails() {
+  app.mapApi.clearPlace();
+  app.selectedId = null;
+  $("right").hidden = true;
+  document.body.classList.remove("has-right");
+  app.mapApi.select(null, { fly: false });
+  $("list").querySelectorAll(".item.selected").forEach((el) => el.classList.remove("selected"));
+  hashSelect(null);
+}
+
+function update({ fit = false, pinsOnly = false } = {}) {
+  const f = readFilters();
+  const base = applyFilters(app.projects, { ...f, inView: false }, null);
+  app.visible = sortProjects(f.inView ? applyFilters(base, f, app.mapApi.bounds()) : base, f.sort);
+  if (!pinsOnly) {
+    app.mapApi.setProjects(base).then(() => {
+      if (app.selectedId && base.some((p) => p.id === app.selectedId)) app.mapApi.select(app.selectedId, { fly: false });
+      if (fit) app.mapApi.fitTo(base);
+    });
+  }
+  renderList($("list"), app.visible, app.selectedId, (id) => select(id));
+  const n = activeFilterCount(f);
+  $("active-filters").hidden = n === 0;
+  $("active-filters").textContent = n;
+  $("count").textContent = t("common.projects", { n: app.visible.length });
+  $("count").title = t("list.count_title", { n: app.visible.length, total: app.projects.length });
+  $("reset").hidden = activeFilterCount(f) === 0 && !f.q;
+  refreshFacets(app.projects, f, f.inView ? app.mapApi.bounds() : null);
+  markChangedFilters(f, () => update({ fit: true }), $("active-chips"));
+  legend();
+}
+
+function bindControls() {
+  const onChange = () => update();
+  $(FILTER_IDS.q).addEventListener("input", debounce(onChange, 120));
+  $(FILTER_IDS.region).addEventListener("change", () => {
+    const f = readFilters();
+    if (f.district && !app.projects.some((p) => p.region === f.region && p.district === f.district)) $(FILTER_IDS.district).value = "";
+    update({ fit: true });
+  });
+  for (const k of ["district", "dev"]) $(FILTER_IDS[k]).addEventListener("change", () => update({ fit: true }));
+  for (const k of ["kind", "status", "year", "deal", "priced", "tax", "inView", "sort", "info", "source", "hideSold", "precise", "grade", "clean"]) $(FILTER_IDS[k]).addEventListener("change", onChange);
+  for (const k of ["pmin", "pmax", "budget"]) $(FILTER_IDS[k]).addEventListener("input", debounce(onChange, 250));
+  $("reset").addEventListener("click", () => { resetFilters(); update({ fit: true }); });
+
+  $("currency").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-cur]");
+    if (!b) return;
+    state.currency = b.dataset.cur;
+    $("currency").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    update({ pinsOnly: true });
+    if (app.selectedId) select(app.selectedId, { fly: false });
+  });
+  $("viewmode").addEventListener("click", async (e) => {
+    const b = e.target.closest("button[data-mode]");
+    if (!b) return;
+    $("viewmode").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    await app.mapApi.setView(b.dataset.mode);
+    $("ctrl3d").hidden = b.dataset.mode !== "photo";
+  });
+  $("ctrl3d").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-cam]");
+    if (b) app.mapApi.camera3d(b.dataset.cam);
+  });
+  $("legend-list").addEventListener("click", (e) => {
+    const li = e.target.closest("li[data-dev]");
+    if (!li) return;
+    setDeveloperFilter(readFilters().dev === li.dataset.dev ? "" : li.dataset.dev);
+    update({ fit: true });
+  });
+  $("legend-toggle").addEventListener("click", () => {
+    const collapsed = $("legend").classList.toggle("collapsed");
+    $("legend-toggle").setAttribute("aria-expanded", String(!collapsed));
+  });
+  $("close-right").addEventListener("click", closeDetails);
+  $("toggle-left").addEventListener("click", () => {
+    const mobile = matchMedia("(max-width: 900px)").matches;
+    document.body.classList.toggle(mobile ? "left-open" : "left-collapsed");
+    setTimeout(() => app.mapApi.map && google.maps.event.trigger(app.mapApi.map, "resize"), 220);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !e.defaultPrevented && $("lightbox").hidden && !$("right").hidden) closeDetails();
+    if (e.key === "/" && document.activeElement?.tagName !== "INPUT") { e.preventDefault(); $("q").focus(); }
+  });
+}
+
+/**
+ * Google's own failure screen only says "Oops! Something went wrong", so state what is wrong and
+ * which URL has to be allowed on the key.
+ */
+function showMapKeyError(url) {
+  if ($("map-error")) return;
+  const box = document.createElement("div");
+  box.id = "map-error";
+  box.className = "map-error";
+  box.innerHTML = `
+    <h2>${esc(t("map.key_error_title"))}</h2>
+    <p>${t("map.key_error_why")}</p>
+    <p>${t("map.key_error_fix")}</p>
+    <p><code>${esc(new URL(url || location.href).origin)}/*</code></p>
+    <p class="muted small">${esc(t("map.key_error_note"))}</p>`;
+  $("map").append(box);
+  $("meta-line").textContent = t("map.key_error_meta");
+}
+
+/**
+ * A rejected key does not always reach gm_authFailure — with the vector renderer Maps sometimes only
+ * paints its own error screen — so watch for that screen appearing inside the map.
+ */
+function watchForAuthError() {
+  const host = $("map");
+  const seen = () => host.querySelector(".gm-err-container");
+  const watch = new MutationObserver(() => { if (seen()) { watch.disconnect(); showMapKeyError(); } });
+  watch.observe(host, { childList: true, subtree: true });
+  if (seen()) { watch.disconnect(); showMapKeyError(); return; }
+  // A rejected key does not always paint that screen: sometimes the map just stays empty, so also
+  // treat "no tiles at all" as a failure. Hidden tabs never draw tiles, hence the visibility check.
+  app.mapApi.ready.then(() => {
+    let loaded = false;
+    google.maps.event.addListenerOnce(app.mapApi.map, "tilesloaded", () => { loaded = true; });
+    setTimeout(() => { if (!loaded && document.visibilityState === "visible" && !seen()) showMapKeyError(); }, 12000);
+  }).catch(() => {});
+}
+
+let openLightbox = () => {};
+
+async function main() {
+  // The data needs no dictionary, so it downloads while the translations load.
+  const data = loadData();
+  data.catch(() => {});  // awaited below; this only keeps an early failure from being reported as unhandled
+  await initI18n();
+  $("zoomlvl").textContent = t("map.zoom", { z: "-" });
+  openLightbox = createLightbox($("lightbox"));
+  app.mapApi = createMap($("map"), {
+    onSelect: (id) => select(id, { fly: false }),
+    onMove: () => { if (readFilters().inView) update({ pinsOnly: true }); },
+    onZoom: (z) => { $("zoomlvl").textContent = t("map.zoom", { z: Number.isFinite(z) ? Math.round(z * 10) / 10 : "-" }); },
+  });
+  try {
+    const { meta, projects, developers } = await data;
+    Object.assign(app, { projects, developers });
+    state.rate = meta.amd_per_usd || state.rate;
+    $("meta-line").textContent = t("map.meta", { projects: t("common.projects", { n: projects.length }), developers: developers.length, date: meta.generated, rate: meta.amd_per_usd });
+    initFilterOptions(projects);
+    bindControls();
+    app.mapApi.ready.then(() => createSearch($("q"), {
+      projects: () => app.projects,
+      onProject: (id) => select(id),
+      onPlace: (place) => { app.mapApi.showPlace(place); app.mapApi.focusPlace(place); },
+      bias: () => app.mapApi.map?.getBounds() || null,
+    })).catch((err) => { $("meta-line").textContent = err.message; });
+    app.mapApi.ready.catch((err) => {
+      $("meta-line").textContent = t("map.not_loaded", { error: err.message });
+    });
+    window.addEventListener("gmaps-auth-failed", (e) => showMapKeyError(e.detail?.url));
+    watchForAuthError();
+    update();
+    enhanceLongSelects();
+    const m = location.hash.match(/p=([^&]+)/);
+    if (m) select(decodeURIComponent(m[1]));
+    const dev = location.hash.match(/dev=([^&]+)/);
+    if (dev) {
+      setDeveloperFilter(decodeURIComponent(dev[1]));
+      update({ fit: true });
+    }
+  } catch (err) {
+    console.error(err);
+    $("meta-line").textContent = t("common.load_failed", { error: err.message });
+  }
+}
+
+main();

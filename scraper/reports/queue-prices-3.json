@@ -1,0 +1,194 @@
+[
+ {
+  "id": "dignisi-283",
+  "title": "Shunch Residential Complex",
+  "developer": "Unknown developer",
+  "district": "Arabkir",
+  "current_usd_m2": 2911,
+  "current_amd_m2": 1050000,
+  "usd_from": null,
+  "reasons": [
+   "-35.6% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "dignisi.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1050000.0,
+    "raw": "from 1,050,000 ֏/m²",
+    "usd_m2": 2911
+   }
+  ],
+  "source_urls": [
+   "https://dignisi.am/en/projects/shunch-residential-complex-385"
+  ]
+ },
+ {
+  "id": "citynestam-668",
+  "title": "TM Tower",
+  "developer": "Tigran Mets Group (Shinas )",
+  "district": "Malatia-Sebastia",
+  "current_usd_m2": 1525,
+  "current_amd_m2": 550000,
+  "usd_from": 198331,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "citynest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 550000.0,
+    "raw": "AMD 550,000-800,000 per m2 (citynest.am)",
+    "usd_m2": 1525
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 520000.0,
+    "raw": "from 520,000 AMD/m²; apartment from 26,000,000 AMD",
+    "usd_m2": 1442
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1150000.0,
+    "raw": "2-room apartment from 71,530,000.0 AMD / 62.2 m²",
+    "usd_m2": 3189
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 840000.0,
+    "raw": "3-room apartment from 75,936,000.0 AMD / 90.4 m²",
+    "usd_m2": 2329
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1188153.3101045296,
+    "raw": "4-room apartment from 136,400,000.0 AMD / 114.8 m²",
+    "usd_m2": 3294
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 432692.0,
+    "raw": "from 432,692 AMD/m²; apartment from 20,358,000 AMD",
+    "usd_m2": 1200
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 740000.0,
+    "raw": "3-room apartment from 74,518,000.0 AMD / 100.7 m²",
+    "usd_m2": 2052
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1768.0,
+    "amd": null,
+    "raw": "$1 768/m²; from $178 038",
+    "usd_m2": 1768
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 2040.0,
+    "amd": null,
+    "raw": "$2 040/m²; from $92 004",
+    "usd_m2": 2040
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/181",
+   "https://myhome.am/en/building/182",
+   "https://novostroiki-yerevan.com/en/p/tsitsernakaberd-road-11-1-2/",
+   "https://novostroiki-yerevan.com/en/p/tsitsernakaberd-road-11-1/"
+  ]
+ },
+ {
+  "id": "myhomeam-887",
+  "title": "Magnolia Comfort · Zard By Zover Estates 16 bldg",
+  "developer": "Magnolia Comfort",
+  "district": "Kotayk (other)",
+  "current_usd_m2": 915,
+  "current_amd_m2": 330000,
+  "usd_from": 45345,
+  "reasons": [
+   "39.5% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 330000.0,
+    "raw": "from 330,000 AMD/m²; apartment from 16,354,000 AMD",
+    "usd_m2": 915
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 340000.0,
+    "raw": "2-room apartment from 16,354,000.0 AMD / 48.1 m²",
+    "usd_m2": 943
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 350000.0,
+    "raw": "3-room apartment from 16,835,000.0 AMD / 48.1 m²",
+    "usd_m2": 970
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/361"
+  ]
+ },
+ {
+  "id": "myhomeam-921",
+  "title": "Noy Residence · Kirk Kerkorian Street 23/23",
+  "developer": "Noy Residence",
+  "district": "Malatia-Sebastia",
+  "current_usd_m2": 1192,
+  "current_amd_m2": 430000,
+  "usd_from": null,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 430000.0,
+    "raw": "from 430,000 AMD/m²; apartment from 15,957,000 AMD",
+    "usd_m2": 1192
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1687.0,
+    "amd": null,
+    "raw": "$1 687/m²; from $55 502",
+    "usd_m2": 1687
+   }
+  ],
+  "source_urls": [
+   "https://novostroiki-yerevan.com/en/p/noy-residence/",
+   "https://novostroiki-yerevan.com/en/p/noy-residence/"
+  ]
+ }
+]

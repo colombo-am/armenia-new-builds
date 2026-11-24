@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install shapely pytest
+      - run: python3 -m pytest -q scraper/tests
+      - name: Build
+        run: GOOGLE_MAP_API_KEY=ci-placeholder python3 build.py
+      - name: Check the database matches the dataset
+        run: |
+          python3 scraper/export_db.py --out "$RUNNER_TEMP/check.sqlite"
+          python3 -c "import sqlite3, sys; n = sqlite3.connect(sys.argv[1]).execute('SELECT COUNT(*) FROM projects').fetchone()[0]; print(n, 'projects'); assert n > 0" "$RUNNER_TEMP/check.sqlite"

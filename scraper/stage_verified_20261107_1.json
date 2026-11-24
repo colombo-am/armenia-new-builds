@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cbsconstructionam-465",
+  "title": "Mansion in Davtashen",
+  "stage": "not a project",
+  "start": null,
+  "completion": null,
+  "confidence": "high",
+  "evidence_url": "",
+  "evidence": "single private house from a contractor portfolio, not a development a buyer can purchase into (owner decision 2026-11-07)",
+  "imagery": null,
+  "notes": "cbs-construction.am current projects"
+ },
+ {
+  "id": "cbsconstructionam-464",
+  "title": "Aygedzor 42 mansion",
+  "stage": "not a project",
+  "start": null,
+  "completion": null,
+  "confidence": "high",
+  "evidence_url": "",
+  "evidence": "single private house from a contractor portfolio, not a development a buyer can purchase into (owner decision 2026-11-07)",
+  "imagery": null,
+  "notes": "cbs-construction.am (one house for sale, USD 1.2M)"
+ },
+ {
+  "id": "movsesyanandpartnersam-513",
+  "title": "Garni project",
+  "stage": "not a project",
+  "start": null,
+  "completion": null,
+  "confidence": "high",
+  "evidence_url": "https://movsesyanandpartners.am/project.html#garni-project",
+  "evidence": "single private house from a contractor portfolio, not a development a buyer can purchase into (owner decision 2026-11-07)",
+  "imagery": null,
+  "notes": "https://movsesyanandpartners.am/project.html#garni-project"
+ },
+ {
+  "id": "movsesyanandpartnersam-517",
+  "title": "Davtashen project",
+  "stage": "not a project",
+  "start": null,
+  "completion": null,
+  "confidence": "high",
+  "evidence_url": "https://movsesyanandpartners.am/project.html#davtashen-project",
+  "evidence": "single private house from a contractor portfolio, not a development a buyer can purchase into (owner decision 2026-11-07)",
+  "imagery": null,
+  "notes": "https://movsesyanandpartners.am/project.html#davtashen-project"
+ }
+]

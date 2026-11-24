@@ -1,0 +1,225 @@
+{
+ "old_count": 664,
+ "new_count": 691,
+ "added": [
+  "Armavir Residential Complex",
+  "Proshyan village",
+  "Arinj Smart Hills 2",
+  "Alvina Residential Complex",
+  "NEO residential complex",
+  "Shunch Residential Complex",
+  "Opus Residences",
+  "Nairian Amrots",
+  "The Club Lvovyan",
+  "Green Avan Residence 2",
+  "Green Avan Residence 3",
+  "Green Avan Residence 4",
+  "Green Townhouse Kasakh",
+  "GTB Cascade (Cascade completion and multifunctional complex)",
+  "Metsamor Residence",
+  "Talina Business Centre",
+  "Tsaghkadzor Plaza apartment hotel (Allison LLC)",
+  "Yeraz Business Park",
+  "New Home LLC",
+  "Nut Construction House, Avan-Arinj 10th St 7/2",
+  "Nut Construction House, Mayakovski village",
+  "Nut Construction House, Avan-Arinj 10th St 21/2",
+  "Arinj Townhouses (new phase, 11 houses)",
+  "Park Royal Tsaghkadzor",
+  "Amur Towers",
+  "Vedi Residence",
+  "Apartment complex Paruyr Sevak St",
+  "Arm Construct · Gevorg Chaush 95 A Masnashenk",
+  "Eden Park · Marshal Babajanyan district 1st street 12 3E bldg",
+  "Eden Park · Marshal Babajanyan district 1st street 12 3A bldg",
+  "Eden Park · Marshal Babajanyan district 1st street 14 1G EV 1D bldg",
+  "Eden Park · Vahan Teryan district",
+  "Eden Park · Vahan Teryan district",
+  "ELITAR SHIN · 17th Street 6/8",
+  "HAKINVEST · Kentronakan Street 164",
+  "Armenia Garden · Akunk",
+  "Armenia Garden · Akunk",
+  "Armenia Garden · 275th District 3 A",
+  "Magnolia Comfort · Zard By Zover Estates 17 bldg",
+  "VERELQ · 13st Street Mher Mkrtchyan 6-10H D1 M.",
+  "Shinas · Kirk Kerkorian Street 27/7M2",
+  "Shinas · Kirk Kerkorian Street 27/7M2",
+  "Shinas · Kirk Kerkorian Street 27/7M2",
+  "Tun Shin · Arno Babajanyan Street 111/1",
+  "Tsaghkadzor Sportayin Hamalir",
+  "Grand Horizon"
+ ],
+ "removed": [
+  "Mantashyan 44",
+  "Target Building",
+  "Kanach Purak",
+  "\"A.M. Abram construction",
+  "V&B construction",
+  "Green Nork (Kanach Nork) residential buildings",
+  "Green Townhouse Kasakh",
+  "Avan Residence Residential Building",
+  "TM Tower",
+  "Etchmiadzin 11/4 Business Center",
+  "Talin Multihouse",
+  "Two-storey Private House, Getapnya (Ararat)",
+  "Park Royal Tsaghkadzor",
+  "Ashtarak Highway Townhouses (Location 5)",
+  "Smart City Developer (Global Real Estate) · Jrvej 49 4",
+  "My residence · Mamikonyants Street 52",
+  "Smart City Developer (Global Real Estate) · Jrvej 49 2",
+  "VEDI GROUP · Vedi Central Residence"
+ ],
+ "price": [
+  {
+   "title": "Nor Dalma Premium Residential Complex",
+   "from": 1632,
+   "to": 1913,
+   "pct": 17.2
+  },
+  {
+   "title": "Bedeck Construction · Heratsi 28/1",
+   "from": 1068,
+   "to": 938,
+   "pct": -12.2
+  },
+  {
+   "title": "Arinj Townhouses (Location 4)",
+   "from": null,
+   "to": 1223,
+   "pct": null
+  },
+  {
+   "title": "Eight Residence",
+   "from": 2736,
+   "to": 2149,
+   "pct": -21.5
+  },
+  {
+   "title": "Davtashen Town Family District",
+   "from": 1215,
+   "to": 1055,
+   "pct": -13.2
+  },
+  {
+   "title": "Prof  Expert · Khachatryan Street 44",
+   "from": 1243,
+   "to": 1081,
+   "pct": -13.0
+  },
+  {
+   "title": "ART CAPITAL CONSTRUCTION · Vazgen Sargsyan 1 Street 1/7",
+   "from": 1122,
+   "to": 844,
+   "pct": -24.8
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "from": 2201,
+   "to": 2890,
+   "pct": 31.3
+  }
+ ],
+ "stage": [
+  {
+   "title": "Americana Armenia",
+   "from": "in progress",
+   "to": "just started"
+  },
+  {
+   "title": "D6 Symphony Tower (Davtashen)",
+   "from": "unknown",
+   "to": "finished"
+  },
+  {
+   "title": "Arinj Townhouses (Location 4)",
+   "from": "finished",
+   "to": "in progress"
+  },
+  {
+   "title": "Sapphire",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Eden Park · Mher Mkrtchyan district 1st street 32 4A & 5A bldg",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "from": "finished",
+   "to": "in progress"
+  }
+ ],
+ "moved": [
+  {
+   "title": "Davtashen Town Family District",
+   "metres": 768
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "metres": 1936
+  },
+  {
+   "title": "Griboyedov Park",
+   "metres": 219
+  }
+ ],
+ "grade": [
+  {
+   "developer": "Arare",
+   "from": "D",
+   "to": "C"
+  },
+  {
+   "developer": "Art Company",
+   "from": "B",
+   "to": "A"
+  },
+  {
+   "developer": "Green Avan",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Elite Residence  (Monte)",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": null,
+   "to": "B"
+  },
+  {
+   "developer": "Aurea Group",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arare",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Dalan Technopark Business Center",
+   "from": "A",
+   "to": "C"
+  },
+  {
+   "developer": "Posterum  (sales: RED Invest Group)",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "V.v.b",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": "C",
+   "to": "B"
+  }
+ ]
+}

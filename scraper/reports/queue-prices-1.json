@@ -1,0 +1,208 @@
+[
+ {
+  "id": "constructionam-277",
+  "title": "Bedeck Construction · Sevan 4/10",
+  "developer": "Bedeck Construction",
+  "district": "Abovyan",
+  "current_usd_m2": 861,
+  "current_amd_m2": 310682,
+  "usd_from": 60858,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "construction.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 400000.0,
+    "raw": "400 000 - 470 000 AMD, depending on the floor and orientation",
+    "usd_m2": 1109
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 310682.0,
+    "raw": "from 310,682 AMD/m²; apartment from 15,674,000 AMD",
+    "usd_m2": 861
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 480284.46389496716,
+    "raw": "1-room apartment from 21,949,000.0 AMD / 45.7 m²",
+    "usd_m2": 1332
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 461925.79505300353,
+    "raw": "2-room apartment from 26,145,000.0 AMD / 56.6 m²",
+    "usd_m2": 1281
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 466023.7388724035,
+    "raw": "3-room apartment from 31,410,000.0 AMD / 67.4 m²",
+    "usd_m2": 1292
+   }
+  ],
+  "source_urls": [
+   "https://www.construction.am/apartments-in-new-developments/norakaryc-abovyanum-bedeck-abovyan/",
+   "https://myhome.am/en/building/312"
+  ]
+ },
+ {
+  "id": "acbox-263",
+  "title": "Davinchi Club House",
+  "developer": "Posterum  (sales: RED Invest Group)",
+  "district": "Kentron",
+  "current_usd_m2": 4039,
+  "current_amd_m2": 1456865,
+  "usd_from": 256336,
+  "reasons": [
+   "-46.7% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1456865.0,
+    "raw": "from 1,456,865 AMD/m2 (computed from listed units)",
+    "usd_m2": 4039
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 2254878.048780488,
+    "raw": "2-room apartment from 92,450,000 AMD / 41 m²",
+    "usd_m2": 6252
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1456865.2068965517,
+    "raw": "3-room apartment from 211,245,455 AMD / 145 m²",
+    "usd_m2": 4039
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1456865.0,
+    "raw": "from 1,456,865 AMD/m² (computed from 8 listed units of 116)",
+    "usd_m2": 4039
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1750693.372881356,
+    "raw": "2-room apartment from 103,290,909 AMD / 59 m²",
+    "usd_m2": 4854
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1456865.2068965517,
+    "raw": "3-room apartment from 211,245,455 AMD / 145 m²",
+    "usd_m2": 4039
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-davinci-club-house",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-davinci-club-house"
+  ]
+ },
+ {
+  "id": "myhomeam-903",
+  "title": "Arm Construct · Gevorg Chaush 95 A Masnashenk",
+  "developer": "Arm Construct",
+  "district": "Proshyan",
+  "current_usd_m2": 1054,
+  "current_amd_m2": 380114,
+  "usd_from": 66775,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 380114.0,
+    "raw": "from 380,114 AMD/m²; apartment from 14,775,000 AMD",
+    "usd_m2": 1054
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 680970.1492537314,
+    "raw": "2-room apartment from 36,500,000.0 AMD / 53.6 m²",
+    "usd_m2": 1888
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 580318.3791606368,
+    "raw": "3-room apartment from 40,100,000.0 AMD / 69.1 m²",
+    "usd_m2": 1609
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 450992.5093632959,
+    "raw": "free layout-room apartment from 24,083,000.0 AMD / 53.4 m²",
+    "usd_m2": 1250
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/306"
+  ]
+ },
+ {
+  "id": "myhomeam-897",
+  "title": "Pars · Pirumyanner 13 E",
+  "developer": "Pars",
+  "district": "Davtashen",
+  "current_usd_m2": 1275,
+  "current_amd_m2": 460000,
+  "usd_from": 122975,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 460000.0,
+    "raw": "from 460,000 AMD/m²; apartment from 33,222,000 AMD",
+    "usd_m2": 1275
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 871355.5992141454,
+    "raw": "2-room apartment from 44,352,000.0 AMD / 50.9 m²",
+    "usd_m2": 2416
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/234"
+  ]
+ }
+]

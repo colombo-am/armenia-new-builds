@@ -1,0 +1,357 @@
+[
+ {
+  "developer": "AAA SHIN",
+  "name_variants": [
+   "AAA SHIN"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.silver-realestate.am/am/developer/cmsk2iz0o0001js04o9dxae6j",
+  "sample_projects": [
+   "Vista Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "V&B Construction",
+  "name_variants": [
+   "V&B Construction"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Gogol Plaza"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Noy Luxury Apartment",
+  "name_variants": [
+   "Noy Luxury Apartment"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/noy-luxury-apartment/",
+  "sample_projects": [
+   "NEW LUXURY"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nova Building",
+  "name_variants": [
+   "Nova Building"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://haekshin.am/",
+  "sample_projects": [
+   "Nova Building"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Royal Classic House",
+  "name_variants": [
+   "Royal Classic House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/royal-classic-house/",
+  "sample_projects": [
+   "Royal Classic House · Buzand 3"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Solid Projects",
+  "name_variants": [
+   "Solid Projects"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/solid-projects/",
+  "sample_projects": [
+   "Solid Projects · G-1 Dist. Dream Family Townhouses"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nest House",
+  "name_variants": [
+   "Nest House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/nest-house/",
+  "sample_projects": [
+   "Nest House · Nest House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Kanach Tagh",
+  "name_variants": [
+   "Kanach Tagh"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/kanach-tagh/",
+  "sample_projects": [
+   "Kanach Tagh · Acharyan 37/27"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "SILUET INVEST",
+  "name_variants": [
+   "SILUET INVEST"
+  ],
+  "projects": 1,
+  "stages": {
+   "not started": 1
+  },
+  "website": "https://siluet.am/",
+  "sample_projects": [
+   "Siluet Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "City Nest Property Management",
+  "name_variants": [
+   "City Nest Property Management"
+  ],
+  "projects": 2,
+  "stages": {
+   "just started": 1,
+   "in progress": 1
+  },
+  "website": "https://citynest.am/",
+  "sample_projects": [
+   "Nairian Amrots",
+   "The Club Lvovyan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Haus AM",
+  "name_variants": [
+   "Haus AM"
+  ],
+  "projects": 8,
+  "stages": {
+   "finished": 6,
+   "in progress": 2
+  },
+  "website": "https://haus.am/",
+  "sample_projects": [
+   "Haus AM House A1 (Arinj)",
+   "Haus AM House A2 (Arinj)",
+   "Haus AM House A3 (Arinj)",
+   "Haus AM House A4 (Arinj)",
+   "Haus AM House A5 (Arinj)",
+   "Haus AM House B1 (Arinj)"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Mikshin",
+  "name_variants": [
+   "Mikshin"
+  ],
+  "projects": 1,
+  "stages": {
+   "unknown": 1
+  },
+  "website": "https://www.mikshin.am/",
+  "sample_projects": [
+   "Yeraz Business Park"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Project EVN (construction management)",
+  "name_variants": [
+   "Project EVN (construction management)"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 1,
+   "not started": 1
+  },
+  "website": "https://www.projectevn.com/",
+  "sample_projects": [
+   "Areni Guest House",
+   "Lavan Sevan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Grant Construction (sales: RED Invest Group)",
+  "name_variants": [
+   "Grant Construction (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "Eight Residence"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Tesaranshin (Tesaran Residence)",
+  "name_variants": [
+   "Tesaranshin (Tesaran Residence)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://tesaranresidence.am/en",
+  "sample_projects": [
+   "Tesaran Residential Complex (private houses & townhouses)"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Prof  Expert",
+  "name_variants": [
+   "Prof  Expert"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Prof  Expert · Khachatryan Street 44"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Elite Build",
+  "name_variants": [
+   "Elite Build"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Elite Build · Mkhitar Heratsi Street 9/18"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "BEST MASIS",
+  "name_variants": [
+   "BEST MASIS"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "BEST MASIS · Azatamartikner Street 41"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "MASIS CENTRAL RESIDENTIAL COMPLEX",
+  "name_variants": [
+   "MASIS CENTRAL RESIDENTIAL COMPLEX"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://metruminvest.am",
+  "sample_projects": [
+   "MASIS CENTRAL RESIDENTIAL COMPLEX · Araratyan 5"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Goght Urban Valley",
+  "name_variants": [
+   "Goght Urban Valley"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://goghtvalley.com/hy",
+  "sample_projects": [
+   "Goght Urban Valley"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Residence 50",
+  "name_variants": [
+   "Residence 50"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Residence 50"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "White island",
+  "name_variants": [
+   "White island"
+  ],
+  "projects": 1,
+  "stages": {
+   "unknown": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "«White island» LLC"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "MAGAS  (EE)",
+  "name_variants": [
+   "MAGAS  (EE)"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "MAGAS LLC (EE)"
+  ],
+  "reason": "low-confidence research"
+ }
+]

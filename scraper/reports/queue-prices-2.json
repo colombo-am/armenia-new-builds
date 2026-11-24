@@ -1,0 +1,160 @@
+[
+ {
+  "id": "dignisi-281",
+  "title": "NEO residential complex",
+  "developer": "Unknown developer",
+  "district": "Malatia-Sebastia",
+  "current_usd_m2": 2717,
+  "current_amd_m2": 980000,
+  "usd_from": null,
+  "reasons": [
+   "-74.0% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "dignisi.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 980000.0,
+    "raw": "from 980,000 ֏/m²",
+    "usd_m2": 2717
+   }
+  ],
+  "source_urls": [
+   "https://dignisi.am/en/projects/neo-residential-complex-386"
+  ]
+ },
+ {
+  "id": "redinvestam-585",
+  "title": "Eight Residence",
+  "developer": "Grant Construction (sales: RED Invest Group)",
+  "district": "Arabkir",
+  "current_usd_m2": 2149,
+  "current_amd_m2": 775000,
+  "usd_from": 135724,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 775000.0,
+    "raw": "from 775,000 AMD/m2 (computed from listed units)",
+    "usd_m2": 2149
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 829661.0169491526,
+    "raw": "2-room apartment from 48,950,000 AMD / 59 m²",
+    "usd_m2": 2300
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 824742.2680412371,
+    "raw": "3-room apartment from 80,000,000 AMD / 97 m²",
+    "usd_m2": 2287
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 990845.0,
+    "raw": "from 990,845 AMD/m² (computed from 1 listed units of 68)",
+    "usd_m2": 2747
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 990845.0704225352,
+    "raw": "2-room apartment from 70,350,000 AMD / 71 m²",
+    "usd_m2": 2747
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-eight",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-eight"
+  ]
+ },
+ {
+  "id": "myhomeam-916",
+  "title": "Magnolia Comfort · Zard By Zover Estates 17 bldg",
+  "developer": "Magnolia Comfort",
+  "district": "Kotayk (other)",
+  "current_usd_m2": 887,
+  "current_amd_m2": 320000,
+  "usd_from": 44103,
+  "reasons": [
+   "41.4% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 320000.0,
+    "raw": "from 320,000 AMD/m²; apartment from 15,906,000 AMD",
+    "usd_m2": 887
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 330000.0,
+    "raw": "2-room apartment from 15,906,000.0 AMD / 48.2 m²",
+    "usd_m2": 915
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 320000.0,
+    "raw": "3-room apartment from 24,288,000.0 AMD / 75.9 m²",
+    "usd_m2": 887
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/366"
+  ]
+ },
+ {
+  "id": "myhomeam-900",
+  "title": "Pars · Pirumyanner 13 A",
+  "developer": "Pars",
+  "district": "Davtashen",
+  "current_usd_m2": 1223,
+  "current_amd_m2": 441000,
+  "usd_from": 152499,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 441000.0,
+    "raw": "from 441,000 AMD/m²; apartment from 30,866,000 AMD",
+    "usd_m2": 1223
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1113360.3238866397,
+    "raw": "2-room apartment from 55,000,000.0 AMD / 49.4 m²",
+    "usd_m2": 3087
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/93"
+  ]
+ }
+]

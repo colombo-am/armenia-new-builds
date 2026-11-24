@@ -1,0 +1,45 @@
+[
+ {
+  "source": "arcada.am",
+  "source_url": "https://arcada.am/?app=AppProject&page=district&project_id=2",
+  "title": "Griboyedov Park",
+  "title_am": "Գրիբոյեդով պարկ",
+  "developer": "Arcada Construction",
+  "developer_url": "https://arcada.am/",
+  "city": "Yerevan",
+  "district": "Arabkir",
+  "address": "17 Griboyedov St, Arabkir, Yerevan",
+  "address_am": "ք․ Երևան, Գրիբոյեդով 17",
+  "lat": 40.2113,
+  "lng": 44.5134,
+  "price_min_usd_m2": null,
+  "price_min_amd_m2": null,
+  "price_currency_raw": "AMD",
+  "completion": "2026-08",
+  "status": "completed",
+  "floors": "14-16",
+  "type": "residential",
+  "phones": [
+   "+37441210210",
+   "+37433310410",
+   "+37441310410"
+  ],
+  "email": "info@arcada.am",
+  "website": "https://arcada.am/?app=AppProject&page=district&project_id=2",
+  "social": {},
+  "images": [
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=502864e87a9f553009956&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=938564e87a9f2c7c96103&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=881764e87a9ef2dff8479&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=941564e87a9ec31394301&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=42664e87a9e93a2a1636&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=26164e87a9e623e94062&size_mode=1",
+   "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=377964e87a9e384cf4419&size_mode=1"
+  ],
+  "videos": [],
+  "description": "Griboyedov Park by Arcada Construction: 6 residential buildings (14-16 floors) with two levels of underground parking at Griboyedov 17, Arabkir. Buildings 1-3: completion act 30.12.2024, operation permit 08.01.2026; buildings 4-6: completion act 21.08.2026. Apartments from 50.8 m², handed over with doors/windows, divided and plastered walls, levelled floors; travertine facade. All units are sold or reserved per the developer's apartment chooser.",
+  "sold_out": true,
+  "_checked": "2026-09-28",
+  "_evidence": "https://arcada.am/?app=AppProject&page=district&project_id=2: 'Գրիբոյեդով պարկ ք․ Երևան, Գրիբոյեդով 17 ... Բնակարանները հանձնվելու են գնորդներին տեղադրված որակյալ արտաքին դռնով և պատուհաններով, սենյակների բաժանված, գաջապատված, հատակը հարթեցված վիճակում: Շենքը երեսպատվելու է տրավերտինով ... Գրիբոյեդով Պարկ 4-6 մասնաշենքեր ավարտական ակտ 2026-08-21 / Գրիբոյեդով պարկ 1-3 Շահագործման թույլտվություն 2026-01-08 / Գրիբոյեդով Պարկ 1-3 մասնաշենքեր ավարտական ակտ 2024-12-30'; header '+374 33 310 410'. https://arcada.am/: 'Գրիբոյեդով պարկ 04 Բազմաբնակարան շենքերի համալիր Գրիբոյեդով պարկ-Համալիրը բաղկացած է"
+ }
+]

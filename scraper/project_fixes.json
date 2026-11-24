@@ -1,0 +1,507 @@
+{
+ "_readme": "Hand-checked project corrections - see scraper/project_fixes.py for the format. Prices live in price_verified_*.json, stages in stage_verified_*.json.",
+ "fixes": {
+  "acbaam-1116": {
+   "add_sources": [
+    {
+     "name": "hamedil.am",
+     "url": "https://www.hamedil.am/en/projects/work-6"
+    }
+   ],
+   "why": "the developer's own page for Hamedil Residence",
+   "checked": "2026-09-28"
+  },
+  "acbaam-1124": {
+   "why": "acba.am's Eritsuk card was filled from its Capital Park template: the 'Կայք' field says capitalpark.am and the e-mail link's mailto is capital_park@mail.ru; the capital._park Instagram and Capital Park Facebook were derived from that and belong to Capital Park (Gazavik LLC, Shirazi 2, Yerevan). No website or social account for Eritsuk LLC (Aparan) exists in any search. Keep phone 095 385 920, e-mail text 2385920@gmail.com (matches the phone digits), price from 380,000 AMD/m², 6 floors, 30 apartments; operation date is exactly 09.12.2027.",
+   "evidence": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10177 (card id 10177, last_update 2026-05-14): 'ԵՐԻՑՈՒԿ ... Կառուցապատող - ԵՐԻՑՈՒԿ ՍՊԸ; Հասցե Արագածոտն, Ապարան, ԲԱՂՐԱՄՅԱՆ Փ., 18; Հեռախոսահամար 095 385 920; Էլ հասցե <a href=\"mailto:capital_park@mail.ru\">2385920@gmail.com</a>; Կայք https://capitalpark.am/; Կարգավիճակ Կառուցապատման փուլում; Հարկերի քանակ 6; Բնակարանների քանակ 30; Շահագործման ամսաթիվ 09.12.2027թ.; Բնակարանի նվազագույն ք.մ. 50.04 քմ; Բնակարանի 1 ք.մ.-ի արժեք Սկսած 380.000 ՀՀ դրամ'. Card 8981 on the same page: 'ԿԱՊԻՏԱԼ ՊԱՐԿ ... Կառուցապատող -ԳԱԶԱՎԻԿ» ՍՊԸ ... ք. Երևան, Շիրազի 2 ... capital_park@mail.ru ... https://capitalpark.am/'. Card image 4905387952639125.png is a 6-storey render (fits Eritsuk) - keep.",
+   "checked": "2026-09-28",
+   "set": {
+    "completion": "2027-12-09",
+    "description": "Հասցե: Արագածոտն, Ապարան, ԲԱՂՐԱՄՅԱՆ Փ., 18; Հեռախոսահամար: 095 385 920; Էլ հասցե: 2385920@gmail.com; Կարգավիճակ: Կառուցապատման փուլում; Հարկերի քանակ: 6; Բնակարանների քանակ: 30; Հասանելի բնակարանների քանակ: 30; Շահագործման ամսաթիվ: 09.12.2027թ.; Վաճառքի ենթակա բնակարանների կարգավիճակը: չվերանորոգված; Բնակարանի նվազագույն ք.մ.: 50.04 քմ; Բնակարանի առավելագույն ք.մ.: 90 քմ; Բնակարանի 1 ք.մ.-ի արժեք: Սկսած 380.000 ՀՀ դրամ; Ավտոտնակի առկայություն: Ոչ; Ավտոտնակի արժեք: 0"
+   },
+   "unset": [
+    "website",
+    "developer_website",
+    "social"
+   ]
+  },
+  "amgroupam-301": {
+   "remove": true,
+   "why": "AM Group (amgroup.am) is a doors/windows/glass/Alucobond contractor; this page is one of its 'Selected works' reference photos of a building it supplied, not a new-build a buyer can find. The page gives no developer, price, date or sale info, and the site/photos date from 2014-2018. The td.am / aygedzor.am sources and email info@targetdevelopment.am were attached to it by address matching (td.am lists 'paronyan-offices' in its portfolio), not by any sale listing; if Target Development has a current new-build there it needs its own record from td.am.",
+   "evidence": "https://www.amgroup.am/en/works/residential_yerevan_paronyan - page title only ('OUR WORKS / Residential ...'), photo gallery, no project data. amgroup.am header: '010 588 424 093 588 424 DOORS & WINDOWS GLASS STRUCTURES ALUCOBOND OUR WORKS SERVICES ABOUT US Selected works ...'; OUR WORKS page: 'Below you can find examples of our work - some of them already completed and some still in progress.'; footer '© Copyright 2018 AM Group'. Gallery images Last-Modified: Wed, 14 Mar 2018; EXIF dates 2014-05-29 (griboedov), 2018-01 (antarayin, dzorap).",
+   "checked": "2026-09-28"
+  },
+  "amgroupam-305": {
+   "remove": true,
+   "why": "AM Group (amgroup.am) is a doors/windows/glass/Alucobond contractor; this page is one of its 'Selected works' reference photos of a building it supplied, not a new-build a buyer can find. The page gives no developer, price, date or sale info, and the site/photos date from 2014-2018.",
+   "evidence": "https://www.amgroup.am/en/works/residential_yerevan_lusavorich - page title only ('OUR WORKS / Residential ...'), photo gallery, no project data. amgroup.am header: '010 588 424 093 588 424 DOORS & WINDOWS GLASS STRUCTURES ALUCOBOND OUR WORKS SERVICES ABOUT US Selected works ...'; OUR WORKS page: 'Below you can find examples of our work - some of them already completed and some still in progress.'; footer '© Copyright 2018 AM Group'. Gallery images Last-Modified: Wed, 14 Mar 2018; EXIF dates 2014-05-29 (griboedov), 2018-01 (antarayin, dzorap).",
+   "checked": "2026-09-28"
+  },
+  "amgroupam-306": {
+   "remove": true,
+   "why": "AM Group (amgroup.am) is a doors/windows/glass/Alucobond contractor; this page is one of its 'Selected works' reference photos of a building it supplied, not a new-build a buyer can find. The page gives no developer, price, date or sale info, and the site/photos date from 2014-2018.",
+   "evidence": "https://www.amgroup.am/en/works/residential_yerevan_yerznkyan - page title only ('OUR WORKS / Residential ...'), photo gallery, no project data. amgroup.am header: '010 588 424 093 588 424 DOORS & WINDOWS GLASS STRUCTURES ALUCOBOND OUR WORKS SERVICES ABOUT US Selected works ...'; OUR WORKS page: 'Below you can find examples of our work - some of them already completed and some still in progress.'; footer '© Copyright 2018 AM Group'. Gallery images Last-Modified: Wed, 14 Mar 2018; EXIF dates 2014-05-29 (griboedov), 2018-01 (antarayin, dzorap).",
+   "checked": "2026-09-28"
+  },
+  "amgroupam-307": {
+   "remove": true,
+   "why": "AM Group (amgroup.am) is a doors/windows/glass/Alucobond contractor; this page is one of its 'Selected works' reference photos of a building it supplied, not a new-build a buyer can find. The page gives no developer, price, date or sale info, and the site/photos date from 2014-2018.",
+   "evidence": "https://www.amgroup.am/en/works/residential_yerevan_komitas - page title only ('OUR WORKS / Residential ...'), photo gallery, no project data. amgroup.am header: '010 588 424 093 588 424 DOORS & WINDOWS GLASS STRUCTURES ALUCOBOND OUR WORKS SERVICES ABOUT US Selected works ...'; OUR WORKS page: 'Below you can find examples of our work - some of them already completed and some still in progress.'; footer '© Copyright 2018 AM Group'. Gallery images Last-Modified: Wed, 14 Mar 2018; EXIF dates 2014-05-29 (griboedov), 2018-01 (antarayin, dzorap).",
+   "checked": "2026-09-28"
+  },
+  "amgroupam-309": {
+   "remove": true,
+   "why": "AM Group (amgroup.am) is a doors/windows/glass/Alucobond contractor; this page is one of its 'Selected works' reference photos of a building it supplied, not a new-build a buyer can find. The page gives no developer, price, date or sale info, and the site/photos date from 2014-2018.",
+   "evidence": "https://www.amgroup.am/en/works/residential_nor-hachn_tumanyan - page title only ('OUR WORKS / Residential ...'), photo gallery, no project data. amgroup.am header: '010 588 424 093 588 424 DOORS & WINDOWS GLASS STRUCTURES ALUCOBOND OUR WORKS SERVICES ABOUT US Selected works ...'; OUR WORKS page: 'Below you can find examples of our work - some of them already completed and some still in progress.'; footer '© Copyright 2018 AM Group'. Gallery images Last-Modified: Wed, 14 Mar 2018; EXIF dates 2014-05-29 (griboedov), 2018-01 (antarayin, dzorap).",
+   "checked": "2026-09-28"
+  },
+  "arcadaam-1221": {
+   "set": {
+    "sold_out": true
+   },
+   "why": "arcada.am apartment data: 790 of 792 units sold, 2 reserved",
+   "evidence": "https://arcada.am/?app=AppProject&page=district&project_id=2",
+   "checked": "2026-09-28"
+  },
+  "citynestam-602": {
+   "add_sources": [
+    {
+     "name": "myhome.am",
+     "url": "https://myhome.am/en/building/181"
+    },
+    {
+     "name": "myhome.am",
+     "url": "https://myhome.am/en/building/182"
+    },
+    {
+     "name": "novostroiki-yerevan.com",
+     "url": "https://novostroiki-yerevan.com/en/p/tsitsernakaberd-road-11-1/"
+    },
+    {
+     "name": "novostroiki-yerevan.com",
+     "url": "https://novostroiki-yerevan.com/en/p/tsitsernakaberd-road-11-1-2/"
+    },
+    {
+     "name": "idbank.am",
+     "url": "https://idbank.am/documents/IDBank%20constructors%20pptt.pdf"
+    }
+   ],
+   "remove_sources": [
+    "https://citynest.am/tmtower/am",
+    "https://citynest.am/tmtower/en"
+   ],
+   "why": "Not actually sourceless: only citynest.am/tmtower/am is dead (now 403). The record already carries 4 live sources (myhome.am 181/182, novostroiki x2), all 200 on 2026-09-28 and matching the record: 16 and 18 floors, completion 12/2027, from 36.1M AMD, from 650K AMD/m2. Drop the dead citynest.am source. IDBank's partner list (Dec 2025) also names the developer entity «ՏՄ ԹԱՈՒԵՌ» ՍՊԸ at this address. Keep this record as the canonical TM Tower.",
+   "evidence": "myhome.am/en/building/181: 'Թի Էմ Թաուեր ... Ծիծեռնակաբերդի 11/1 Ա ... Price sq.m. From 750 K; End of construction 12/2027; Stage Under construction; Number of floors 16; Number of apartments 12/86; Area of apartments 45.1-124'. building/182: '11/1 Բ ... From 67.9 M ... From 650 K ... 12/2027 ... floors 18 ... 7/97'. novostroiki 11-1: 'Price from $92 004, $2 040/m2, Area from 45.1 m2, Completion 12/2027, Under construction, Developer Tigran Mets Group'. IDBank PDF: 'ՏՄ ԹԱՈՒԵՌ ՍՊԸ ... Հասցե` Ծիծեռնակաբերդի խճուղի, հ․ 11/1; Շին․ թույլտվության ժամկետ` 20․12․26'.",
+   "checked": "2026-09-28"
+  },
+  "citynestam-660": {
+   "remove": true,
+   "why": "Same project: TM Tower at 11/1 Tsitsernakaberd Hwy by Tigran Mets Group, sold through City Nest, and the two records share the same tildacdn images. The '183 apartments' in the old citynest text is exactly 86 + 97, the unit counts of myhome buildings 181 (11/1 A) and 182 (11/1 B). Its only source (citynest.am/tmtower/en) is dead, and citynest.am/en no longer mentions TM Tower. Remove it and keep citynestam-602. 660 had a stale completion (2026-12) and a wrong district (Kentron instead of Malatia-Sebastia).",
+   "evidence": "citynest.am/tmtower/en and /am return 403; citynest.am/en has no 'TM Tower'/'tmtower' string. Shared images, e.g. static.tildacdn.one/tild3632-6530-4237-a566-343161643461/1.jpg, are in both records. The myhome filter_v2 list (133 buildings) has only ids 181/182 for Tsitsernakaberd 11/1, builder 'TM Tower'.",
+   "checked": "2026-09-28"
+  },
+  "constructionam-185": {
+   "set": {
+    "title": "Northern Ray 2",
+    "title_ru": "Северный Луч 2"
+   },
+   "why": "merged record of Elite Group's Northern Ray 2 (geoln, construction.am, elitegroup.am) - keep the project's own English name",
+   "checked": "2026-09-28"
+  },
+  "constructionam-6": {
+   "why": "Phones are AM Group's (window contractor) and the amgroup Griboyedov photos are a 5-6 storey building shot in 2014, not Komitas Park phase 3 (14-16 floors, construction 2025-2028). The arcada.am project_id=2 source is Arcada's own 'Griboyedov Park' at Griboyedov 17 - a different project - so its 12 images, its 'from 390000 AMD' price_obs and the email info@arcada.am must go too. The instagram was construction.am's own account. Correct contacts come from Ord Development's komitaspark.am and the construction.am page. Kept record for Komitas Park 3rd phase (dignisi-122 is its duplicate). Title/Armenian title are construction.am's own ('Komitas Park 3rd Round' / 'Կոմիտաս Պարկ 3-րդ Փուլ') instead of the generic 'Ord Development · Griboyedov 48'. Address adds the 3rd-phase site (N. Tigranyan 1st dead end 1) confirmed by hetq, dignisi and komitaspark.am Stage 3. start from 'Construction Period 2025 Jan'; min area 41.3 m² from construction.am 'Areas 41.3-118 m²' (dignisi shows 61.5-118). Max price is 700,000 AMD on the page, not 698,500. Contacts already correct (ord.developmentllc@gmail.com, +374 41 800 830/860). Video 'Կոմիտաս Պարկ / Komitas Park' is Ord Group of Companies' own channel. Pin 40.210213,44.514477 is construction.am's map embed for the complex (Griboyedov side); the 3rd-phase buildings are on the N. Tigranyan side - left unchanged because no page gives their coordinates.",
+   "evidence": "https://www.construction.am/apartments-in-new-developments/komitas-park/: 'Arabkir, Griboyedov 48, Komitas Park 3rd Round Price: 630 000 - 700 000 AMD, depending on the floor and orientation Developer Ord Development Main Contractor Ord Development Contact ord.developmentllc@gmail.com (37441) - 800830 , (37441) - 800860 ... Completion 2028 Construction Period 2025 Jan - 2028 Dec Total Development Area 221000 m² Total Buildings 15 ... Floors Above Ground 14-16 Floors Below Ground 2 ... Total Apartments 1418 ... Areas 41.3-118 m²'. https://www.construction.am/arm/apartments-in-new-developments/komitas-park/ title 'Արաբկիր, Գրիբոյեդով 48, Կոմիտաս Պարկ 3-րդ Փուլ'. YouTube oEmbed for UaT6Op7SIEo: title 'Կոմիտաս Պարկ / Komitas Park', author 'Ord Group of Companies'.",
+   "checked": "2026-09-28",
+   "set": {
+    "phones": [
+     "+37441800830",
+     "+37441800860"
+    ],
+    "email": "ord.developmentllc@gmail.com",
+    "website": "https://komitaspark.am/",
+    "developer_website": "https://komitaspark.am/",
+    "social": {
+     "facebook": "https://www.facebook.com/komitaspark",
+     "instagram": "https://www.instagram.com/komitaspark/"
+    },
+    "title": "Komitas Park 3rd Round",
+    "title_full": "Komitas Park 3rd Round",
+    "title_am": "Կոմիտաս Պարկ 3-րդ Փուլ",
+    "address": "N. Tigranyan St 1st dead end 1 (Komitas Park 3rd phase; complex address Griboyedov St 48), Arabkir, Yerevan",
+    "start": "2025-01-01",
+    "images": [
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_main_big.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5618_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5619_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5620_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5621_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5622_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5623_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5624_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5625_komitas-park.jpg",
+     "https://www.construction.am/images/apartmentimages/new/komitas-park/658_5626_komitas-park.jpg",
+     "https://nkar.dignisi.am/wVD2jX0DzOTqp0NU5gUU1XwVSANhRsbG0QELbOBN6cw/rs:fit:1600:0/pr:watermark/czM6Ly9kaWduaXNpLWxpdmUvcHVibGljL2RpZ25pc2lfYXNzZXRzL25vcmFrYXJ1eWMvcmxtbUdoYW5QY2l1ZFhOS3ZNcm5oSllwcUlvQnhPV2hicHM3UXFmTi5qcGc.jpg"
+    ],
+    "videos": [
+     "https://youtu.be/UaT6Op7SIEo"
+    ]
+   },
+   "remove_images": [
+    "https://www.amgroup.am/upload/gallery/griboedov_02.jpg",
+    "https://www.amgroup.am/upload/gallery/griboedov_01.jpg",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=377964e87a9e384cf4419&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=26164e87a9e623e94062&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=42664e87a9e93a2a1636&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=941564e87a9ec31394301&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=881764e87a9ef2dff8479&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=938564e87a9f2c7c96103&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=502864e87a9f553009956&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=65606a712c1e988818394&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=29376a712c1f952268256&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=81886a3ee7ac856cf9681&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=22286a3ee7ad8c2a9350&size_mode=2",
+    "https://arcada.am/file.php?class_name=default_model_item_file&file_uniq_id=72336a1c12d7bb29f4361&size_mode=2"
+   ],
+   "remove_phones": [
+    "+37410588424",
+    "+37493588424"
+   ],
+   "add_sources": [
+    {
+     "name": "komitaspark.am",
+     "url": "https://komitaspark.am/"
+    },
+    {
+     "name": "dignisi.am",
+     "url": "https://dignisi.am/en/projects/komitas-park-residential-district-363"
+    },
+    {
+     "name": "komitaspark.am",
+     "url": "https://komitaspark.am/en/stages/3"
+    },
+    {
+     "name": "construction.am",
+     "url": "https://www.construction.am/arm/apartments-in-new-developments/komitas-park/"
+    },
+    {
+     "name": "komitaspark.am",
+     "url": "https://komitaspark.am/en"
+    }
+   ],
+   "remove_sources": [
+    "https://www.amgroup.am/en/works/residential_yerevan_griboedov",
+    "https://arcada.am/?app=AppProject&page=district&project_id=2"
+   ]
+  },
+  "dignisi-122": {
+   "remove_sources": [
+    "https://dignisi.am/en/projects/komitas-park-residential-district-363"
+   ],
+   "remove_images": [
+    "https://nkar.dignisi.am/wVD2jX0DzOTqp0NU5gUU1XwVSANhRsbG0QELbOBN6cw/rs:fit:1600:0/pr:watermark/czM6Ly9kaWduaXNpLWxpdmUvcHVibGljL2RpZ25pc2lfYXNzZXRzL25vcmFrYXJ1eWMvcmxtbUdoYW5QY2l1ZFhOS3ZNcm5oSllwcUlvQnhPV2hicHM3UXFmTi5qcGc.jpg"
+   ],
+   "set": {
+    "title": "Komitas Park Residential District (Phases 1-2)",
+    "address": "Between Griboyedov, Mamikonyants and Tigranyan streets (sales office Mamikonyants 38/3), Arabkir, Yerevan",
+    "description": "Multifunctional residential district in Arabkir along the Northern Ray axis: phases 1 and 2 comprise 24 buildings of 12 and 16 floors with 1,800 apartments and as many parking spaces (2-level underground)."
+   },
+   "unset": [
+    "completion",
+    "completion_text",
+    "status_hint",
+    "title_am"
+   ],
+   "why": "the dignisi listing is Komitas Park's 3rd phase (N. Tigranyan dead end 1), already on the map as constructionam-6; without it this record is the district's phases 1-2 from komitaspark.am, as it was before the merge",
+   "evidence": "https://dignisi.am/en/projects/komitas-park-residential-district-363: 'Komitas Park Residential District N. Tigranyan St., Dead End 1, Building 1 Արաբկիր Under construction ... from 630,000 /m² ... Handover 2028 Areas 61.5–118 m² Floors 16 ... Updated 27 September 2026'. https://www.hetq.am/hy/article/172184 (2025-01-21): 'Ն․ Տիգրանյան փողոցի 1-ին փակուղի թիվ 1 հասցեում կառուցվող բազմաբնակարան շենքից ... 3-րդ փուլն է ... 1500 բնակարան'. https://komitaspark.am/en/stages/3 (page data): stage 'Stage 3 / 3-րդ փուլ', buildings 1-15, address 'Փ․ Տիգրանյան', floor_count 14 or 16. https://www.construction.am/apartments-in-new-developments/komitas-park/: 'Arabkir, Griboyedov 48, Komitas Park 3rd Round Price: 630 000 - 700 000 AMD ... Completion 2028 Construction Period 2025 Jan - 2028 Dec'.",
+   "checked": "2026-09-28"
+  },
+  "dignisi-139": {
+   "why": "The 510,000 AMD/m² and the 29,939,000 AMD cheapest flat came from myhome.am buildings 231/229, which no longer exist (myhome API returns 404, not in current listing). The only live price is dignisi's 'from 640,000 ֏/m²' (AMD), updated 28 Sep 2026; no public page now shows a cheapest-apartment price, so usd_from/amd_from/prices_by_rooms must be empty.",
+   "evidence": "https://dignisi.am/en/projects/urmia-319: 'Urmia Davtashen, T. Petrosyan str. 81/2 · Davtashen Under construction Tax refund: not eligible from 640,000 ֏ /m² ... Handover 2026 Areas 49.5–262.9 m² Floors 17 ... Updated 28 September 2026'. https://myhome.am/API/v1/buildings/231 and /229 -> {\"title\":\"Not Found\",\"status\":404}. https://arcada.am/?app=AppProject&page=district&project_id=5: no price; status tab 'Ավարտ 12/2025', 'Շինարարության թույլտվություն 2025-12-26', progress photos to 04.2026 (the 12/2025 finish is stale - dignisi's 2026 handover kept).",
+   "checked": "2026-09-28",
+   "remove_sources": [
+    "https://myhome.am/en/building/231",
+    "https://myhome.am/en/building/229"
+   ]
+  },
+  "geoln-158": {
+   "why": "Phones are AM Group's; the 9 amgroup dzorap photos show a 7-8 storey classical building photographed Jan 2018 (Dzorap 2 has 16 floors per the developer's floor plans), and the instagram/facebook were construction.am's own portal accounts. Elite Group's own site gives the real contacts. Developer is Elite Group - elitegroup.am lists Dzorap 2 as its own project; 'Элит Груп' is only geoln's Russian spelling. Canonical name used by all other Elite Group records (kp-68, constructionam-57/65/175/185, elitegroupam-663..683) is 'Elite Group'. Also: elitegroup.am/en/projects/6/ is 'Dzorap 40' (Dzorap 1: 16 floors, 104 apartments, 76-248 m²) - a different, older building next door, merged in by mistake; its 5 photos (abc1924, 72d2a86, 0b39de4, c2c0dbc, edf2505) and its geo_obs 'Dzorap Street 40' must go. Dzorap 2's own photos on projects/23 are 93094ac, b16c32f, 84f582a, 3004733, 24a1888, 7a4e4c2, d8b5edf, 5a706d3.",
+   "evidence": "http://elitegroup.am/en/projects/23/: 'Dzorap 2 Business Class The leading company in the field of new buildings \"Elite Group\" presents its new project - a residential complex of \"Business\" class on Dzorap Street ... located near the building of \"Dzorap 1\" ... ⇒ Sold Out ⇐ Floorplans 1 Floor ... 16 Floor -1 Parking © ELITE GROUP - 2013 - 2026.' http://elitegroup.am/en/projects/6/ (menu 'Dzorap 40'): 'Residential complex Dzorap is located in the center of the city, along the Hrazdan Canyon ... Sold Out • 16 floors • 104 apartments • Apartments' area 76-248 m2 • 3-level underground parking for 181 cars'; its gallery images /imgs/services/abc1924.jpeg, /imgs/services_gallery/72d2a86.jpeg, 0b39de4.jpeg, c2c0dbc.jpeg, edf2505.jpeg.",
+   "checked": "2026-09-28",
+   "set": {
+    "phones": [
+     "+37410566922",
+     "+37410566933",
+     "+37410566994",
+     "+37410566996"
+    ],
+    "website": "http://elitegroup.am/en/projects/23/",
+    "developer_website": "http://elitegroup.am/",
+    "social": {
+     "facebook": "https://www.facebook.com/EliteGroupArmenia"
+    },
+    "developer": "Elite Group"
+   },
+   "remove_images": [
+    "https://www.amgroup.am/upload/gallery/dzorap_09.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_08.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_07.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_06.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_05.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_04.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_03.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_02.jpg",
+    "https://www.amgroup.am/upload/gallery/dzorap_01.jpg",
+    "http://elitegroup.am/imgs/services/abc1924.jpeg",
+    "http://elitegroup.am/imgs/services_gallery/72d2a86.jpeg",
+    "http://elitegroup.am/imgs/services_gallery/0b39de4.jpeg",
+    "http://elitegroup.am/imgs/services_gallery/c2c0dbc.jpeg",
+    "http://elitegroup.am/imgs/services_gallery/edf2505.jpeg"
+   ],
+   "remove_phones": [
+    "+37410588424",
+    "+37493588424"
+   ],
+   "remove_sources": [
+    "https://www.amgroup.am/en/works/residential_yerevan_dzorap",
+    "http://elitegroup.am/en/projects/6/"
+   ],
+   "add_sources": []
+  },
+  "geoln-164": {
+   "add_sources": [
+    {
+     "name": "elitegroup.am",
+     "url": "http://elitegroup.am/en/projects/4/"
+    }
+   ],
+   "why": "Same Russian-spelling split as Dzorap 2: '74 Nairi Zaryan' is on Elite Group's own project list; canonical developer name is 'Elite Group'. (Separately: its website is construction.am's 'Yerkir Real Estate Agency' page - an agency, not the developer; not re-checked here.)",
+   "evidence": "http://elitegroup.am/en/projects/23/ (site menu, 'Residential': 'Firdus Square, ALMAST Residence, Northern Ray 2, Dzorap 2, 74 Nairi Zaryan, Northern Ray 1, Sayat-Nova 19/1, Demirtchyan 1, Baghramyan 59, Mamikoniants 41, Dzorap 40, ...'; footer '© ELITE GROUP - 2013 - 2026.')",
+   "set": {
+    "developer": "Elite Group"
+   },
+   "checked": "2026-09-28"
+  },
+  "geoln-167": {
+   "why": "Same Russian-spelling split: 'Sayat-Nova 19/1' is on Elite Group's own project list (record already cites elitegroup.am/en/projects/1/); canonical developer name is 'Elite Group'.",
+   "evidence": "http://elitegroup.am/en/projects/23/ (site menu, 'Residential': 'Firdus Square, ALMAST Residence, Northern Ray 2, Dzorap 2, 74 Nairi Zaryan, Northern Ray 1, Sayat-Nova 19/1, Demirtchyan 1, Baghramyan 59, Mamikoniants 41, Dzorap 40, ...'; footer '© ELITE GROUP - 2013 - 2026.')",
+   "set": {
+    "developer": "Elite Group"
+   },
+   "checked": "2026-09-28"
+  },
+  "geoln-168": {
+   "why": "Same Russian-spelling split: 'Northern Ray 2' is on Elite Group's own project list; canonical developer name is 'Elite Group'. NOTE: geoln-168 (40.202569,44.517119), constructionam-185 (40.203148,44.517178) and elitegroupam-665 (40.202565,44.516504) all describe Northern Ray 2 villas within ~60 m - likely a triple duplicate, not resolved here.",
+   "evidence": "http://elitegroup.am/en/projects/23/ (site menu, 'Residential': 'Firdus Square, ALMAST Residence, Northern Ray 2, Dzorap 2, 74 Nairi Zaryan, Northern Ray 1, Sayat-Nova 19/1, Demirtchyan 1, Baghramyan 59, Mamikoniants 41, Dzorap 40, ...'; footer '© ELITE GROUP - 2013 - 2026.')",
+   "set": {
+    "developer": "Elite Group"
+   },
+   "checked": "2026-09-28",
+   "remove_phones": [
+    "+3749922626237410566988"
+   ]
+  },
+  "hamedilam-689": {
+   "add_sources": [
+    {
+     "name": "hamedil.am",
+     "url": "https://www.hamedil.am/en/projects/work-5"
+    }
+   ],
+   "set": {
+    "title": "Talina Business Center",
+    "title_am": "Թալինա բիզնես կենտրոն",
+    "address": "Komitas St 6, Talin, Aragatsotn",
+    "description": "5-storey 'Talina' business center at Komitas 6, Talin, named after Queen Talina: offices, shops, cafes, supermarket, beauty salons, underground garage. Under construction per site; start May 2027, completion May 2028; presale 'coming soon'.",
+    "start": "2027-05-01"
+   },
+   "why": "The rebuilt hamedil.am shows this project as 'Talina Business Center' (work-5). 'Talin Queen' refers to the Queen Talina legend the new page cites. Our Talin Queen images are this building: 1ce9073b… is the same physical model and 457741c8… and 4d7ff41a… the same renders as the images on work-5. The old data is badly wrong compared with the live page: it is a 5-floor office/retail business center, not a 9-floor 48-apartment residential building. The page shows no prices, and presale has not opened. Because it is non-residential, the editor may drop it as out of scope rather than re-label it. The dataset does have a 'Commercial' kind (21 projects).",
+   "evidence": "hamedil.am/en/projects/work-5: 'Under construction Talina Business Center Talin ... Started May 2027 Completed May 2028 ... Ասում են՝ քաղաքն անվանվել է ի պատիվ Թալինա թագուհու ... Կոմիտաս 6 հասցեում վեր խոյացող 5 հարկանի «Թալինա» բիզնես կենտրոնը ... ժամանակակից գրասենյակներ և խանութներ ... ստորգետնյա ավտոտնակ; Specifications Floors 5; Availability Նախավաճառքը շուտով'. Sitemap lists only work-5 and work-6; work-1..4 and 7..10 are 404. Old image URLs still resolve (200). Google 'Talin Queen' / 'Թալին Քուին' returned no page naming 'Talin Queen'.",
+   "checked": "2026-09-28"
+  },
+  "hamedilam-690": {
+   "remove": true,
+   "why": "The live 'Համեդիլ Ռեզիդենս' page (work-6) reuses three of Talin Multihouse's images (80b637cc…, b3d26b8b…, ca1c4967…, floor plans), and the old Multihouse renders show the same 3-storey brick buildings. So this is Hamedil Residence at R. Levonyan 87-93, Talin, which is already on the map as acbaam-1116 (ACBA: 3 floors, 64 apartments, 385,000 AMD/m2, handover 24.03.2028). The old Multihouse data (5 floors, 30 apartments, completion Oct 2026) no longer appears anywhere. Remove 690 and add hamedil.am/en/projects/work-6 as a source on acbaam-1116. Values on work-6 for acbaam-1116: 4 three-storey blocks; start 1 Apr 2026; blocks finish Dec 2026 / Apr 2027 / Dec 2027; from 360,000 AMD/m2 rising to 385,000; areas 49-100 m2; 14 apartments still available; income-tax refund.",
+   "evidence": "hamedil.am/en/projects/work-6: 'Համեդիլ Ռեզիդենս Talin ... Started April 2026 Completed December 2027 ... 4 եռահարկ մասնաշենքով ... Հասցեներ՝ ք. Թալին, Ռ. Լևոնյան 93, 91, 87, 89 ... 360,000 դրամ/քմ (մեկնարկային գին) ... մինչև 385,000 դրամ/քմ ... Floors 3 Apartments 14 Area 49–100 m² Price from AMD 360,000 Availability Still available'. Image files 80b637cc8f99f53d.webp, b3d26b8b41d5114b.webp and ca1c49679dcacd94.webp appear in both hamedilam-690.images and the work-6 HTML.",
+   "checked": "2026-09-28"
+  },
+  "kp-16": {
+   "remove_sources": [
+    "https://komitaspark.am/en"
+   ],
+   "remove_images": [
+    "https://komitaspark.am/assets/images/home/komitas_park_video.webp"
+   ],
+   "why": "komitaspark.am/en is Komitas Park (Ord Development); Komitas 60 is a different building, merged by name",
+   "checked": "2026-09-28"
+  },
+  "kp-90": {
+   "why": "website pointed to construction.am's directory page for 'Brawerk (Metsn Erik Construction Organization)' - not a developer website (description_site is that page's meta text). Venni Group has no live website: vennigroup.am (which Google still indexes as 'Վեննի գրուպ - www.vennigroup.am/hy/buildings') is no longer registered (AMNIC whois 'No match', no A/MX records), so info@vennigroup.am (the only e-mail, taken from karucapatoxic's data) cannot receive mail either. No other site lists a web address for the developer (karucapatoxic, novostroiki-yerevan, dignisi, construction.am checked). Keep phones +37443777230 / +37433709970 (karucapatoxic data and novostroiki 'Contacts +37443777230') and the facebook.com/vennigroup + instagram.com/venni_group links shown by karucapatoxic.",
+   "evidence": "https://www.construction.am/apartments-in-new-developments/arabkir-riga-house/: 'Arabkir, Antarayin Residential Complex Price: No information available! Developer Brawerk (Metsn Erik Construction Organization) Completion 2023 / Completed' (no website). https://karucapatoxic.am/en/90 page data: '\"facebook\":\"https://www.facebook.com/vennigroup/\",\"instagram\":\"https://www.instagram.com/venni_group/\",\"email\":\"info@vennigroup.am\"', '\"phones\":[\"+37443777230\",\"+37433709970\"]', no website field. whois -h whois.amnic.net vennigroup.am -> 'No match'; curl vennigroup.am -> 'Could not resolve host'.",
+   "checked": "2026-09-28",
+   "remove_images": [
+    "https://www.amgroup.am/upload/gallery/antarayin_06.jpg",
+    "https://www.amgroup.am/upload/gallery/antarayin_05.jpg",
+    "https://www.amgroup.am/upload/gallery/antarayin_04.jpg",
+    "https://www.amgroup.am/upload/gallery/antarayin_03.jpg",
+    "https://www.amgroup.am/upload/gallery/antarayin_02.jpg",
+    "https://www.amgroup.am/upload/gallery/antarayin_01.jpg"
+   ],
+   "unset": [
+    "website",
+    "description_site",
+    "email"
+   ]
+  },
+  "movsesyanandpartnersam-513": {
+   "why": "Price $538/m² ($280,000, 520 m², 5 rooms), completion 2022-06, 2 floors and 'completed' all came from muargroup.am/projects/4, a different company's private house (different building - compared photos). Movsesyan & Partners' own page lists GARNI with only a name, the village and one architectural render - no price, date, floors or stage; no other public page describes it (movsesyan.am does not resolve). All those fields must be empty. It is a single villa render in a contractor portfolio, so it is also a candidate for removal from a new-build map.",
+   "evidence": "https://movsesyanandpartners.am/project.html: portfolio card 'GARNI / Գառնի' with image img/portfolio-3..jpeg (render of a stone-clad villa with infinity pool), nothing else. https://muargroup.am/api/projects/4: {\"name\":\"Առանձնատուն\",\"city\":\"Գառնի\",\"status\":\"completed\",\"end_date\":\"2022-06-13\",\"total_floors\":2,\"project_type\":\"private_house\",apartments:[{rooms:5, area:\"520.00\", price:280000, price_per_sqm:538}]} - photo is a white 2-storey house with oval pool, clearly not the Movsesyan render. Note: developer_rep.research.notes also claims Garni 'also appear[s] on muargroup.am' - that is the same wrong match.",
+   "checked": "2026-09-28",
+   "unset": [
+    "completion",
+    "completion_text",
+    "floors",
+    "start",
+    "status_hint"
+   ],
+   "remove_images": [
+    "https://muargroup.am/uploads/projects/project-1771846829624-365420480.jpg",
+    "https://muargroup.am/uploads/apartments/apartment-1771846971060-72856926.jpg",
+    "https://muargroup.am/uploads/apartments/apartment-1771846971060-30606502.jpg",
+    "https://muargroup.am/uploads/apartments/apartment-1771846971060-766552427.jpg",
+    "https://muargroup.am/uploads/apartments/apartment-1771846971061-281445568.jpg"
+   ],
+   "remove_sources": [
+    "https://muargroup.am/projects/4"
+   ],
+   "unverified": {
+    "reference": "https://movsesyanandpartners.am/project.html"
+   },
+   "add_sources": [
+    {
+     "name": "movsesyanandpartners.am",
+     "url": "https://movsesyanandpartners.am/project.html"
+    }
+   ]
+  },
+  "movsesyanandpartnersam-515": {
+   "remove_images": [
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/1699431283jpg",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.31234000 1699431283.gif",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.33170600 1699431283.gif",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.38168600 1699431283.gif",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.11610600 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.13015900 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.14324400 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.15690600 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.17062300 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.18455600 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.19892900 1699885447.png",
+    "https://redgroup-public.s3.eu-central-1.amazonaws.com/developers/projects/344/0.21235600 1699885447.png"
+   ],
+   "why": "Wrong match: completion 2025-02 ('Շինարարության ավարտ 15.02.25թ'), status finished, the 12 redgroup S3 images (projects/344), the YouTube video ZvB7DvVlw6g and last_known_prices_by_rooms (4 rooms 144 m² 54.8M; 5 rooms 154-176 m² 68M) all come from redgroup's 'Davtashen Town' family district by «Վիլլա Թաուն Հաուս» ՍՊԸ at Samvel Gevorgyan 106/21 - a row of 3-storey townhouses. Movsesyan & Partners' only information is a tile 'DAVTASHEN / Դավթաշեն, Ք. Երևան' with one render (img/portfolio-5.jpeg, a 2-3 storey flat-roofed building with a dark stone upper volume and terracotta slatted ground floor - visibly a different building from the Davtashen Town townhouses). No other public page describes it: movsesyan.am does not resolve, spyur lists no projects, web search finds nothing. So completion, stage, floors, prices, video and all non-developer images must be empty. It is only a contractor-portfolio render whose use (residential or not) is not stated - candidate for removal from a new-build map.",
+   "evidence": "https://movsesyanandpartners.am/project.html: 'Մեր նախագծերը DILIJANINN Օրջոնիկիձե 104/1, Ք. Դիլիջան KASAKHUM Վահան Տերյան 3 փողոց, 32 հողամաս GARNI Գառնի AVAN Ավան, Ք. Երևան DAVTASHEN Դավթաշեն, Ք. Երևան BYURAKAN Բյուրական' (no dates, prices or floors). https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown: 'Դավթաշեն Թաուն Ընտանեկան Թաղամաս, Մելքումով թաղամաս, Սամվել Գևորգյան 106/21 ... Շինարարության ավարտ 15.02.25թ ... Կառուցապատող «Վիլլա Թաուն Հաուս» ՍՊԸ'; page embeds YouTube ZvB7DvVlw6g and images under developers/projects/344/.",
+   "set": {
+    "stage_estimated": false,
+    "videos": [],
+    "last_known_prices_by_rooms": [],
+    "images": [
+     "https://movsesyanandpartners.am/img/portfolio-5.jpeg"
+    ]
+   },
+   "unset": [
+    "completion",
+    "completion_text",
+    "floors",
+    "start",
+    "status_hint"
+   ],
+   "checked": "2026-09-28",
+   "unverified": {
+    "reference": "https://movsesyanandpartners.am/project.html"
+   },
+   "remove_sources": [
+    "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-davtashentown"
+   ]
+  },
+  "myhomeam-745": {
+   "why": "myhome.am/212 (source of 690,000 AMD/m², 45,041,000 AMD flat, 06/2028) is gone, so those figures are unverifiable. The only live listing, novostroiki-yerevan.com, gives $1,687/m² (USD), from $55,502 for 32.9 m², completion 2027-05. 'Monte Pros' was a scraping artefact: the page says Developer 'Monte' followed by a 'Pros' heading; that attribution is not backed by any other page (monteresidence.am lists only its own 6-building complex, no NOY) - keep developer 'Noy Residence' (the project's own company «ՆՈՅ ՌԵԶԻԴԵՆՍ» ՍՊԸ, registered at Leningradyan 23/1). Not the same project as kp-31 (Noy Invest Group, 21/13, finished) or kp-131 (Noyan Tun, Ajapnyak).",
+   "evidence": "https://novostroiki-yerevan.com/en/p/noy-residence/ (and .md): 'NOY RESIDENCE Leningradyan 23/23 ... Price from $55 502 Price per m² $1 687/m² Area from 32.9 m² Completion 2027-05 Status Under construction ... Developer Monte' then '## Pros'; JSON-LD brand {\"name\":\"Monte\"}; contacts tel:+37441970970; 'Updated 2026-08-30'. https://myhome.am/API/v1/buildings/212 -> 404. https://karg.am/company/01335296?lang=hy: 'ՆՈՅ ՌԵԶԻԴԵՆՍ ՍՊԸ ՀՎՀՀ 01335296 ... Գրանցման ամսաթիվ 14.03.2023 ... Իրավաբանական հասցե ԵՐԵՎԱՆ ՄԱԼԱԹԻԱ-ՍԵԲԱՍՏԻԱ ... ԼԵՆԻՆԳՐԱԴՅԱՆ 23/1'. Facebook page 'NOY Residence | Yerevan' https://www.facebook.com/p/NOY-Residence-61560530261139/ and Instagram 'Noy Residence (@noy_residence)' - search snippets for both show noyresidence2023@gmail.com, +374 41 970 970, '16-story ... 323 apartments ... parking for 204 cars' (page bodies are login-walled). https://monteresidence.am/en: 'Elite Residen",
+   "checked": "2026-09-28",
+   "set": {
+    "completion": "2027-05-28",
+    "completion_text": "2027-05",
+    "social": {
+     "facebook": "https://www.facebook.com/p/NOY-Residence-61560530261139/",
+     "instagram": "https://www.instagram.com/noy_residence/"
+    },
+    "description": "The complex with elegant, stylish architectural solutions consists of 3 16-storey buildings. The apartment building is located 4 km from Republic Square, 1.5 km from Yerevan Park, and 2.3 km from Dalma Garden Mall. The complex is located next to newly built buildings. The total area is 4772 square meters, 40% of which, 1909.3 square meters is the well-maintained and green garden of the complex. An earthquake-resistant, multifunctional complex, built with high-quality, environmentally friendly materials, innovative techniques and technologies, where every detail is designed for…"
+   },
+   "remove_sources": [
+    "https://myhome.am/en/building/212"
+   ]
+  },
+  "myhomeam-748": {
+   "add_sources": [
+    {
+     "name": "idbank.am",
+     "url": "https://idbank.am/documents/IDBank%20constructors%20pptt.pdf"
+    }
+   ],
+   "set": {
+    "developer": "Samarm (Mashtots Residence)",
+    "description": "Mashtots Residence by Samarm LLC at 26 St. Mesrop Mashtots Street, Etchmiadzin. IDBank's partner-developer list (December 2025) gives a building permit valid until 23.01.2028; no live page publishes its prices, size or completion date."
+   },
+   "unset": [
+    "completion",
+    "completion_text",
+    "floors",
+    "status_hint"
+   ],
+   "unverified": {
+    "reference": "https://idbank.am/documents/IDBank%20constructors%20pptt.pdf"
+   },
+   "why": "myhome.am building 259 and builder 117 (including /partners/developers/117) are gone (404, and the API returns 404). The project is not in the current myhome list, and Wayback was offline. IDBank's partner-developer list (PDF created 2025-12-05) still names the project at the exact address, with a building permit valid until 23.01.2028. The legal developer is «ՍԱՄԱՐՄ» ՍՊԸ (Samarm LLC), and 'Mashtots Residence' is the brand, so the developer could be recorded as Samarm LLC (brand Mashtots Residence). The PDF shows no prices, floors, unit counts or completion date. The 475,000 AMD/m2 price and the 08/2027 date are no longer backed by any source.",
+   "evidence": "IDBank PDF 'ԱյԴի Բանկ ՓԲԸ-ի հետ համագործակցող կառուցապատող ընկերությունների ցանկ', Արմավիր section: '«ՍԱՄԱՐՄ» ՍՊԸ' ... 'ՍԱՄԱՐՄ ՍՊԸ / Մաշտոց ռեզիդենս / Հասցե` ք․ Էջմիածին, Սուրբ Մեսրոպ Մաշտոցի փողոց, հ․ 26 / Շին․ թույլտվության ժամկետ` 23․01․28 թ․'. Found via Google search \"Մաշտոց Ռեզիդենս\", which also still indexes myhome.am/en/partners/developers/117 (now 404). Searches with no hits: \"Mashtots Residence\" Ejmiatsin; mashtocresidence; +374 94 882788; \"Ավա Գրանիտ\" Էջմիածին; Էջմիածին Մաշտոցի 26 նորակառույց.",
+   "checked": "2026-09-28"
+  },
+  "myhomeam-852": {
+   "add_sources": [
+    {
+     "name": "yerevan.am",
+     "url": "https://www.yerevan.am/uploads/media/default/0002/66/fff1c4d192e18bf95a49cf616950c07b5c8ef758.pdf"
+    }
+   ],
+   "set": {
+    "developer": "Tachat-62",
+    "description": "Multi-apartment building of Tachat-62 LLC at 5 Edvard Mirzoyan Street: 27 apartments in two buildings (15 and 12) and 20 parking spaces. Yerevan Mayor's decision 4248-Ա of 31.08.2026 assigns the units their addresses after the ownership registration of 24.08.2026; no live page publishes its prices."
+   },
+   "unverified": {
+    "reference": "https://www.yerevan.am/uploads/media/default/0002/66/fff1c4d192e18bf95a49cf616950c07b5c8ef758.pdf"
+   },
+   "why": "myhome.am building 167 is gone (page and API 404). Yerevan Mayor's decision No. 4248-Ա of 31 Aug 2026 assigns addresses to the units of the multi-apartment residential building at E. Mirzoyan St 5 (Kentron), owned by «ՏԱՃԱՏ-62» ՍՊԸ under ownership certificate 24082026-01-0213 (issued 24.08.2026). The appendix lists 15 apartments in building 1 and 12 in building 2, which is exactly our 27 apartments in twin buildings, plus 20 parking spaces. This confirms the project, the developer, the address, the unit count and that it is finished and registered. It has no prices or floors, so the price is unbacked.",
+   "evidence": "yerevan.am PDF: '«ՏԱՃԱՏ-62» ՍՊԸ-ին սեփականության իրավունքով պատկանող, Է. Միրզոյան փողոցի հ.5 հասցեում գտնվող 3035.5քմ մակերեսով բազմաբնակարան բնակելի շենքի /վկ. հ.24082026-01-0213 .../ ... բնակարանին տրամադրել հասցե՝ Է. Միրզոյան փողոց, հ.5 շենք, 1-ին մասնաշենք, բն.1'. Units: 1-ին մասնաշենք բն.1-15, 2-րդ մասնաշենք բն.1-12, ավտոկայանատեղ հ.1-20. Found via Google \"Տաճատ-62\" Անտառային OR Միրզոյան. Also datalex civil case ԵԴ2/9175/02/24 (2024-10-30): buyers vs Տաճատ-62 ՍՊԸ seeking ownership 'Կառուցվող բազմաբնակարան շենքի շինարարության ավարտի գրանցման հիմքով'. Company card: karg.am TIN 00027261, registered 1996.",
+   "checked": "2026-09-28"
+  },
+  "redinvestam-559": {
+   "why": "redgroup project 396's Armenian text names «ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ as developer with construction 01.11.2024-01.12.2025; its English text ('Villa Town House', 15.03.23-15.02.25) is a word-for-word copy of Davtashen Town 1 (project 344), whose own page names Villa Town House with those exact dates. Project 396 was created 2024-11-27, matching the Nov-2024 start. All 11 townhouses are marked sold.",
+   "evidence": "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown2 and https://redgroup.am/api/projects/396 (hy content): 'Շինարարության մեկնարկ 01.11.24թ; Շինարարության ավարտ 01.12.25թ; Գործընկեր բանկ՝ «Ֆասթ Բանկ» ՓԲԸ; Կառուցապատող «ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ; Նախագծող «Պրոֆէներջի Գրուպ» ՍՊԸ; Շինարար «Լոքս Բիլդինգ» ՍՊԸ'; 'Թաղամասը բաղկացած է 11 եռահարկ թաունհաուսներից'; 11 units, all status 'sold' (143 m², 54,800,000 AMD). Same API en content: 'Start of construction: 15.03.23 ... End of construction: 15.02.25 ... Developer \"Villa Town House\" LLC'. https://redgroup.am/api/projects/344 (Davtashen Town 1, Samvel Gevorgyan 106/21): 'Շինարարության մեկնարկ 15.03.23թ; Շինարարության ավարտ 15.02.25թ; Կառուցապատող «Վիլլա Թաուն Հաուս» ՍՊԸ'. Registry (scraper/eregister.json): «ԳԼՈՐԻԱ ԻՆՎԵՍՏ» ՍՊԸ tax 06957574, reg. 28-08-2019, Vanadzor address - same name, not proven to be the same entity.",
+   "checked": "2026-09-28",
+   "set": {
+    "developer": "Gloria Invest",
+    "developer_am": "Գլորիա Ինվեստ",
+    "start": "2024-11-01",
+    "completion": "2025-12-01",
+    "completion_text": "2025-12",
+    "sold_out": true,
+    "description": "Developer: Gloria Invest LLC. Construction 01.11.2024 - 01.12.2025. \"Davtashen Town 2\" is a special project known for its exceptional geographical location and environment. It is situated near to \"Davtashen Town 1\" Family District, in the newly built Melkumov private house district of Davtashen, offering a convenient spot near the north-south highway. It is only 1.1km away from the Garage Master mall and adjacent to the Hayfilm movie studio, forming part of the future academic city's cultural cluster. \"Davtashen Town\" follows closed family neighborhood standards and occupies a spacious 1660 square meters of land. Out of this, 830 square meters are dedicated to green areas, well-designed sidewalks, and..."
+   },
+   "add_sources": [
+    {
+     "name": "redgroup.am (API, hy)",
+     "url": "https://redgroup.am/api/projects/396"
+    }
+   ]
+  }
+ }
+}

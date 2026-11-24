@@ -1,0 +1,53 @@
+[
+ {
+  "id": "mikshinam-1001",
+  "title": "Yeraz Business Park",
+  "developer": "Mikshin",
+  "address": "Yerevan (next to Yeraz residential district; address not published)",
+  "district": "Kentron",
+  "region": "Yerevan",
+  "lat": 40.1777112,
+  "lng": 44.5126233,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.mikshin.am/projects#business-park"
+  ]
+ },
+ {
+  "id": "evocaam-1136",
+  "title": "ASSTROY",
+  "developer": "ASSTROY",
+  "address": "Artsakhi Street 1, Vedi, Ararat",
+  "district": "Vedi",
+  "region": "Ararat",
+  "lat": 39.915216,
+  "lng": 44.713616,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#1-asstroy"
+  ]
+ },
+ {
+  "id": "evocaam-1155",
+  "title": "Konstro LLC",
+  "developer": "Konstro",
+  "address": "Mrgashen village, 1st St 2nd lane 3, Nor Hachn community, Kotayk",
+  "district": "Mrgashen",
+  "region": "Kotayk",
+  "lat": 40.2753,
+  "lng": 44.534034,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#20-konstro-llc"
+  ]
+ }
+]

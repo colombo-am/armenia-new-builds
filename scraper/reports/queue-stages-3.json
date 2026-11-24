@@ -1,0 +1,54 @@
+[
+ {
+  "id": "movsesyanandpartnersam-513",
+  "title": "Garni project",
+  "developer": "Movsesyan & Partners",
+  "address": "Garni, Kotayk",
+  "district": "Garni",
+  "region": "Kotayk",
+  "lat": 40.123596,
+  "lng": 44.745413,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://movsesyanandpartners.am/project.html#garni-project",
+   "https://movsesyanandpartners.am/project.html"
+  ]
+ },
+ {
+  "id": "evocaam-1170",
+  "title": "«White island» LLC",
+  "developer": "White island",
+  "address": "Armenia, city of Ashtarak",
+  "district": "Ashtarak",
+  "region": "Aragatsotn",
+  "lat": 40.2967905,
+  "lng": 44.360961,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#2-white-island-llc"
+  ]
+ },
+ {
+  "id": "evocaam-1161",
+  "title": "SAF CAPITAL LLC (EE)",
+  "developer": "SAF CAPITAL  (Energy Efficent)",
+  "address": "29/9 Kirk Kerkorian (ex-Leningradyan) St, Malatia-Sebastia, Yerevan",
+  "district": "Malatia-Sebastia",
+  "region": "Yerevan",
+  "lat": 40.189427,
+  "lng": 44.469016,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#26-saf-capital-llc-ee"
+  ]
+ }
+]

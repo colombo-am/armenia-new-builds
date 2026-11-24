@@ -1,0 +1,471 @@
+[
+  {
+    "id": "kp-185",
+    "title": "Gyurjyan Cascade",
+    "verdict": "confirmed",
+    "evidence_url": "https://ar-go.am/project/gyurjyan-kaskad-bnakeli-thaghamas",
+    "notes": "Sources disagree: ar-go (sales agent, live) from 730,000/m² with listed units at 780,000; dignisi from 710,000; karucapatoxic ֏640,000-670,000 (updated 04.2026); etagi 'from 531 116 ֏ for m², from 23 997 949 ֏' (84 offers, outlier); developer site shows no prices. Cheapest total from ar-go first page",
+    "usd_m2": 2009,
+    "amd_m2": 730000,
+    "apartment_from_total": 88678,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-205",
+    "title": "Arshakunyats Residence",
+    "verdict": "confirmed",
+    "evidence_url": "https://ar-go.am/project/arshakunyac-residence",
+    "notes": "karucapatoxic still shows 700,000-1,000,000 and 44.1M/63 m2 (updated 2026-01, stale); novostroiki '-2' $2,312/m2 from $103,115 / 44.6 m2 matches 850k. Parking 13-15M AMD.",
+    "usd_m2": 2339,
+    "amd_m2": 850000
+  },
+  {
+    "id": "kp-16",
+    "title": "Komitas 60",
+    "verdict": "confirmed",
+    "evidence_url": "https://armconstruct.am/en/projects/komitas-60-arabkir-district",
+    "notes": "Only 2 large units left: 424.9 m2 for 550M (1,294,422/m2) and 432.2 m2 for 600M (1,388,246/m2); myhome.am/building/79 identical (2 for sale). karucapatoxic 90M/95.6 m2 and novostroiki $2 561/m2 ('Sold out') are stale.",
+    "usd_m2": 3561,
+    "amd_m2": 1294422,
+    "apartment_from_total": 1518682,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "novostroikiyerevancom-960",
+    "title": "Firdus Prime Residence",
+    "verdict": "confirmed",
+    "evidence_url": "https://firdusresidence.am/hy/apartments/parametric",
+    "notes": "Developer GraphQL (api.firdusresidence.am): 498 purchased, 44 reserved, 10 active. Active per m² 1.15M-2.87M AMD (one 101bn AMD row is a data error). Min is a 498 m² penthouse; regular flats from 1.95-2.07M/m² (78.6-87.2 m²). ARGO 'from $4,700', dignisi/ac-box 'from $5,000', karucapatoxic 82.25M/44.7 m² (04.2026, sold).",
+    "usd_m2": 2501,
+    "amd_m2": 908927,
+    "apartment_from_total": 231602,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-39",
+    "title": "Nor Avan Residential Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://dignisi.am/en/projects/nor-avan-complex-179",
+    "notes": "Sources disagree: dignisi (updated Sep 2026) 530,000; construction.am 520,000-650,000; karucapatoxic 470,000-600,000 and 31,020,000/66 m² (01.2026); developer page 420,000-550,000 (undated, 'more than half sold'); etagi 'from 372,363 ֏/m²' (agency figure, same address). Most recent source used; current 520,000 within 2%.",
+    "usd_m2": 1459,
+    "amd_m2": 530000,
+    "apartment_from_total": 85654,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-194",
+    "title": "Avenue 22",
+    "verdict": "corrected",
+    "evidence_url": "https://www.capitalbuild.am/projects/flats",
+    "notes": "'Dro 22' is Capital Build's Avenue 22 (ru slug dro-22, address 'Դրոյի 22'). Developer flats list: 58 available units, 600,000-680,000 AMD/m². geoln 1165$ is stale (2023). USD at 363.4 AMD.",
+    "amd_m2": 600000,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "kp-66",
+    "title": "Davtashen Complex",
+    "verdict": "corrected",
+    "evidence_url": "https://myhome.am/en/building/166",
+    "notes": "Developer (buildings.bedeck.am) has no prices. myhome (builder 'Pars LLC'): block Դ 7 units 67.2-69.3 m2 all 55,000,000 AMD (793,651-818,452/m2); block Գ (bld 95) 1 unit 68.6 m2 56,960,000 (830,320/m2). novostroiki $1810/$1873 = same AMD figures divided by ~459, i.e. wrong FX conversion. Likely DUPLICATE of kp-66 'Davtashen Complex' (Bedeck, Pirumianner 13, karucapatoxic/en/66).",
+    "amd_m2": 793651,
+    "apartment_from_total": 55000000,
+    "apartment_from_area_m2": 67.2,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "kp-204",
+    "title": "Sunrise Residential Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://karucapatoxic.am/en/204",
+    "notes": "Totals in USD. lusabac.am shows no prices. novostroiki 'sunrise-residence' is a different, sold-out building (G. Hovsepyan 22/30, completion 2024-05, $1 823/m²) ~470 m east.",
+    "usd_m2": 2300,
+    "amd_m2": 836050,
+    "apartment_from_total": 158700,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-117",
+    "title": "Karegin Hovsepyan",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/156",
+    "notes": "Live myhome inventory (booked units excluded; two booked studios 34-34.7 m² at 650-730k ignored). karucapatoxic shows older range ֏750,000–900,000, from ֏27,280,000/34.1 m² (updated 01.2026, studio now booked); novostroiki $2,176/m²; dignisi $1,400 stale.",
+    "usd_m2": 1624,
+    "amd_m2": 590000,
+    "apartment_from_total": 121064,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-114",
+    "title": "ZOAR Residence",
+    "verdict": "confirmed",
+    "evidence_url": "https://dignisi.am/en/projects/zoar-193",
+    "notes": "dignisi (fresh) 607,000; karucapatoxic 560,000-695,000 (Updated 01.2026) with cheapest 35,375,500/50.9 m²; etagi 467,905 ֏/m² (etagi unreliable). construction.am: no price. Current 560,000 within 10%.",
+    "usd_m2": 1670,
+    "amd_m2": 607000,
+    "apartment_from_total": 97680,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-135",
+    "title": "Monte Residential Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/191",
+    "notes": "karucapatoxic 550,000-700,000 and 39.2M/60 m² (updated 01.2026) is older; developer site shows 30 available flats in buildings 3,4,5-1,5-2,6 (no prices on page).",
+    "usd_m2": 1569,
+    "amd_m2": 570000,
+    "apartment_from_total": 121000,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-32",
+    "title": "TIGRAN METS residential complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/49",
+    "notes": "myhome bldg 49: 5 available, from 635K/m²; bldg 84: 1 available 90 m² from 850K (76.5M). karucapatoxic ֏650,000-1,050,000 from ֏54,000,000/73 m² (upd 01.2026); citynest page 404.",
+    "usd_m2": 1747,
+    "amd_m2": 635000,
+    "apartment_from_total": 186737,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-58",
+    "title": "Arshakunyats 192",
+    "verdict": "confirmed",
+    "evidence_url": "https://karucapatoxic.am/en/58",
+    "notes": "karucapatoxic m² range updated 2023-04, min unit Jan 2026; novostroiki $2,040/m². construction.am: no price. geoln '1300$' is old - ignore.",
+    "usd_m2": 1926,
+    "amd_m2": 700000,
+    "apartment_from_total": 142894,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-87",
+    "title": "Arabkir 27 Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://karucapatoxic.am/en/87",
+    "notes": "dignisi also 'from 850,000 ֏/m²', areas 86.5-89.7 m2, ready to move in. Developer charagayt.am loads apartments via JS, no static prices. dignisi '$1,600' observation is stale/erroneous.",
+    "usd_m2": 2340,
+    "amd_m2": 850000,
+    "apartment_from_total": 204898,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "kp-81",
+    "title": "Antara Inn",
+    "verdict": "unverifiable",
+    "evidence_url": "https://metruminvest.am/en/project/antarainn",
+    "notes": "Developer flags Antara Inn sold out; Dignisi 'Not published'; construction.am 'No information available'. karucapatoxic 1,110,000 AMD/m² (94.49M/85.13 m²) and novostroiki $3,020 are leftovers of the last listed unit (m² price dated 2024-10)."
+  },
+  {
+    "id": "constructionam-4",
+    "title": "Care Building Services (CBS) · Malkhasyants 6/1",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/57",
+    "notes": "construction.am: 296 sold / 4 available. geoln 1200$ stale.",
+    "usd_m2": 2477,
+    "amd_m2": 900000,
+    "apartment_from_total": 270878,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "constructionam-6",
+    "title": "Komitas Park 3rd Round",
+    "verdict": "confirmed",
+    "evidence_url": "https://www.construction.am/apartments-in-new-developments/komitas-park/",
+    "notes": "Range 630,000-700,000 AMD/m² (amd_m2_max should be 700000, not 698500). Same floor price on dignisi 'from 630,000 /m²' (updated 27 Sep 2026).",
+    "usd_m2": 1734,
+    "amd_m2": 630000
+  },
+  {
+    "id": "constructionam-17",
+    "title": "Bedeck Construction",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/166",
+    "notes": "myhome (developer «Պարս» ՍՊԸ = Pars LLC, same as construction.am contact parsllc) covers building D (Pirumyanner 13 D). construction.am 595-800k AMD and dignisi 535k are stale/whole-complex figures. Max 818,452 AMD/m².",
+    "usd_m2": 2184,
+    "amd_m2": 793650,
+    "apartment_from_total": 151868,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "etagi-24",
+    "title": "Nova Building",
+    "verdict": "confirmed",
+    "evidence_url": "https://novabuilding.am/apartments",
+    "notes": "Developer inventory: 504 units (162 available, 26 reserved, 316 sold); available max 980,000/m². dignisi 'from 780,000 ֏/m²'. etagi '229,957 ֏/m²' is bogus.",
+    "usd_m2": 2146,
+    "amd_m2": 780000,
+    "apartment_from_total": 91204,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "etagi-25",
+    "title": "Northern Gates",
+    "verdict": "confirmed",
+    "evidence_url": "https://primedevelopers.am/en/apartments",
+    "notes": "Parsed all 57 pages of primedevelopers.am/en/apartments; available (non-locked) Northern Gates units 470,000-580,000 AMD/m². dignisi 'from 510,000 ֏/m²'; ac-box 'от $1 130 / м²'; etagi '177,644 ֏ for m²' / '$489' are wrong.",
+    "usd_m2": 1293,
+    "amd_m2": 470000,
+    "apartment_from_total": 62418,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "acbox-30",
+    "title": "Azatutyan Residential Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/257",
+    "notes": "myhome API: 97 available units, per-m² 1,550,000-1,950,000 AMD; cheapest 90,055,000 AMD / 58.1 m². ac-box/novostroiki $2,965-2,970/m² figures are stale. Developer site shows availability only (no prices).",
+    "usd_m2": 4265,
+    "amd_m2": 1550000,
+    "apartment_from_total": 248664,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "constructionam-41",
+    "title": "Lorida Group · Nazarbekyan 44/13",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-shushipalace",
+    "notes": "Current 536,232 was derived from sold units (RED sample: 11 of 12 sold, e.g. 29.76M/77 m² sold). construction.am: no price; geoln 'От 1500$' is a 2022 teaser."
+  },
+  {
+    "id": "etagi-81",
+    "title": "TOP BUILDINGS",
+    "verdict": "confirmed",
+    "evidence_url": "https://topbuildings.am/",
+    "notes": "Developer inline JSON: 118 units - 97 sold, 15 reserved, 6 available at 700k-750k AMD/m² (floors 15-16). dignisi 'from 700,000'. etagi figure ($999) is stale; its page now shows no project price (map pins in central Yerevan).",
+    "usd_m2": 1926,
+    "amd_m2": 700000,
+    "apartment_from_total": 84466,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "dignisi-119",
+    "title": "HAY VIEW",
+    "verdict": "corrected",
+    "evidence_url": "https://myhome.am/en/building/245",
+    "notes": "Same complex as myhomeam-819 (H. Emin 1st lane plot 23, buildings 1 and 2 on myhome 244/245). Unit-level available minimum across both = 600,000 AMD/m². dignisi 'from 510,000 ֏/m²' has no unit data (likely stale); novostroiki $1,387 copies it.",
+    "amd_m2": 600000,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "dignisi-136",
+    "title": "str. Sose",
+    "verdict": "confirmed",
+    "evidence_url": "https://www.archicon.am/new-apartments-for-sale-yerevan#sose-25",
+    "notes": "Developer (Archicon) says from 500,000 AMD/m²; dignisi header says from 800,000 ֏/m² and its description 'Starting price from AMD 700,000 per sq.m.' - sources disagree, developer figure kept (low for Arabkir, worth a phone check).",
+    "usd_m2": 1376,
+    "amd_m2": 500000
+  },
+  {
+    "id": "dignisi-139",
+    "title": "Urmia",
+    "verdict": "corrected",
+    "evidence_url": "https://dignisi.am/en/projects/urmia-319",
+    "notes": "the 510,000 AMD/m² came from myhome.am buildings 229/231, which are gone; no page shows a cheapest-apartment price"
+  },
+  {
+    "id": "geoln-159",
+    "title": "Greenville",
+    "verdict": "unverifiable",
+    "evidence_url": "https://arcada.am/?app=AppProject&page=district&project_id=1",
+    "notes": "All 126 apartments sold per arcada inventory; completed 08/2022. geoln '1600$' is stale; the 400,000 AMD figure should be dropped."
+  },
+  {
+    "id": "dignisi-210",
+    "title": "Level 16",
+    "verdict": "confirmed",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-leningradyan",
+    "notes": "Finished building. Redgroup default in-stock tab (Սեփականատիրոջից, not the Sold tab) lists 4 units: 102-143 m2, 796,863-802,238 AMD/m2. Dignisi 'from 750,000' (-6%). Earlier 377,138 figure came from sold units.",
+    "usd_m2": 2193,
+    "amd_m2": 796863,
+    "apartment_from_total": 224434,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "dignisi-212",
+    "title": "MONUMENT 21",
+    "verdict": "confirmed",
+    "evidence_url": "https://dignisi.am/en/projects/monument-21-298",
+    "notes": "Dignisi currency label is wrong (900,000 is AMD). novostroiki 'from $108 944 / area from 44 m²' conflicts with dignisi areas 85–96 m², so no cheapest-unit total given.",
+    "usd_m2": 2477,
+    "amd_m2": 900000
+  },
+  {
+    "id": "constructionam-238",
+    "title": "Levon Amirkhanyan · Khanjyan 29",
+    "verdict": "unverifiable",
+    "evidence_url": "https://www.construction.am/apartments-in-new-developments/khanjyan-st-29/",
+    "notes": "No price on the only source; the current 'from 83,876,000 AMD / 60.6 m²' is not supported by any live source and should be dropped."
+  },
+  {
+    "id": "dignisi-255",
+    "title": "Monument Hills",
+    "verdict": "confirmed",
+    "evidence_url": "https://dignisi.am/en/projects/monument-hills-294",
+    "notes": "Dignisi updated 14 Sep 2026. Developer site monumenthills.am shows units with '0 ֏' and many 'Վաճառված է' (sold) - no public prices. novostroiki $1,660/m² from $107,568 (64.8 m²) looks stale.",
+    "usd_m2": 2146,
+    "amd_m2": 780000
+  },
+  {
+    "id": "redinvestam-539",
+    "title": "Sapphire",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-sapfir",
+    "notes": "redgroup page lists 14 available units (first 9 visible: building 2, 493,793-735,143 AMD/m²). The API 'products' sample (12 of 313) is all SOLD - the old 327,058 AMD/m² (=$900) came from sold units. redinvest.am mirrors redgroup.",
+    "amd_m2": 493793,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-543",
+    "title": "Heaven Heights",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+    "notes": "All 67 available products via page load-more: residential 542,871-774,318 AMD/m²; cheapest 31.26M/52 m². Old 433,469 figure was a SOLD unit. redinvest.am mirror returns application error.",
+    "amd_m2": 542871,
+    "apartment_from_total": 31260000,
+    "apartment_from_area_m2": 52.0,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-544",
+    "title": "Novotel",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-novotel",
+    "notes": "Old value 685,185 AMD/m2 was computed from SOLD units in the API sample (12 of 288). Full available list (146, loaded via page's load-more) gives min 1,088,491, max 1,399,286 AMD/m2. Investment/hotel-apartment property.",
+    "amd_m2": 1088491,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-547",
+    "title": "The View Residential Building",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-theview",
+    "notes": "427,252/m² and 19,728,000/43 m² were SOLD units. redgroup shows 8 unsold of 9 listed (18 total, 122 all products): 530,008-604,396 AMD/m². redinvest.am is client-rendered mirror.",
+    "amd_m2": 530008,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-548",
+    "title": "Duryan House 4 Residential Complex",
+    "verdict": "unverifiable",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-duryan4",
+    "notes": "Developer stock sold out: redgroup API products all 'sold'. The 17-unit list shown by default is the 'from owner' (resale) tab (radio owner_check checked): min 523,846 AMD/m² (78 m², 40.86M), cheapest 36.29M/65 m² - resale, not developer price. Current 523,846 came from that tab."
+  },
+  {
+    "id": "redinvestam-553",
+    "title": "For Dream Residence",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-fordream",
+    "notes": "RED products endpoint (51 of 159 unsold). The 373,125 AMD/m² and 19,270,000 AMD / 50 m² figures came from SOLD units."
+  },
+  {
+    "id": "redinvestam-554",
+    "title": "Lumina Residence",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/150",
+    "notes": "myhome headline 500,000/m2 is a booked unit. redgroup/redinvest API returns only a 12-unit sample (9 sold; unsold: 94 m2 62,980,000 = 670,000/m2; 64 m2 52,800,000; 63 m2 52,640,000) - the 480,877/m2 (27.41M/57 m2) figure is a SOLD unit. +5% vs current.",
+    "usd_m2": 1431,
+    "amd_m2": 519970,
+    "apartment_from_total": 94186,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "redinvestam-555",
+    "title": "Dalan Technopark",
+    "verdict": "confirmed",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-dalantechnologypark-apartments",
+    "notes": "All 22 non-sold units loaded via the page's load-more list; all on 14th floor (property_type 3 - serviced apartments).",
+    "usd_m2": 4772,
+    "amd_m2": 1734694,
+    "apartment_from_total": 221175,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "redinvestam-558",
+    "title": "Babajanyan 72 Residential Building",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-babajanyan72",
+    "notes": "redgroup.am rendered list: 5 available units, all 74 m² 3-room, floors 3-7, 46,730,000-51,390,000 AMD (631,486-694,459/m²). Current 513,333 was computed from SOLD units (API /api/projects/399: 11 of 12 listed units sold).",
+    "amd_m2": 631486,
+    "apartment_from_total": 46730000,
+    "apartment_from_area_m2": 74.0,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-563",
+    "title": "Avan Residence Residential Building",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-avanresidence",
+    "notes": "Current 392,950 (23.97M/61 m²) and 48,387 USD-from are SOLD units. Only 3-room units remain."
+  },
+  {
+    "id": "redinvestam-566",
+    "title": "Gardena Residential District",
+    "verdict": "unverifiable",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-Noragyugh",
+    "notes": "Project no longer in RED catalogue (redgroup slug redirects to list, not in /api/projects); redinvest.am shows application error. Current usd_from 74,644 (27.12M/50 m²) cannot be confirmed."
+  },
+  {
+    "id": "redinvestam-567",
+    "title": "UNIT 23 Residential District",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-unit23",
+    "notes": "Old 345,810 AMD/m2 came from sold units. Only 4 of 23 townhouse units available (land 181-184 m2 each)."
+  },
+  {
+    "id": "redinvestam-568",
+    "title": "21 Street Residential Building",
+    "verdict": "corrected",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-21street",
+    "notes": "Old 651,190/m2 (27.35M/42 m2) was a SOLD unit. 7 available units: 81.2M/81, 76.25M/76, 113.65M/113 m2 -> 1,002,469-1,005,752 AMD/m2.",
+    "amd_m2": 1002469,
+    "apartment_from_total": 76250000,
+    "apartment_from_area_m2": 76.0,
+    "currency_shown": "AMD"
+  },
+  {
+    "id": "redinvestam-572",
+    "title": "Just Developer (sales: RED Invest Group) · Moldovakan New Residential Building in Nor Nork 2nd District  ​​​​​​​Moldovakan 39/37",
+    "verdict": "unverifiable",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-moldovakan",
+    "notes": "Developer stock sold out (API: all 12 products 'sold'). Only listing is a resale 'from owner' unit 65,000,000 AMD/70 m² (928,571/m²), which is the source of the current value - not a developer price."
+  },
+  {
+    "id": "redinvestam-575",
+    "title": "West Town Residential district",
+    "verdict": "unverifiable",
+    "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-westtown",
+    "notes": "Sold out - old listed prices are not current offers."
+  },
+  {
+    "id": "citynestam-602",
+    "title": "TM Tower",
+    "verdict": "confirmed",
+    "evidence_url": "https://myhome.am/en/building/182",
+    "notes": "myhome API live: bldg Ա (181) 12/86 available, 750,000-820,000 AMD/m², cheapest 36,080,000/45.1 m²; bldg Բ (182) 7/97 available, 650,000-770,000 AMD/m². citynest.am/tmtower/am now 404. novostroiki: $1 768/m² (Բ) and $2 040/m² (Ա).",
+    "usd_m2": 1789,
+    "amd_m2": 650000,
+    "apartment_from_total": 99626,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "alluram-617",
+    "title": "Allur Residence Dilijan",
+    "verdict": "confirmed",
+    "evidence_url": "https://allur.am/hy/allur/choose-apartment",
+    "notes": "43 listed units parsed from developer chooser; min 419,111 AMD/m2 (131.23 m2 for 55.0M), cheapest 34.0M/55.33 m2. myhome.am/building/141 (same building, 15 of 42 for sale) shows from 404,671 AMD/m2 and 28,147,000/43.98 m2 - within 4%.",
+    "usd_m2": 1153,
+    "amd_m2": 419111,
+    "apartment_from_total": 93882,
+    "currency_shown": "USD"
+  },
+  {
+    "id": "citynestam-653",
+    "title": "Only One Residential Complex",
+    "verdict": "confirmed",
+    "evidence_url": "https://citynest.am/onlyone/en",
+    "notes": "Developer page. Cheapest total not published. novostroiki shows $3,125/m², from $137,281, completion 04/2027 - inconsistent/stale.",
+    "usd_m2": 4169,
+    "amd_m2": 1515000
+  }
+]

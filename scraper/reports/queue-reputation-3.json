@@ -1,0 +1,360 @@
+[
+ {
+  "developer": "RID",
+  "name_variants": [
+   "RID"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.construction.am/companies/rid-llc/",
+  "sample_projects": [
+   "Parajanov Club House"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Venni Group",
+  "name_variants": [
+   "Venni Group"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": null,
+  "sample_projects": [
+   "Antarayin Residential Complex",
+   "Hahah Doni, 2/2",
+   "Venni Group"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "ASR Construction Company",
+  "name_variants": [
+   "ASR Construction Company"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.construction.am/companies/asr-construction-company/",
+  "sample_projects": [
+   "ASR Construction Company · Acharyan 43/20"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Bars Real Estate Agency",
+  "name_variants": [
+   "Bars Real Estate Agency"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "https://www.construction.am/companies/bars-real-estate-agency/",
+  "sample_projects": [
+   "Bars Real Estate Agency · Nor Silikyan District",
+   "Bars Real Estate Agency · Antarayin",
+   "Bars Real Estate Agency · Eco House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Club House Yerevan",
+  "name_variants": [
+   "Club House Yerevan"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Club House Yerevan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Yerkir Real Estate Agency",
+  "name_variants": [
+   "Yerkir Real Estate Agency"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "https://www.construction.am/companies/yerkir-real-estate-agency/",
+  "sample_projects": [
+   "Yerkir Real Estate Agency · Papazyan 14",
+   "Yerkir Real Estate Agency · Victor Hambardzumyan / Vagharsyan",
+   "Yerkir Real Estate Agency · 3rd Microdistrict"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Mountain Plaza",
+  "name_variants": [
+   "Mountain Plaza"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.construction.am/companies/mountain-plaza/",
+  "sample_projects": [
+   "Mountain Plaza · G. Hovsepyan 48/3"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Alma-ata Rezidens",
+  "name_variants": [
+   "Alma-ata Rezidens"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Alma-ata Rezidens"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Dream House",
+  "name_variants": [
+   "Dream House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/dream-house/",
+  "sample_projects": [
+   "Dream House · David Bek"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Dalan Technopark Business Center",
+  "name_variants": [
+   "Dalan Technopark Business Center"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://dalantechnologies.com/",
+  "sample_projects": [
+   "Dalan Technopark"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Leningradyan Residence",
+  "name_variants": [
+   "Leningradyan Residence"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://leningradyan.am/",
+  "sample_projects": [
+   "Tsaghkadzor Plaza apartment hotel (Allison LLC)"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Muar Group",
+  "name_variants": [
+   "Muar Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": "https://muargroup.am/",
+  "sample_projects": [
+   "Getapnya Residential Complex",
+   "Muar Group · 1st Street 16"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Amur Construction (sales: RED Invest Group)",
+  "name_variants": [
+   "Amur Construction (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "Amur Towers"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Gevorg Darbinyan (sales: RED Invest Group)",
+  "name_variants": [
+   "Gevorg Darbinyan (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "For Dream Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Magnolia Comfort",
+  "name_variants": [
+   "Magnolia Comfort"
+  ],
+  "projects": 3,
+  "stages": {
+   "just started": 3
+  },
+  "website": "https://www.zover.am",
+  "sample_projects": [
+   "Magnolia Comfort · Zard By Zover Estates 15 bldg",
+   "Magnolia Comfort · Zard By Zover Estates 17 bldg",
+   "Magnolia Comfort · Zard By Zover Estates 16 bldg"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "ART CAPITAL CONSTRUCTION",
+  "name_variants": [
+   "ART CAPITAL CONSTRUCTION"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "ART CAPITAL CONSTRUCTION · Vazgen Sargsyan 1 Street 1/7"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "HATIS PARK REZIDENCE",
+  "name_variants": [
+   "HATIS PARK REZIDENCE"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "HATIS PARK REZIDENCE · 1st Street 7 SH"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nork Residential Complex",
+  "name_variants": [
+   "Nork Residential Complex"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": null,
+  "sample_projects": [
+   "Nork Residential Complex · Sero Khanzadyan 5/5",
+   "Nork Residential Complex · Sero Khanzadyan 131/9",
+   "Nork Residential Complex · Sero Khanzadyan 131/10"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "CAVEMAN RESIDENCE",
+  "name_variants": [
+   "CAVEMAN RESIDENCE"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "CAVEMAN RESIDENCE · Orjonikidze 83/1 1"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Shinas",
+  "name_variants": [
+   "Shinas"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "http://www.tmr.am/",
+  "sample_projects": [
+   "Shinas · Kirk Kerkorian Street 27/7M2",
+   "Shinas · Kirk Kerkorian Street 27/7M2",
+   "Shinas · Kirk Kerkorian Street 27/7M2"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Dream Ston",
+  "name_variants": [
+   "Dream Ston"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Drim Ston Rezidens"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "In Town",
+  "name_variants": [
+   "In Town"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "In Town"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Eliz",
+  "name_variants": [
+   "Eliz"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://1-sq.am/services/verin-antarayin/",
+  "sample_projects": [
+   "Eliz LLC"
+  ],
+  "reason": "low-confidence research"
+ }
+]

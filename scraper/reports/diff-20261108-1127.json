@@ -1,0 +1,58 @@
+{
+ "old_count": 680,
+ "new_count": 680,
+ "added": [],
+ "removed": [],
+ "price": [
+  {
+   "title": "Davtashen Town Family District",
+   "from": 1056,
+   "to": 1215,
+   "pct": 15.1
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "from": 2201,
+   "to": 2890,
+   "pct": 31.3
+  }
+ ],
+ "stage": [
+  {
+   "title": "Arinj Smart Hills 2",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "from": "finished",
+   "to": "in progress"
+  }
+ ],
+ "moved": [
+  {
+   "title": "NARMARK residential building near Davtashen",
+   "metres": 1032
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "metres": 1936
+  },
+  {
+   "title": "Griboyedov Park",
+   "metres": 219
+  }
+ ],
+ "grade": [
+  {
+   "developer": "V.v.b",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": "C",
+   "to": "B"
+  }
+ ]
+}

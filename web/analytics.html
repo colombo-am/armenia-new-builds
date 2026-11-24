@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="hy" class="i18n-pending">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="analytics.title">Analytics · New builds in Armenia</title>
+  <script>setTimeout(() => document.documentElement.classList.remove("i18n-pending"), 2500);</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@85..100,400..700&family=Noto+Sans+Armenian:wght@400..700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="analytics.css">
+</head>
+<body class="an-body">
+  <header class="an-top">
+    <div class="an-brand">
+      <h1 data-i18n="brand">New builds in Armenia</h1>
+      <nav class="an-nav" aria-label="Pages" data-i18n-attr="aria-label:nav.pages">
+        <a href="https://colombo-am.github.io/" data-i18n="nav.home">← All projects</a>
+        <a href="index.html" data-i18n="nav.map">Map</a>
+        <a href="analytics.html" aria-current="page" data-i18n="nav.analytics">Analytics</a>
+      </nav>
+      <button type="button" class="lang-switch" data-lang-switch><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9M12 3c-2.5 2.6-3.8 5.6-3.8 9s1.3 6.4 3.8 9"/></svg><span class="lang-code">EN</span></button>
+    </div>
+    <p id="an-meta" class="muted" data-i18n="common.loading">Loading…</p>
+  </header>
+
+  <form class="an-filters" id="an-filters" aria-label="Filters" data-i18n-attr="aria-label:analytics.filters" onsubmit="return false">
+    <label><span data-i18n="filters.region">Region</span><select id="af-region"><option value="">All regions</option></select></label>
+    <label><span data-i18n="filters.district">District</span><select id="af-district"><option value="">All districts</option></select></label>
+    <label><span data-i18n="filters.kind">Type</span><select id="af-kind"><option value="">All types</option></select></label>
+    <label><span data-i18n="filters.stage">Stage</span><select id="af-stage"><option value="">All stages</option></select></label>
+    <label><span data-i18n="filters.rating">Developer rating</span><select id="af-grade">
+      <option value="" data-i18n="filters.any_rating">Any rating</option><option value="A" data-i18n="filters.a_only">A only</option><option value="B" data-i18n="filters.b_better">B or better</option><option value="C" data-i18n="filters.c_better">C or better</option>
+    </select></label>
+    <div class="seg" id="af-currency" aria-label="Currency" data-i18n-attr="aria-label:common.currency"><button type="button" data-cur="USD" class="on">$</button><button type="button" data-cur="AMD">֏</button></div>
+    <button type="button" class="link" id="af-reset" hidden data-i18n="analytics.clear">Clear filters</button>
+  </form>
+
+  <main class="an-grid" id="an-main">
+    <section class="an-hero card">
+      <span class="an-label" data-i18n="analytics.hero_label">Median asking price per m², apartments with a current price</span>
+      <strong id="kpi-hero" class="an-hero-value">-</strong>
+      <span id="kpi-hero-sub" class="muted"></span>
+    </section>
+    <section class="an-kpis" id="an-kpis" aria-label="Key figures" data-i18n-attr="aria-label:analytics.kpis"></section>
+
+    <article class="card span-2">
+      <header><h2 data-i18n="analytics.district_title">Price per m² by district</h2><p class="muted" data-i18n="analytics.district_desc"></p></header>
+      <div class="chart" id="ch-district"></div>
+      <details class="an-table"><summary data-i18n="analytics.table">Table</summary><div id="tb-district"></div></details>
+    </article>
+
+    <article class="card span-2" id="an-history">
+      <header><h2 data-i18n="analytics.trend_title">Market over time</h2><p class="muted" data-i18n="analytics.trend_desc"></p></header>
+      <div class="chart" id="ch-trend"></div>
+      <h3 class="an-sub" data-i18n="analytics.trend_stage_title">Projects by stage at each update</h3>
+      <div class="legend-row" id="lg-trend-stage"></div>
+      <div class="chart" id="ch-trend-stage"></div>
+      <details class="an-table"><summary data-i18n="analytics.trend_changes">What changed at each update</summary><div id="tb-trend" class="an-scroll"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2 data-i18n="analytics.hist_title">Price distribution</h2><p class="muted" data-i18n="analytics.hist_desc"></p></header>
+      <div class="chart" id="ch-hist"></div>
+      <details class="an-table"><summary data-i18n="analytics.table">Table</summary><div id="tb-hist"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2 data-i18n="analytics.pipeline_title">Delivery pipeline</h2><p class="muted" data-i18n="analytics.pipeline_desc"></p></header>
+      <div class="chart" id="ch-pipeline"></div>
+      <details class="an-table"><summary data-i18n="analytics.table">Table</summary><div id="tb-pipeline"></div></details>
+    </article>
+
+    <article class="card span-2">
+      <header><h2 data-i18n="analytics.stage_title">Construction stage by area</h2><p class="muted" data-i18n="analytics.stage_desc"></p></header>
+      <div class="legend-row" id="lg-stage"></div>
+      <div class="chart" id="ch-stage"></div>
+      <details class="an-table"><summary data-i18n="analytics.table">Table</summary><div id="tb-stage"></div></details>
+    </article>
+
+    <article class="card span-2">
+      <header><h2 data-i18n="analytics.scatter_title">Price against completion date</h2><p class="muted" data-i18n="analytics.scatter_desc"></p></header>
+      <div class="chart" id="ch-scatter"></div>
+    </article>
+
+    <article class="card">
+      <header><h2 data-i18n="analytics.grades_title">Developer ratings</h2><p class="muted" data-i18n="analytics.grades_desc"></p></header>
+      <div class="chart" id="ch-grades"></div>
+      <details class="an-table"><summary data-i18n="analytics.table">Table</summary><div id="tb-grades"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2 data-i18n="analytics.quality_title">Data quality</h2><p class="muted" data-i18n="analytics.quality_desc"></p></header>
+      <div id="ch-quality"></div>
+    </article>
+
+    <article class="card span-2" id="an-connections">
+      <header>
+        <h2 data-i18n="cn.title">Developer and constructor connections</h2>
+        <p class="muted" data-i18n="cn.lead"></p>
+        <details class="cn-howto"><summary data-i18n="cn.how_to_read">How to read this</summary><p class="muted" data-i18n-html="cn.desc"></p></details>
+      </header>
+      <div class="cn-controls">
+        <label><span data-i18n="cn.view">View</span><span class="seg" id="cn-view" aria-label="View" data-i18n-attr="aria-label:cn.view">
+          <button type="button" data-view="tree" class="on" data-i18n="cn.tree">Tree</button><button type="button" data-view="graph" data-i18n="cn.graph">Graph</button>
+        </span></label>
+        <label><span data-i18n="cn.show">Show</span><select id="cn-scope">
+          <option value="linked" data-i18n="cn.scope_linked">Developers linked to another developer</option>
+          <option value="flagged" data-i18n="cn.scope_flagged">Clusters with a bankruptcy</option>
+          <option value="all" data-i18n="cn.scope_all">Every developer with registry data</option>
+        </select></label>
+        <label><span data-i18n="cn.focus">Focus</span><select id="cn-focus"><option value="" data-i18n="cn.all_clusters">All clusters</option></select></label>
+        <label><span data-i18n="cn.find">Find</span><input id="cn-search" list="cn-nodes" placeholder="developer, company or owner" data-i18n-attr="placeholder:cn.find_ph" autocomplete="off">
+          <datalist id="cn-nodes"></datalist></label>
+        <label class="cn-check" data-i18n-attr="title:cn.family_title">
+          <input type="checkbox" id="cn-family"> <span data-i18n="cn.family">Possible family ties (unverified)</span>
+        </label>
+      </div>
+      <p class="cn-note muted" id="cn-note"></p>
+      <div class="legend-row" id="cn-legend"></div>
+      <div class="cn-split">
+        <div class="chart" id="ch-connections"></div>
+        <div id="ch-connections-tree" hidden></div>
+        <aside class="cn-panel" id="cn-panel" aria-live="polite"></aside>
+      </div>
+      <details class="an-table"><summary data-i18n="cn.table_links">How the linked developers are connected</summary><div id="tb-connections" class="an-scroll"></div></details>
+      <details class="an-table"><summary data-i18n="cn.table_bankrupt">Bankruptcies</summary><div id="tb-bankrupt" class="an-scroll"></div></details>
+      <p class="cn-sources muted" id="cn-sources"></p>
+    </article>
+
+    <article class="card span-2">
+      <header><h2 data-i18n="analytics.developers_title">Largest developers</h2><p class="muted" data-i18n="analytics.developers_desc"></p></header>
+      <div id="tb-developers" class="an-scroll"></div>
+    </article>
+
+    <article class="card span-2">
+      <header><h2 data-i18n="analytics.deals_title">Priced below the local median</h2><p class="muted" data-i18n="analytics.deals_desc"></p></header>
+      <div id="tb-deals" class="an-scroll"></div>
+    </article>
+  </main>
+
+  <div class="an-tip" id="an-tip" role="tooltip" hidden></div>
+  <script src="config.js" onerror="void 0"></script>
+  <script type="module" src="js/analytics.js"></script>
+</body>
+</html>

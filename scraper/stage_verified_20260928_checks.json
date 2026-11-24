@@ -1,0 +1,74 @@
+[
+ {
+  "id": "dignisi-122",
+  "title": "Komitas Park (Phases 1-2)",
+  "withdrawn": true,
+  "evidence": "earlier checks read the dignisi phase-3 listing (handover 2028), which belongs to constructionam-6"
+ },
+ {
+  "id": "movsesyanandpartnersam-515",
+  "title": "Davtashen project",
+  "withdrawn": true,
+  "evidence": "earlier checks took Davtashen Town 1's dates (redgroup project 344); the developer's page gives none"
+ },
+ {
+  "id": "myhomeam-852",
+  "title": "Tachat 62",
+  "stage": "finished",
+  "completion": null,
+  "confidence": "high",
+  "evidence": "Yerevan Mayor's decision 4248-Ա of 31.08.2026 assigns addresses to the finished building's 27 apartments; ownership certificate issued 24.08.2026"
+ },
+ {
+  "id": "hamedilam-689",
+  "title": "Talina Business Center",
+  "stage": "not started",
+  "floors": "5",
+  "completion": "2028-05",
+  "confidence": "high",
+  "evidence": "hamedil.am/en/projects/work-5: 'Started May 2027 Completed May 2028', presale coming soon"
+ },
+ {
+  "id": "redinvestam-559",
+  "title": "Davtashen Town 2",
+  "stage": "finished",
+  "completion": "2025-12",
+  "confidence": "medium",
+  "evidence": "redgroup project 396: construction 01.11.2024–01.12.2025, all 11 townhouses sold"
+ },
+ {
+  "id": "myhomeam-745",
+  "title": "Noy Residence",
+  "stage": "in progress",
+  "completion": "2027-05",
+  "confidence": "medium",
+  "evidence": "novostroiki-yerevan.com: Completion 2027-05, Status Under construction"
+ },
+ {
+  "id": "acbaam-1124",
+  "title": "Eritsuk",
+  "stage": "in progress",
+  "completion": "2027-12-09",
+  "confidence": "high",
+  "evidence": "acba.am card 10177: Կառուցապատման փուլում; Շահագործման ամսաթիվ 09.12.2027թ."
+ },
+ {
+  "id": "movsesyanandpartnersam-513",
+  "title": "Garni project",
+  "withdrawn": true,
+  "evidence": "the 2022-06 completion and 2 floors came from muargroup.am/projects/4, a different company's house"
+ },
+ {
+  "id": "myhomeam-748",
+  "title": "Mashtots 26",
+  "withdrawn": true,
+  "evidence": "the 08/2027 date and 9 floors came from myhome.am/en/building/259, which is gone; no live page gives them"
+ },
+ {
+  "id": "movsesyanandpartnersam-511",
+  "stage": "finished",
+  "completion": null,
+  "floors": "3-5",
+  "evidence": "https://www.ghulyanarchitects.com/projects/dilijan-inn-apartment-complex: 'Client: Movsesyan and Partners Construction LTD ... Start of Construction: 2022 Apartment Areas: 28-144 sqm ... Status: Built with major mistakes ... this three-story luxury apartment complex ... Anchored by a five-story tower'"
+ }
+]

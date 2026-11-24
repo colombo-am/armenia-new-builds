@@ -1,0 +1,227 @@
+{
+ "old_count": 735,
+ "new_count": 727,
+ "added": [
+  "\"Anahit\" District",
+  "Talina Business Center",
+  "Mashtots  26",
+  "Armenia Garden · Akunk community",
+  "Armenia Garden · Akunk community",
+  "Tachat 62 · Edvard Mirzoyan 5"
+ ],
+ "removed": [
+  "\"Anahit\" District",
+  "Residential building, Paronyan str.",
+  "Residential building, Grigor Lusavorich str.",
+  "Residential building, Yerznkyan str.",
+  "Residential building, Komitas ave.",
+  "Residential complex, Nor Hachn, Tumanyan str.",
+  "TM Tower",
+  "Talin Queen",
+  "Talin Multihouse",
+  "Mashtots  26",
+  "Armenia Garden · Akunk community",
+  "Armenia Garden · Akunk community",
+  "Arm Construct · Gevorg Chaush 95 Z Masnashenk",
+  "Tachat 62 · Edvard Mirzoyan 5",
+  "SMART CITY DEVELOPER · 38-th st. 21 6 bldg",
+  "SMART CITY DEVELOPER · 38-th st. 21 5 bldg",
+  "SMART CITY DEVELOPER · 49-th st. 60 4 bldg",
+  "SMART CITY DEVELOPER · 49-th st. 60 3 bldg",
+  "SMART CITY DEVELOPER · 49-th st. 60 2 bldg",
+  "SMART CITY DEVELOPER · 49-th st. 60 1 bldg"
+ ],
+ "price": [
+  {
+   "title": "Komitas Park Residential District (Phases 1-2)",
+   "from": 1733,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Urmia",
+   "from": 1404,
+   "to": 1756,
+   "pct": 25.1
+  },
+  {
+   "title": "Garni project",
+   "from": 538,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Noy Residence · Kirk Kerkorian Street 23/23",
+   "from": 1899,
+   "to": 1687,
+   "pct": -11.2
+  },
+  {
+   "title": "Arm Construct · Gevorg Chaush 95 Z Masnashenk",
+   "from": 1596,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Griboyedov Park",
+   "from": 1734,
+   "to": null,
+   "pct": null
+  }
+ ],
+ "stage": [
+  {
+   "title": "Sunrise Residential Complex",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Komitas Park 3rd Round",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Felicity",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Skyline",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Komitas Park Residential District (Phases 1-2)",
+   "from": "just started",
+   "to": "unknown"
+  },
+  {
+   "title": "Milon Hills District",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Garni project",
+   "from": "finished",
+   "to": "unknown"
+  },
+  {
+   "title": "Davtashen project",
+   "from": "finished",
+   "to": "unknown"
+  },
+  {
+   "title": "Milano Firenze Towers",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Arinj Townhouses (Location 4)",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Erebuni  2/2 Shenk A Masnashenk",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Nairi House",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SHAMAKHYAN · Shamakhyan 1/2 2",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 38-th st. 21 6 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 38-th st. 21 5 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 49-th st. 60 4 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 49-th st. 60 3 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 49-th st. 60 2 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "SMART CITY DEVELOPER · 49-th st. 60 1 bldg",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "MILON MINING · B district",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Argishti Syuts & Rezidens",
+   "from": "just started",
+   "to": "in progress"
+  },
+  {
+   "title": "Griboyedov Park",
+   "from": "just started",
+   "to": "finished"
+  }
+ ],
+ "moved": [
+  {
+   "title": "Griboyedov Park",
+   "metres": 152
+  }
+ ],
+ "grade": [
+  {
+   "developer": "Arcada Construction",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Movsesyan & Partners",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Gloria Invest",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "MILON MINING",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "SMART CITY DEVELOPER",
+   "from": "B",
+   "to": "A"
+  },
+  {
+   "developer": "Eritsuk",
+   "from": "A",
+   "to": "B"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": "D",
+   "to": "C"
+  }
+ ]
+}

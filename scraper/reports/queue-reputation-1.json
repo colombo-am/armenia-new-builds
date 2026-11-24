@@ -1,0 +1,381 @@
+[
+ {
+  "developer": "Green Avan",
+  "name_variants": [
+   "Green Avan"
+  ],
+  "projects": 5,
+  "stages": {
+   "finished": 2,
+   "in progress": 3
+  },
+  "website": "https://www.greenprojectarm.com/",
+  "sample_projects": [
+   "Green Avan",
+   "Green Avan Residence 2",
+   "Green Avan Residence 3",
+   "Green Avan Residence 4",
+   "Green Townhouse Kasakh"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Norq",
+  "name_variants": [
+   "Norq"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Norq Residential Complex"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Zeytoun Build",
+  "name_variants": [
+   "Zeytoun Build"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "http://zeytunbuild.am/",
+  "sample_projects": [
+   "Zeytun  Build"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Grandshin",
+  "name_variants": [
+   "Grandshin"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.construction.am/companies/grandshin/",
+  "sample_projects": [
+   "Grandshin · Acharyan 35/19"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Kechark",
+  "name_variants": [
+   "Kechark"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/kechark/",
+  "sample_projects": [
+   "Kechark · Mikroshrjan District 203"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Hay Develop (Ijevanatun Construction Company)",
+  "name_variants": [
+   "Hay Develop (Ijevanatun Construction Company)"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": "https://www.facebook.com/profile.php?id=61558732704095",
+  "sample_projects": [
+   "HAY VIEW",
+   "Hay Develop (Ijevanatun Construction Company) · H. Emin 1st lane"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "EcoPanel Group",
+  "name_variants": [
+   "EcoPanel Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "finished": 2
+  },
+  "website": "https://www.construction.am/companies/ecopanel-group-llc/",
+  "sample_projects": [
+   "EcoPanel Group · Bagrevand Residential Complex",
+   "EcoPanel Group · Sirogh Srter Residential District"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Platinum Homes",
+  "name_variants": [
+   "Platinum Homes"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/platinum-homes/",
+  "sample_projects": [
+   "Platinum Homes · Aygedzor 18"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Aurea Group",
+  "name_variants": [
+   "Aurea Group"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/aurea-group/",
+  "sample_projects": [
+   "Aurea Group · Lvovyan 22"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "City Nest Property Management (sales agent)",
+  "name_variants": [
+   "City Nest Property Management (sales agent)"
+  ],
+  "projects": 4,
+  "stages": {
+   "in progress": 1,
+   "finished": 3
+  },
+  "website": "https://citynest.am/en",
+  "sample_projects": [
+   "Milano Firenze Towers",
+   "Only One Residential Complex",
+   "Mountain Village Dilijan",
+   "Nor Etch Residential"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Elit Project Group",
+  "name_variants": [
+   "Elit Project Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 1,
+   "finished": 1
+  },
+  "website": "https://elitprojectgroup.am/",
+  "sample_projects": [
+   "Abovyan Park apartment building (Elit Project Group)",
+   "Elit Project Group · Abovyan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "House Construction  (LA Yeghvard)",
+  "name_variants": [
+   "House Construction  (LA Yeghvard)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://layeghvard.am/",
+  "sample_projects": [
+   "Los Angeles Yeghvard Townhouses"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Parklife Eco Residency",
+  "name_variants": [
+   "Parklife Eco Residency"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://parklife.am/",
+  "sample_projects": [
+   "Parklife Eco Residency"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "VEDI GROUP (sales: RED Invest Group)",
+  "name_variants": [
+   "VEDI GROUP (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "Vedi Residence"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Gloria Invest",
+  "name_variants": [
+   "Gloria Invest"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "Davtashen Town 2 Family District"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "HAKINVEST",
+  "name_variants": [
+   "HAKINVEST"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.instagram.com/darakert_residence/",
+  "sample_projects": [
+   "HAKINVEST · Kentronakan Street 164"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Micro-district 318",
+  "name_variants": [
+   "Micro-district 318"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": null,
+  "sample_projects": [
+   "Micro-district 318 · Barekamutyun strit 12",
+   "Micro-district 318 · Telman Manukyan Street 318"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "New Arinj Residence",
+  "name_variants": [
+   "New Arinj Residence"
+  ],
+  "projects": 5,
+  "stages": {
+   "in progress": 3,
+   "finished": 2
+  },
+  "website": null,
+  "sample_projects": [
+   "New Arinj Residence · 10th Street of Abovyan Block 7",
+   "New Arinj Residence · Armen Gulakyan Street 85",
+   "New Arinj Residence",
+   "New Arinj Residence · Arinj village",
+   "New Arinj Residence · Arinj village"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "VERELQ",
+  "name_variants": [
+   "VERELQ"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "VERELQ · 13st Street Mher Mkrtchyan 6-10H D1 M."
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "NAIRI HOUSE",
+  "name_variants": [
+   "NAIRI HOUSE"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "NAIRI HOUSE · Ara Martirosyan 10"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Tun Shin",
+  "name_variants": [
+   "Tun Shin"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Tun Shin · Arno Babajanyan Street 111/1"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Tsaghkadzor Sportayin Hamalir",
+  "name_variants": [
+   "Tsaghkadzor Sportayin Hamalir"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Tsaghkadzor Sportayin Hamalir"
+  ],
+  "reason": "no research"
+ },
+ {
+  "developer": "Konstro",
+  "name_variants": [
+   "Konstro"
+  ],
+  "projects": 1,
+  "stages": {
+   "unknown": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Konstro LLC"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Ey Vi Pi Konstrakshn",
+  "name_variants": [
+   "Ey Vi Pi Konstrakshn"
+  ],
+  "projects": 1,
+  "stages": {
+   "not started": 1
+  },
+  "website": "https://ar-go.am/project/grand-hvorizvon",
+  "sample_projects": [
+   "Grand Horizon"
+  ],
+  "reason": "no research"
+ }
+]

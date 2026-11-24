@@ -1,0 +1,138 @@
+{
+ "old_count": 686,
+ "new_count": 684,
+ "added": [],
+ "removed": [
+  "Avan project"
+ ],
+ "price": [
+  {
+   "title": "NovaVan · Hovhannes Tumanyan Street 14",
+   "from": null,
+   "to": 915,
+   "pct": null
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "from": 2201,
+   "to": 2912,
+   "pct": 32.3
+  }
+ ],
+ "stage": [
+  {
+   "title": "Vv8 Rezidens",
+   "from": "finished",
+   "to": "in progress"
+  }
+ ],
+ "moved": [
+  {
+   "title": "Magnolia Comfort · Zard By Zover Estates 15 bldg",
+   "metres": 199003
+  },
+  {
+   "title": "NovaVan · Hovhannes Tumanyan Street 14",
+   "metres": 63813
+  },
+  {
+   "title": "Micro-district 318 · Barekamutyun strit 12",
+   "metres": 17673
+  },
+  {
+   "title": "Vv8 Rezidens",
+   "metres": 1936
+  },
+  {
+   "title": "Griboyedov Park",
+   "metres": 219
+  }
+ ],
+ "grade": [
+  {
+   "developer": "Green Avan",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Venni Group",
+   "from": "D",
+   "to": "B"
+  },
+  {
+   "developer": "Hay Develop (Ijevanatun Construction Company)",
+   "from": "B",
+   "to": "A"
+  },
+  {
+   "developer": "EcoPanel Group",
+   "from": "B",
+   "to": "D"
+  },
+  {
+   "developer": "Dalan Technopark Business Center",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "VEDI GROUP (sales: RED Invest Group)",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Grant Construction (sales: RED Invest Group)",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Gloria Invest",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "HAKINVEST",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Prof  Expert",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "ART CAPITAL CONSTRUCTION",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "VERELQ",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Shinas",
+   "from": "C",
+   "to": "D"
+  },
+  {
+   "developer": "Tun Shin",
+   "from": "D",
+   "to": "C"
+  },
+  {
+   "developer": "V.v.b",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Ey Vi Pi Konstrakshn",
+   "from": "D",
+   "to": "C"
+  },
+  {
+   "developer": "Arcada Construction",
+   "from": "C",
+   "to": "B"
+  }
+ ]
+}

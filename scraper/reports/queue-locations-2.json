@@ -1,0 +1,72 @@
+[
+ {
+  "id": "constructionam-278",
+  "title": "Bedeck Construction · Heratsi 28/1",
+  "address": "Heratsi 28/1, Bedeck Masis",
+  "lat": 40.0634518,
+  "lng": 44.4410909,
+  "district": "Masis",
+  "region": "Ararat",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 876 m"
+  ],
+  "sources": [
+   "https://www.construction.am/apartments-in-new-developments/norakaryc-masisum-bedeck-masis/",
+   "https://www.bedeck.am/eng/project/masis",
+   "https://myhome.am/en/building/313",
+   "https://myhome.am/en/building/296"
+  ]
+ },
+ {
+  "id": "leningradyanam-487",
+  "title": "Tsaghkadzor Plaza apartment hotel (Allison LLC)",
+  "address": "central Tsaghkadzor",
+  "lat": 40.5227052,
+  "lng": 44.6866319,
+  "district": "Tsaghkadzor",
+  "region": "Kotayk",
+  "geo_precision": "city",
+  "why": [
+   "approximate (city)",
+   "location uncertain (shared placeholder coordinates)"
+  ],
+  "sources": [
+   "https://leningradyan.am/en/project/allison-llc-tsaghkadzor-plazaapartment-hotel-in-the-heart-of-tsaghkadzor/"
+  ]
+ },
+ {
+  "id": "myhomeam-912",
+  "title": "HAKINVEST · Kentronakan Street 164",
+  "address": "Kentronakan Street 164, Darakert, Ararat",
+  "lat": 40.10528,
+  "lng": 44.405216,
+  "district": "Darakert",
+  "region": "Ararat",
+  "geo_precision": "district",
+  "why": [
+   "approximate (district)",
+   "location uncertain (pin not in Kentron)"
+  ],
+  "sources": [
+   "https://myhome.am/en/building/355"
+  ]
+ },
+ {
+  "id": "acbaam-1138",
+  "title": "Tsaghkadzor Sportayin Hamalir",
+  "address": "Ծաղկաձոր ք․, Գլխավոր մարզահամալիր, թաղամաս 81, մասնաշենք 3",
+  "lat": 40.5227052,
+  "lng": 44.6866319,
+  "district": "Tsaghkadzor",
+  "region": "Kotayk",
+  "geo_precision": "city",
+  "why": [
+   "approximate (city)",
+   "location uncertain (shared placeholder coordinates)"
+  ],
+  "sources": [
+   "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10181"
+  ]
+ }
+]
